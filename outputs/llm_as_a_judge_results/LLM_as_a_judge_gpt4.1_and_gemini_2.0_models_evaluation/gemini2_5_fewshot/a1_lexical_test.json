@@ -1,0 +1,121 @@
+{
+  "model_name": "gemini2_5_fewshot",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "È inutile chiedersi chi abbia scritto questo libro, poiché si deve credere fermamente che l'autore sia stato lo Spirito Santo.",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è pienamente preservato e modernizzato correttamente. L'espressione \"è inutile chiedersi\" rende bene \"in vano si domanda\", e il resto mantiene il senso originale.",
+        "Fluency": "La frase è fluida, grammaticalmente corretta e facilmente comprensibile in italiano moderno. Nessun errore rilevato.",
+        "Style": "La traduzione è naturale, elegante e suona come scritta da un madrelingua moderno. Nessuna rigidità o artificiosità.",
+        "Overall": "Traduzione eccellente: fedele, scorrevole e stilisticamente naturale. Nessun difetto significativo."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "Tende le reti ai cervi e sa bene in quale valle dimori il feroce cinghiale.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'in quale valle' (singolare) invece di 'in quali valle' (plurale) rappresenta una lieve perdita di sfumatura. 'Feroce' per 'furioso' è accettabile ma non identico.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e pienamente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità. Suona come una frase scritta da un madrelingua.",
+        "Overall": "Traduzione molto buona, con solo una minima perdita di dettaglio nel numero e nella sfumatura di un aggettivo."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti dei Romani si crearono nuovi nemici, contro i quali si combatté con alterne fortune: infatti, nella prima battaglia, sotto il consolato di Valerio, morirono 3500 Romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma \"si crearono\" è leggermente meno fedele di \"si fecero\" e \"sotto il consolato di Valerio\" è una modernizzazione accettabile. La resa di \"MMMD\" come \"3500\" è corretta.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, con sintassi moderna e leggibile. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, con un tono fluido e umano. Solo una lieve tendenza alla formalità.",
+        "Overall": "Traduzione fedele, scorrevole e naturale, con solo minime deviazioni dal testo originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "crudele, e si vendica di tutte le colpe, come stabilisce la legge, e non perdona a nessun cavaliere che commetta peccati.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben preservato, con una modernizzazione corretta. L'unica variazione è \"commetta peccati\" invece di \"pecchi\", che è leggermente più esplicito ma non altera il senso.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e pienamente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità; risulta simile a una traduzione umana.",
+        "Overall": "La traduzione è fedele, fluida e stilisticamente naturale, senza errori rilevanti."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "L'uccello, una volta che ha le ali sporche di pania, non fugge in salvo, né il cinghiale riesce a uscire facilmente dalle reti in cui cade.",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'sporche di pania' è più specifico rispetto all'originale 'impaniate', che indica l'essere impigliate. 'Non fugge in salvo' è leggermente meno preciso di 'non fugge salvamente'.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. Non ci sono errori evidenti e la sintassi è moderna e naturale.",
+        "Style": "Il testo è naturale e moderno, ma l'espressione 'sporche di pania' suona leggermente meno idiomatica rispetto a 'impigliate'. Nel complesso, lo stile è comunque fluido.",
+        "Overall": "La traduzione è fedele e scorrevole, con solo lievi imprecisioni terminologiche che non compromettono la comprensione."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.4,
+      "std": 0.49
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.8,
+      "std": 0.4
+    },
+    "Overall": {
+      "mean": 4.6,
+      "std": 0.49
+    }
+  }
+}

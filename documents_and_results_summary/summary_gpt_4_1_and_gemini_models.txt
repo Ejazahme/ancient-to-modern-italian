@@ -1,0 +1,30 @@
+
+========== FINAL SUMMARY GPT AND GEMINI MODELS ==========
+gpt4_1                   | gpt4_1__on__a2_middle_1310_test.json     | BLEU=67.74 | chrF=83.87 | ROUGE-L=85.21 | METEOR=0.87 | BERT=95.11 | TokF1=83.16
+gpt4_1                   | gpt4_1__on__a1_semantic_test.json        | BLEU=28.51 | chrF=53.65 | ROUGE-L=56.59 | METEOR=0.55 | BERT=84.48 | TokF1=56.21
+gpt4_1                   | gpt4_1__on__real_97_test.json            | BLEU=69.92 | chrF=81.91 | ROUGE-L=85.14 | METEOR=0.85 | BERT=95.32 | TokF1=83.84
+gpt4_1                   | gpt4_1__on__a2_early_1260_test.json      | BLEU=70.17 | chrF=81.82 | ROUGE-L=83.41 | METEOR=0.85 | BERT=94.55 | TokF1=82.27
+gpt4_1                   | gpt4_1__on__a1_lexical_test.json         | BLEU=33.44 | chrF=59.69 | ROUGE-L=64.60 | METEOR=0.65 | BERT=87.17 | TokF1=60.89
+gpt4_1                   | gpt4_1__on__a1_syntactic_test.json       | BLEU=36.17 | chrF=64.16 | ROUGE-L=58.53 | METEOR=0.63 | BERT=88.43 | TokF1=62.67
+gpt4_1                   | gpt4_1__on__a2_late_1360_test.json       | BLEU=61.19 | chrF=76.83 | ROUGE-L=74.95 | METEOR=0.74 | BERT=92.52 | TokF1=71.09
+gpt4_1_fewshot           | gpt4_1_fewshot__on__a1_syntactic_test.json | BLEU=39.39 | chrF=65.00 | ROUGE-L=59.02 | METEOR=0.64 | BERT=88.91 | TokF1=64.34
+gpt4_1_fewshot           | gpt4_1_fewshot__on__a2_early_1260_test.json | BLEU=69.40 | chrF=81.68 | ROUGE-L=83.64 | METEOR=0.84 | BERT=94.24 | TokF1=82.10
+gpt4_1_fewshot           | gpt4_1_fewshot__on__a2_late_1360_test.json | BLEU=61.31 | chrF=78.95 | ROUGE-L=79.86 | METEOR=0.80 | BERT=94.09 | TokF1=75.77
+gpt4_1_fewshot           | gpt4_1_fewshot__on__real_97_test.json    | BLEU=68.42 | chrF=81.24 | ROUGE-L=83.28 | METEOR=0.85 | BERT=94.48 | TokF1=82.61
+gpt4_1_fewshot           | gpt4_1_fewshot__on__a1_lexical_test.json | BLEU=31.18 | chrF=59.29 | ROUGE-L=64.99 | METEOR=0.67 | BERT=87.77 | TokF1=61.66
+gpt4_1_fewshot           | gpt4_1_fewshot__on__a1_semantic_test.json | BLEU=27.23 | chrF=51.66 | ROUGE-L=49.47 | METEOR=0.50 | BERT=84.04 | TokF1=50.55
+gpt4_1_fewshot           | gpt4_1_fewshot__on__a2_middle_1310_test.json | BLEU=66.42 | chrF=83.33 | ROUGE-L=84.16 | METEOR=0.87 | BERT=95.09 | TokF1=84.37
+gemini_2_5               | gemini2_5__on__a2_early_1260_test.json   | BLEU=35.33 | chrF=59.81 | ROUGE-L=61.03 | METEOR=0.63 | BERT=87.74 | TokF1=60.37
+gemini_2_5               | gemini2_5__on__a2_late_1360_test.json    | BLEU=32.87 | chrF=59.10 | ROUGE-L=60.98 | METEOR=0.60 | BERT=88.69 | TokF1=60.46
+gemini_2_5               | gemini2_5__on__a2_middle_1310_test.json  | BLEU=43.45 | chrF=67.24 | ROUGE-L=69.05 | METEOR=0.72 | BERT=89.68 | TokF1=68.38
+gemini_2_5               | gemini2_5__on__a1_lexical_test.json      | BLEU=24.17 | chrF=55.21 | ROUGE-L=63.64 | METEOR=0.64 | BERT=86.15 | TokF1=60.00
+gemini_2_5               | gemini2_5__on__a1_semantic_test.json     | BLEU=27.64 | chrF=51.58 | ROUGE-L=52.10 | METEOR=0.51 | BERT=84.05 | TokF1=48.99
+gemini_2_5               | gemini2_5__on__real_97_test.json         | BLEU=42.34 | chrF=64.28 | ROUGE-L=68.10 | METEOR=0.68 | BERT=89.50 | TokF1=65.75
+gemini_2_5               | gemini2_5__on__a1_syntactic_test.json    | BLEU=30.97 | chrF=56.52 | ROUGE-L=55.53 | METEOR=0.63 | BERT=87.32 | TokF1=59.36
+gemini_2_5_fewshot       | gemini2_5_fewshot_on__a2_early_1260_test.json | BLEU=59.99 | chrF=74.89 | ROUGE-L=75.45 | METEOR=0.78 | BERT=94.17 | TokF1=73.60
+gemini_2_5_fewshot       | gemini2_5_fewshot_on__a2_middle_1310_test.json | BLEU=42.28 | chrF=68.89 | ROUGE-L=67.68 | METEOR=0.70 | BERT=90.33 | TokF1=66.77
+gemini_2_5_fewshot       | gemini2_5_fewshot_on__a1_lexical_test.json | BLEU=27.91 | chrF=54.84 | ROUGE-L=64.23 | METEOR=0.66 | BERT=86.82 | TokF1=61.01
+gemini_2_5_fewshot       | gemini2_5_fewshot_on__real_97_test.json  | BLEU=44.73 | chrF=65.97 | ROUGE-L=68.82 | METEOR=0.70 | BERT=90.42 | TokF1=67.45
+gemini_2_5_fewshot       | gemini2_5_fewshot_on__a1_semantic_test.json | BLEU=27.70 | chrF=51.99 | ROUGE-L=47.40 | METEOR=0.48 | BERT=84.44 | TokF1=45.80
+gemini_2_5_fewshot       | gemini2_5_fewshot_on__a2_late_1360_test__20251113_210613.json | BLEU=35.40 | chrF=61.05 | ROUGE-L=62.76 | METEOR=0.59 | BERT=89.10 | TokF1=59.66
+gemini_2_5_fewshot       | gemini2_5_fewshot_on__a1_syntactic_test.json | BLEU=37.54 | chrF=63.91 | ROUGE-L=59.64 | METEOR=0.68 | BERT=88.69 | TokF1=63.32

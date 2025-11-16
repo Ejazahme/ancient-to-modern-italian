@@ -1,0 +1,13 @@
+{
+  "model_name": "gemini2_5_fewshot",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 0,
+  "results": [],
+  "summary": {}
+}

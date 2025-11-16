@@ -1,0 +1,121 @@
+{
+  "model_name": "a1_merged_lora",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "mancano di merito coloro che, se una cosa nobile e alta è abbattere l'avversario, non sono meno lodabili per sapere mostrare pietà.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono stati alterati: la frase originale esprime che dopo aver abbattuto il nemico è lodabile mostrare misericordia, mentre la traduzione suggerisce che mancano di merito coloro che non mostrano pietà, cambiando il senso.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La costruzione è chiara e comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma leggermente più articolato rispetto all'originale. Tuttavia, non risulta artificiale o eccessivamente meccanico.",
+        "Overall": "La traduzione è fluente e stilisticamente buona, ma presenta una significativa alterazione del significato originale, compromettendo la fedeltà."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia tra di noi: tu non puoi più a lungo vivere con noi, poichè che io non lo farò e non lo lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The main idea is mostly preserved, but 'sia tra di noi' is vague compared to 'sia in mezzo tra me e te.' The nuance of separation and the explicit refusal are weakened. 'Poichè che io non lo farò' is unclear and less faithful.",
+        "Fluency": "The sentence is generally understandable, but 'poichè che io non lo farò' is ungrammatical and awkward. The structure is not fully idiomatic modern Italian.",
+        "Style": "The translation feels stiff and somewhat mechanical, especially in the second clause. The phrasing lacks the natural flow of modern Italian and does not sound fully human.",
+        "Overall": "The translation is understandable but suffers from awkward phrasing and partial loss of meaning, especially in conveying the original's intent and tone."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "mancato di rispondere adeguatamente, e ancora peggio, averlas lasciate vincere il proprio comune bene.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette elementi chiave come 'essere preso' e 'fuggire', e distorce il senso originale, introducendo 'mancato di rispondere' che non è presente nel testo antico.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, anche se la costruzione 'averlas lasciate' è poco naturale.",
+        "Style": "Lo stile è generalmente moderno, ma alcune scelte lessicali ('averlas lasciate') risultano poco naturali e leggermente forzate.",
+        "Overall": "La traduzione è fluente ma poco fedele e stilisticamente migliorabile; omette e distorce parti essenziali del significato originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "mancato anche un amante chiamandola mercede alla propria donna, le diceva parole e ragioni tante, e lei si difendeva a suo modo.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono travisati: 'Altressì' (inoltre) è reso come 'mancato anche', che è un errore di senso. 'Chiamando merzé' è reso come 'chiamandola mercede', che non è corretto. Alcune sfumature sono perse.",
+        "Fluency": "La frase è generalmente scorrevole, ma alcune scelte lessicali ('mancato anche', 'chiamandola mercede') risultano poco naturali e creano confusione.",
+        "Style": "Lo stile è moderno ma alcune espressioni sono innaturali e poco idiomatiche ('mancato anche', 'chiamandola mercede'). Manca coerenza stilistica.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di senso e alcune scelte innaturali che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "mentre nella matricola si giura per Dio, per Cristo e per lo Spirito Santo",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato principale è mantenuto, ma la relazione temporale ('quando' vs 'mentre') è leggermente modificata. La modernizzazione è corretta, ma la struttura originale è semplificata.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole in italiano moderno, senza errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più sintetico rispetto all'originale.",
+        "Overall": "Traduzione fedele e fluida, con una piccola perdita di sfumatura temporale. Nel complesso, molto buona."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.8,
+      "std": 0.748
+    },
+    "Fluency": {
+      "mean": 4,
+      "std": 0.894
+    },
+    "Style": {
+      "mean": 3.4,
+      "std": 0.49
+    },
+    "Overall": {
+      "mean": 3,
+      "std": 0.632
+    }
+  }
+}

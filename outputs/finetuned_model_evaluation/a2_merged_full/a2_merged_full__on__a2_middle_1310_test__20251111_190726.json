@@ -1,0 +1,92 @@
+{
+  "model_name": "a2_merged_full",
+  "model_type": "full",
+  "model_path": "models_hf/a2_merged_full",
+  "dataset_name": "a2_middle_1310_test",
+  "dataset_path": "data/processed/approach2/middle_1310/test.jsonl",
+  "num_samples": 12,
+  "metrics": {
+    "bleu": 14.613702732120649,
+    "chrf++": 45.411492463445825,
+    "rougeL": 37.60505152631757,
+    "meteor": 0.3812695794695741,
+    "token_f1": 0.3706707344533527,
+    "bertscore_f1": 0.8059809803962708,
+    "has_reference": true,
+    "num_predictions": 12
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "mostroe massimamente le forze sue, dando lui re a questa cittade ne la quale nacque servo; al quale avvenne lunghissimamente lo imperio tenere",
+      "prediction": "mise in evidenza fortemente le sue forze, eleggendo sé stesso re di questa città nella quale era nato schiavo; a cui appartenne per un lungo periodo il governo dell'impero",
+      "reference": "Dimostrò al massimo le sue forze, diventando re di questa città nella quale era nato come servo; a lui toccò di mantenere il potere per lunghissimo tempo."
+    },
+    {
+      "id": null,
+      "source": "Tarco cretense che in aiuto era alli nimici avrebbe potuto fuggire, ma la vergogna d'abbandonare li nobilissimi cavalieri della gente achea poco avanti da lui",
+      "prediction": "mancato l'opportunità di fuggire quando poteva, Tarco cretese, avendo assistito alla battaglia accanto ai nemici più importanti della popolazione acaica, rimase a causa del senso di vergogna.",
+      "reference": "Tarco il cretese, che si era schierato in aiuto dei nemici, avrebbe potuto fuggire, ma la vergogna di abbandonare i nobilissimi cavalieri del popolo acheo poco avanti a lui glielo impedì."
+    },
+    {
+      "id": null,
+      "source": "Dice il poeta: oh, che bella cosa è vedere apertamente con gli occhi quando tu glel fai diretro o in culo o in altro",
+      "prediction": "mille volte il poeta ha detto: ah, quanto è bello vederci di fronte con gli occhi aperti, quando tu mi guardi dietro o dalla parte opposta o in qualunque altra direzione.",
+      "reference": "Dice il poeta: oh, che bella cosa è vedere chiaramente con gli occhi quando tu glielo fai dietro, nel sedere o altrove."
+    },
+    {
+      "id": null,
+      "source": "A Milano fue ripressa la malvagità d' una donna in simile bugìa, nel tempo medesimo di questo signore della republica, in questo modo:",
+      "prediction": "molto tempo fa, a Milano, fu repressa la malvagità di una donna che mentiva in maniera simile, durante il stesso periodo in cui governava questa repubblica.",
+      "reference": "A Milano fu scoperta la malvagità di una donna in una simile menzogna, nello stesso periodo di questo signore della repubblica, in questo modo:"
+    },
+    {
+      "id": null,
+      "source": "Allora che il navilio si fue impinto e messo in alto mare per andare diritto per mezo questo trapasso periglioso, l'aira divenne nuvolosa e pioveginosa",
+      "prediction": "mentre il nostro navio si impegnava a attraversare questo tratto pericoloso gettandosi in alto mare, l'aria diventò nuvolosa e piovosa.",
+      "reference": "Quando la nave fu spinta e portata in alto mare per attraversare direttamente questo passaggio pericoloso, l’aria divenne nuvolosa e piovosa."
+    },
+    {
+      "id": null,
+      "source": "Tarco cretense che in aiuto era alli nimici avrebbe potuto fuggire, ma la vergogna d'abbandonare li nobilissimi cavalieri della gente achea poco avanti da lui",
+      "prediction": "mancato Tarco cretese, che poteva fuggire per aiutare i nemici, ma fu tenuto indietro dalla vergogna di abbandonare i più nobili cavalleri achei accanto a sé.",
+      "reference": "Tarco il cretese, che era accorso in aiuto dei nemici, avrebbe potuto fuggire, ma la vergogna di abbandonare i nobilissimi cavalieri degli Achei, poco davanti a lui, glielo impedì."
+    },
+    {
+      "id": null,
+      "source": "Tarco cretense che in aiuto era alli nimici avrebbe potuto fuggire, ma la vergogna d'abbandonare li nobilissimi cavalieri della gente achea poco avanti da lui",
+      "prediction": "mancato di Tarco cretese, che poteva fuggire per aiutare i nemici, ma fu tenuto indietro dalla vergogna di abbandonare i più nobili cavalleri achei vicini a lui.",
+      "reference": "Tarco il cretese, che era venuto in aiuto dei nemici, avrebbe potuto fuggire, ma la vergogna di abbandonare i nobilissimi cavalieri degli Achei poco davanti a lui glielo impedì."
+    },
+    {
+      "id": null,
+      "source": "una villa chiamata Vitermina, con ciò fosse cosa che piusori principi di scherani corressero per ventura a quel tempo a vederlo, Scipione, stimando che venissero per isforzarlo, allogò ne la casa",
+      "prediction": "Una villa chiamata Vitermina, dove probabilmente alcuni principi di scherno erano passati per vedere qualcosa, alloggió Scipione nella casa, temendo che venissero per costringerlo.",
+      "reference": "una villa chiamata Vitermina, poiché diversi capi di soldati si recarono per caso in quel periodo a vederlo, Scipione, pensando che venissero per costringerlo, si rifugiò nella casa."
+    },
+    {
+      "id": null,
+      "source": "una villa chiamata Vitermina, con ciò fosse cosa che piusori principi di scherani corressero per ventura a quel tempo a vederlo, Scipione, stimando che venissero per isforzarlo, allogò ne la casa",
+      "prediction": "Una villa chiamata Vitermina, dove forse alcuni principi di schernari si erano recati a vedere, Scipione, credendo che arrivassero per tormentarlo, ospitò nella sua casa.",
+      "reference": "Una villa chiamata Vitermina, poiché diversi capi di soldati si recarono per caso in quel periodo a vederla, Scipione, pensando che fossero venuti per costringerlo, si chiuse in casa."
+    },
+    {
+      "id": null,
+      "source": "Ma io disioso colà dove io non posso col corpo andare, con la mente vi volo",
+      "prediction": "mancando di desiderio di andare personalmente in quel luogo, lo vado in mente.",
+      "reference": "Ma io, desideroso di essere dove non posso andare fisicamente, ci vado con la mente."
+    },
+    {
+      "id": null,
+      "source": "notabile esemplo a ciascuno che si guardasse di fare e di pensar tradigione, il servo, il quale gli avea accusati, fu francato, e fugli donata grande quantità di moneta",
+      "prediction": "molto notevole esempio per chi si guardi dal commettere e dal pensare al contrario, il servo, colui che li aveva denunciati, fu assolto e ricevette una grande quantità di denaro.",
+      "reference": "Un esempio notevole per tutti coloro che dovrebbero guardarsi dal commettere o anche solo pensare al tradimento: il servo che li aveva accusati fu liberato e gli fu data una grande somma di denaro."
+    },
+    {
+      "id": null,
+      "source": "Non d' altra forza d' animo fue ornato Ponzio Aufidiano, romano cavaliere.",
+      "prediction": "molto forte fu l’animo di Publio Afidiano, cavaliere romano.",
+      "reference": "Ponzio Aufidiano, cavaliere romano, non era dotato di altro coraggio."
+    }
+  ]
+}

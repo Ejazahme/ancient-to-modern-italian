@@ -1,0 +1,211 @@
+{
+  "model_name": "gpt4_1_fewshot",
+  "dataset_name": "a2_early_1260_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 10,
+  "results": [
+    {
+      "id": null,
+      "source": "la moltitudine de' quali tu ài potuto vedere e riguardare lo studio e poco dinanzi udire le voci, e lle cui mani e lance apena posso ritenere.",
+      "prediction": "La moltitudine della quale hai potuto vedere e osservare l’impegno, poco fa ascoltare le voci, e le cui mani e lance riesco a stento a trattenere.",
+      "reference": "La moltitudine della quale hai potuto vedere e osservare l'impegno e poco fa ascoltare le voci, e le cui mani e lance riesco a stento a trattenere.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene fedelmente il significato originale e modernizza correttamente la lingua. Tutti gli elementi semantici sono presenti e ben resi.",
+        "Fluency": "Il testo è scorrevole, grammaticalmente corretto e perfettamente comprensibile in italiano moderno.",
+        "Style": "La resa è naturale e umana, con un registro moderno ed elegante che rispetta il tono dell’originale.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente appropriata senza errori rilevanti."
+      }
+    },
+    {
+      "id": null,
+      "source": "udire di belle novelle et odorare di belli fiori, come et quando et quanto si conviene",
+      "prediction": "ascoltare belle storie e sentire il profumo di bei fiori, nei modi, nei momenti e nelle quantità appropriate",
+      "reference": "ascoltare belle notizie e sentire il profumo dei fiori, come, quando e quanto è opportuno",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato originale, modernizzando correttamente le espressioni. L'unica lieve variazione è \"belle novelle\" reso come \"belle storie\", che è comunque accettabile. Tutti gli elementi semantici sono presenti.",
+        "Fluency": "La frase è scorrevole, ben costruita e perfettamente comprensibile in italiano moderno. Non presenta errori grammaticali o sintattici.",
+        "Style": "Lo stile è naturale e moderno, con un tono umano e armonioso. La scelta lessicale è appropriata e non appare meccanica.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente naturale. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti dei Romani sorsero nuovi nemici, contro i quali si combatté con alterne fortune: perché nella prima battaglia, quando Valerio era console, morirono tremilacinquecento Romani.",
+      "reference": "Dai monti dei Romani sorsero nuovi nemici, contro i quali si combatté con esiti diversi: poiché nella prima battaglia, quando Valerio era console, tremilacinquecento Romani morirono.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente preservato e modernizzato correttamente. L'unico dettaglio è la resa di 'diversa ventura' come 'alterne fortune', che è appropriata e fedele.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e rispetta la sintassi dell'italiano moderno senza errori.",
+        "Style": "Il testo risulta naturale, elegante e tipico di una traduzione umana in italiano moderno.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente naturale, senza errori o rigidità."
+      }
+    },
+    {
+      "id": null,
+      "source": "l' anima muta la sua forza per la propietade di quello corpo a cui ella si congiunge.",
+      "prediction": "L'anima cambia la sua forza in base alle caratteristiche del corpo a cui si unisce.",
+      "reference": "L'anima cambia la sua forza in base alle caratteristiche del corpo a cui si unisce.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente preservato e la modernizzazione è accurata. Nessuna perdita di sfumature o errori di interpretazione.",
+        "Fluency": "La frase è grammaticalmente corretta, scorrevole e perfettamente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale, moderno e risulta simile a una traduzione umana elegante.",
+        "Overall": "La traduzione è fedele, fluente e stilisticamente naturale. Nessun difetto rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "Vero è, ma non tine rispondo in questo tempo, perciò che ttu se' mio servo, o perciò ch' è tempo feriato, o perciò ch' io non debbo risponderti",
+      "prediction": "È vero, ma non ti rispondo in questo momento, sia perché sei mio servo, sia perché è tempo di festa, sia perché non devo risponderti.",
+      "reference": "È vero, ma non ti rispondo in questo momento, perché sei mio servitore, oppure perché è tempo di festa, oppure perché non devo risponderti.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente rispettato e modernizzato correttamente. Le motivazioni sono rese in modo accurato e non ci sono omissioni o distorsioni.",
+        "Fluency": "La frase è grammaticalmente corretta, scorrevole e perfettamente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale, moderno e coerente con l’italiano attuale. La resa è elegante e non artificiale.",
+        "Overall": "La traduzione è fedele, fluida e stilisticamente naturale, senza errori o rigidità."
+      }
+    },
+    {
+      "id": null,
+      "source": "per necessitade i' ridico ke, secondo il comandamento tuo, padre santo Agostino, le battaglie già state nel mondo [..]",
+      "prediction": "Per necessità ripeto che, secondo il tuo comandamento, santo padre Agostino, le battaglie che ci sono già state nel mondo [...]",
+      "reference": "Per necessità ti dico che, secondo il tuo comandamento, santo padre Agostino, le battaglie che ci sono già state nel mondo [...]",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma \"ripeto\" è meno fedele di \"ridico\" (\"ti dico di nuovo\"). L'omissione di \"ti\" (dat.) è una lieve perdita di sfumatura.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La struttura è moderna e comprensibile.",
+        "Style": "Il testo appare naturale e moderno, anche se leggermente più neutro rispetto all'originale. Manca una sfumatura enfatica, ma resta umano.",
+        "Overall": "Traduzione molto buona, con minime perdite di sfumatura e ottima leggibilità. Solo piccoli dettagli separano dal livello eccellente."
+      }
+    },
+    {
+      "id": null,
+      "source": "Vero è, ma non tine rispondo in questo tempo, perciò che ttu se' mio servo, o perciò ch' è tempo feriato, o perciò ch' io non debbo risponderti",
+      "prediction": "È vero, ma non ti rispondo in questo momento, sia perché sei mio servo, sia perché è tempo di festa, sia perché non devo risponderti.",
+      "reference": "È vero, ma non ti rispondo in questo momento, perché sei mio servo, oppure perché è tempo di riposo, oppure perché non devo risponderti.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente preservato e modernizzato correttamente. L'unica minima differenza è la resa di 'tempo feriato' come 'tempo di festa', che è comunque accettabile.",
+        "Fluency": "La frase è grammaticalmente corretta, scorrevole e perfettamente comprensibile in italiano moderno.",
+        "Style": "Il testo è naturale, elegante e rispecchia uno stile moderno e umano.",
+        "Overall": "La traduzione è fedele, fluente e stilisticamente naturale, senza errori rilevanti."
+      }
+    },
+    {
+      "id": null,
+      "source": "Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.",
+      "prediction": "I Tarantini, che erano originari di quelli di Lacedemone e avevano fondato la loro nobile città tra i Greci.",
+      "reference": "I Tarantini, che erano discendenti dei Lacedemoni e fondarono la loro nobile città greca.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma \"avevano fondato la loro nobile città tra i Greci\" suggerisce una fondazione tra i Greci piuttosto che una città greca. Piccola sfumatura persa rispetto all'originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorre bene in italiano moderno, senza errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità. Sembra scritto da un umano.",
+        "Overall": "Traduzione molto buona, fedele e scorrevole, con solo una lieve imprecisione semantica."
+      }
+    },
+    {
+      "id": null,
+      "source": "contra lui e contra le sue sorelle  e contra il reame e contra l' alto pregio della sua ingenerazione e della sua familia",
+      "prediction": "contro di lui, contro le sue sorelle, contro il regno e contro l’alto valore della sua stirpe e della sua famiglia",
+      "reference": "contro di lui, contro le sue sorelle, contro il regno e contro l'alto prestigio della sua discendenza e della sua famiglia",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'alto pregio' come 'alto valore' perde la sfumatura di prestigio sociale implicita nell'originale. 'Ingenerazione' reso come 'stirpe' è adeguato. Nessuna omissione rilevante.",
+        "Fluency": "La frase è scorrevole, ben strutturata e grammaticalmente corretta. Nessun errore evidente; il testo è facilmente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, anche se leggermente più neutro rispetto all'originale. La resa è fluida e non appare artificiale o meccanica.",
+        "Overall": "Traduzione fedele e molto fluente, con una minima perdita di sfumatura semantica su 'alto pregio'. Nel complesso, il testo è ben reso e naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "e, cosa ancora più grave, cioè essere catturato, oppure fuggire e lasciare che la propria città venga sconfitta.",
+      "reference": "E, ciò che è ancora più grave, cioè essere catturato, oppure fuggire, e lasciare che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente preservato e modernizzato correttamente. Tutti gli elementi semantici essenziali sono presenti e resi in modo accurato.",
+        "Fluency": "La frase è fluida, ben costruita e perfettamente comprensibile in italiano moderno, senza errori grammaticali o sintattici.",
+        "Style": "Il testo risulta naturale, scorrevole e in linea con uno stile moderno e umano. Nessuna rigidità o artificiosità rilevata.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente naturale. Nessun difetto rilevante."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.7,
+      "std": 0.458
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.9,
+      "std": 0.3
+    },
+    "Overall": {
+      "mean": 4.8,
+      "std": 0.4
+    }
+  }
+}

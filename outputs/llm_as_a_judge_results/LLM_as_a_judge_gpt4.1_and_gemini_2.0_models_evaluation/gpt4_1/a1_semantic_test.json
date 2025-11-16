@@ -1,0 +1,121 @@
+{
+  "model_name": "gpt4_1",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "Poiché, se è nobile e grande sconfiggere il nemico, non è meno degno di lode saper mostrare misericordia dopo.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma \"saper mostrare misericordia dopo\" è una leggera interpretazione rispetto a \"saper avere misericordia\". La modernizzazione è corretta.",
+        "Fluency": "La frase è scorrevole e grammaticalmente corretta, con sintassi moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più esplicito rispetto all'originale. Risulta comunque umano e fluido.",
+        "Overall": "Traduzione fedele, fluida e naturale, con solo lievi differenze interpretative rispetto all'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "sia tra me e te: non puoi più restare con noi, perché io non lo tollererò e non lo permetterò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato principale è preservato, ma manca la sfumatura temporale di \"lungamente\" e l'idea di una distanza tra i soggetti. La modernizzazione è buona ma leggermente semplificata.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma leggermente più conciso rispetto all'originale. Manca un po' di enfasi drammatica presente nel testo antico.",
+        "Overall": "Traduzione fedele e fluida, con minime omissioni di sfumature e stile. Comprensibile e moderna, ma si può migliorare la resa di alcune sottigliezze."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "e, cosa ancora più grave, cioè essere catturato oppure fuggire e lasciare che il proprio Comune venga sconfitto.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato originale e modernizza correttamente i termini. L'unica sfumatura omessa è 'dal nemico', ma il senso generale resta intatto.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, senza rigidità o artificiosità evidenti. Risulta simile a una traduzione umana.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente naturale, con solo una lieve omissione di dettaglio."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Allo stesso modo, un amante che chiede pietà alla sua donna le rivolge molte parole e argomentazioni, ma lei si difende con le sue risposte.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'argomentazioni' è una modernizzazione più interpretativa di 'ragioni'. L'opposizione 'ma' invece di 'et' introduce una sfumatura leggermente diversa. Nel complesso, la fedeltà è buona con minime discrepanze.",
+        "Fluency": "Il testo è scorrevole e grammaticalmente corretto. L'uso di 'le rivolge molte parole e argomentazioni' è idiomatico e moderno. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, con una buona resa del tono discorsivo originale. L'espressione è fluida e non appare artificiale.",
+        "Overall": "La traduzione è fedele, fluente e stilisticamente naturale, con solo minime differenze interpretative rispetto all'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "quando si iscrivono nell'elenco giurano su Dio, su Cristo e sullo Spirito Santo",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato originale, modernizzando correttamente la struttura. L'unica lieve differenza è la resa di 'matricola' come 'elenco', che è accettabile ma leggermente meno specifico.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole in italiano moderno, senza errori evidenti.",
+        "Style": "Il tono è naturale e moderno, anche se leggermente neutro rispetto a una possibile enfasi solenne del testo originale.",
+        "Overall": "Traduzione fedele, fluida e naturale, con solo una minima perdita di specificità terminologica."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4,
+      "std": 0.0
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.4,
+      "std": 0.49
+    },
+    "Overall": {
+      "mean": 4.4,
+      "std": 0.49
+    }
+  }
+}

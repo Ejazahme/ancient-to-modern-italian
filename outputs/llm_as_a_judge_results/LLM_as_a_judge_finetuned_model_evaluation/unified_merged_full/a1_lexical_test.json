@@ -1,0 +1,121 @@
+{
+  "model_name": "unified_merged_full",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "mancano risposte a chi scrisse quest'opera, nonostante si dovrebbe tenere per certo che l'Autore fosse lo Spirito Santo.",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette \"in vano\" e modifica \"con ciò sia cosa che fedelmente si debba credere\" in \"nonostante si dovrebbe tenere per certo\", attenuando il senso di fede e certezza richiesto dal testo originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole; il lessico è moderno e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma manca la solennità e la sfumatura religiosa dell'originale.",
+        "Overall": "Traduzione fluente e moderna, ma con perdita di alcune sfumature di significato e tono rispetto all'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "mette i retini per i cervi e sa bene dove vive il selvaggio maiale cinghiale.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: \"reti\" diventa \"retini\" (diminutivo non necessario), \"furioso porco cinghiare\" viene reso come \"selvaggio maiale cinghiale\", aggiungendo \"maiale\" che non è presente nell'originale. Parziale perdita di precisione.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma l'uso di \"retini\" e \"maiale cinghiale\" suona innaturale. Nel complesso, la struttura è moderna e leggibile.",
+        "Style": "Il tono è generalmente moderno, ma termini come \"retini\" e \"maiale cinghiale\" risultano poco naturali e leggermente meccanici. Manca eleganza stilistica.",
+        "Overall": "La traduzione è comprensibile e moderna ma presenta imprecisioni lessicali e stilistiche che ne riducono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si resero nuovi nemici; contro di cui fu combattuta con diverse fortunati esiti: perché nella prima battaglia, essendo console Valerio, più di mille romani persero la vita.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: \"si resero nuovi nemici\" è impreciso rispetto a \"si feciero nuovi nemici\" (che significa \"apparvero nuovi nemici\"). \"più di mille\" sostituisce erroneamente \"MMMD\" (3500).",
+        "Fluency": "La frase è generalmente scorrevole, ma \"contro di cui fu combattuta\" è poco naturale. \"con diverse fortunati esiti\" contiene un errore grammaticale.",
+        "Style": "Lo stile è comprensibile ma poco naturale; alcune scelte lessicali risultano meccaniche e poco moderne.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di fedeltà, grammatica e stile. Il senso generale si mantiene, ma con imprecisioni."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "molto crudele, e prende vendetta per tutti i reati, come dice la legge, e non perdonerà a nessun cavaliere coloro che commettono errori.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Aggiunge 'molto' (non presente nell'originale) e modifica il senso dell'ultima frase: 'non perdonerà a nessun cavaliere coloro che commettono errori' è un errore di interpretazione rispetto all'originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma l'ultima parte risulta poco chiara a causa della struttura errata.",
+        "Style": "Lo stile è generalmente moderno, ma la costruzione finale ('coloro che commettono errori') è innaturale e poco elegante.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di senso e alcune scelte stilistiche poco naturali."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "mancando alle ali, il volatile non riesce a fuggire in sicurezza, nemmeno il selvaggio maiale ne uscirà agevolmente dalle rete in cui cade.",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: 'mancando alle ali' non corrisponde a 'impaniate le ali' (impigliate), e 'volatile' è meno specifico di 'uccello'. 'Nemmeno il selvaggio maiale' è una riformulazione, ma il senso generale è mantenuto.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma 'mancando alle ali' risulta poco naturale. 'Dalle rete' contiene un errore di concordanza ('rete' dovrebbe essere plurale).",
+        "Style": "Il tono è moderno ma leggermente artificiale. L'uso di 'volatile' e 'selvaggio maiale' appare meno naturale rispetto a termini più comuni come 'uccello' e 'cinghiale'.",
+        "Overall": "Traduzione comprensibile ma con alcune imprecisioni lessicali e stilistiche che ne riducono la naturalezza e la fedeltà."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3,
+      "std": 0.0
+    },
+    "Fluency": {
+      "mean": 3.6,
+      "std": 0.8
+    },
+    "Style": {
+      "mean": 3.2,
+      "std": 0.4
+    },
+    "Overall": {
+      "mean": 3.2,
+      "std": 0.4
+    }
+  }
+}

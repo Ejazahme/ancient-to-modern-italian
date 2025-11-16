@@ -1,0 +1,139 @@
+{
+  "model_name": "gpt4_1",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "Il re entrò in un giardino dietro il suo alloggio, quasi come se stesse riflettendo sulla risposta.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è pienamente preservato e modernizzato correttamente. L'unica variazione è 'alloggio' invece di 'albergo', ma non altera il senso.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e perfettamente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, senza rigidità o artificiosità; sembra scritto da un madrelingua.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente naturale. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "Quella guerra fu ben condotta perché eccetera. D'altra parte Aiace era un cavaliere coraggioso e valoroso nelle armi, di grande statura, ma non era dotato di grande saggezza.",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma \"quella guerra fu ben condotta\" non corrisponde esattamente a \"ben fatta l'opera\"; \"di grande statura\" è una modernizzazione interpretativa di \"di gran guisa\". Piccole sfumature perse.",
+        "Fluency": "Il testo è scorrevole, grammaticalmente corretto e ben strutturato in italiano moderno. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, con un tono appropriato e leggibile. L'adattamento è fluido e non appare artificiale.",
+        "Overall": "Traduzione generalmente fedele e molto fluida, con lievi interpretazioni che non compromettono la comprensione complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "Quando i serpenti avvelenavano di giorno qualche Romano, era davvero sorprendente vedere come i Psilli si difendevano dal veleno, poiché lo annullavano completamente con la loro saliva.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è ben preservato, ma \"imolavano tutto inazzi della loro salive\" è reso come \"lo annullavano completamente con la loro saliva\", che interpreta piuttosto che modernizzare letteralmente. Piccola perdita di sfumatura.",
+        "Fluency": "Il testo è scorrevole, corretto e idiomatico in italiano moderno, senza errori grammaticali o sintattici.",
+        "Style": "Lo stile è naturale e moderno, con un tono umano e leggibile. Solo una lieve tendenza all'esplicitazione.",
+        "Overall": "Traduzione fedele e molto fluida, con una piccola interpretazione nella resa di una frase, ma nel complesso di alta qualità."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "Io gli aprii, ma loro fuggirono. E perché mai il tuo cuore dovrebbe restare chiuso al tuo sposo Cristo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma sostituisce 'e' con 'ma', alterando leggermente la relazione tra le frasi. Il resto è fedele e ben modernizzato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorre bene in italiano moderno, senza errori evidenti.",
+        "Style": "Il tono è naturale e moderno, anche se leggermente meno solenne rispetto all’originale. Nel complesso, suona umano e fluido.",
+        "Overall": "Traduzione molto buona, con una minima imprecisione nel connettivo, ma fedele, fluida e naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti dei Romani sorsero nuovi nemici, contro i quali si combatté con esiti diversi: perché nella prima battaglia, quando Valerio era console, morirono tremilacinquecento Romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è ben preservato, ma 'tremilacinquecento' invece di 'tremila' è un errore numerico che altera un dettaglio storico. Il resto del testo è fedele e ben modernizzato.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità; la traduzione appare umana e ben formulata.",
+        "Overall": "Ottima traduzione, fedele e fluente, ma l'errore nel numero dei morti abbassa leggermente il punteggio complessivo."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "quando vengono iscritti nell'elenco, giurano su Dio, su Cristo e sullo Spirito Santo",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è pienamente preservato e la modernizzazione è accurata. L'unica differenza è l'uso di 'su' invece di 'per', ma non altera il senso.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e perfettamente comprensibile in italiano moderno.",
+        "Style": "Il testo risulta naturale, moderno e sembra scritto da un madrelingua.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente naturale, senza errori rilevanti."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.333,
+      "std": 0.471
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Overall": {
+      "mean": 4.667,
+      "std": 0.471
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "model_name": "gpt4_1",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "È inutile chiedersi chi abbia scritto questo Libro, poiché bisogna credere con fede che il suo Autore sia stato lo Spirito Santo.",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben preservato e modernizzato. L'espressione \"poiché bisogna credere con fede\" rende correttamente \"con ciò sia cosa che fedelmente si debba credere\". Nessuna perdita di senso rilevante.",
+        "Fluency": "La frase è scorrevole, corretta e priva di errori grammaticali. La sintassi è moderna e ben strutturata.",
+        "Style": "Il testo risulta naturale e moderno, con un tono umano ed elegante. La scelta lessicale è appropriata.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente naturale. Nessun problema rilevante riscontrato."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "Tende le reti ai cervi e sa bene in quale valle dimora il furioso cinghiale.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato. L'unica differenza è la resa di 'in quali valle' come singolare invece di plurale, ma il senso generale rimane chiaro.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole in italiano moderno, senza errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità evidenti.",
+        "Overall": "Traduzione molto buona, con solo una lieve imprecisione sul numero ('valle' invece di 'valli'), ma fedele, fluida e naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti dei Romani sorsero nuovi nemici, contro i quali si combatté con alterne fortune: perché nella prima battaglia, quando Valerio era console, morirono tremilacinquecento Romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma 'tremilacinquecento' interpreta MMMD come 3500 invece di 3000 (MMMD = 3500), che è corretto. Modernizzazione accurata.",
+        "Fluency": "La frase è scorrevole, ben costruita e pienamente comprensibile in italiano moderno, senza errori grammaticali.",
+        "Style": "Lo stile è naturale, elegante e moderno, senza rigidità o artificiosità; sembra scritto da un madrelingua.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente naturale. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Sii severo e vendicati di tutte le colpe, come stabilisce la legge, e non perdonare nessun cavaliere che commetta errori.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "L'imperativo \"Sii severo\" sostituisce \"crudele\", che è più forte e diretto. \"Vendicati\" implica azione personale, mentre l'originale è impersonale. \"Errori\" è più generico di \"colpe\". Alcune sfumature sono perse.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. La costruzione è moderna e comprensibile senza errori evidenti.",
+        "Style": "Il tono è naturale e moderno, ma la scelta di \"Sii severo\" attenua la forza stilistica dell'originale. Nel complesso, resta leggibile e umano.",
+        "Overall": "La traduzione è fluida e moderna, ma alcune scelte lessicali indeboliscono la fedeltà e lo stile rispetto all'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "L'uccello, dopo che ha le ali impigliate, non riesce a fuggire facilmente, né il cinghiale selvatico si libera facilmente dalle reti in cui cade.",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato originale, modernizzando correttamente i termini. L'unica differenza è l'aggiunta di 'si libera facilmente', che interpreta ma non distorce il senso.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori sintattici o lessicali.",
+        "Style": "Il testo è naturale e moderno, con una scelta lessicale appropriata e scorrevole, simile a una traduzione umana.",
+        "Overall": "Traduzione fedele, fluente e stilisticamente naturale, con solo minime variazioni interpretative."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.4,
+      "std": 0.8
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.8,
+      "std": 0.4
+    },
+    "Overall": {
+      "mean": 4.6,
+      "std": 0.49
+    }
+  }
+}

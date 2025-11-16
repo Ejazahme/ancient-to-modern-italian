@@ -1,0 +1,1777 @@
+{
+  "model_name": "a2_middle_expert",
+  "dataset_name": "real_97_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 97,
+  "results": [
+    {
+      "id": 0,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "I quella guerra erano operosi perché eccellenevano nell’esecuzione delle azioni. Da un altro lato, Aiace era un cavaliere coraggioso e abile nelle armi, ma non era sufficientemente saggio.",
+      "reference": "Quella guerra fu ben condotta per via delle azioni compiute, eccetera. Dall’altra parte, Aiace era un cavaliere coraggioso e valoroso nelle armi, di grande forza, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma 'operosi perché eccellenevano nell’esecuzione' è una parafrasi che perde la specificità di 'ben fatta l'opera'. 'Di gran guisa' non è reso. Alcuni dettagli semantici sono attenuati.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, senza errori evidenti. La sintassi è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma leggermente parafrastico rispetto all’originale. Manca un po’ di vivacità rispetto al tono epico medievale.",
+        "Overall": "Traduzione leggibile e moderna, ma alcune sfumature e dettagli dell’originale sono semplificati o omessi."
+      }
+    },
+    {
+      "id": 1,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Igualmente crudele e per ogni reato vedi che la legge prevede la vendetta, e ad ogni cavaliere perdonai quanto peccati.",
+      "reference": "sia severo e punisca tutte le colpe come stabilito dalla legge, e non perdoni nessun cavaliere che commetta errori.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni sensi sono distorti: \"vedi che la legge prevede\" non rende \"come dice la legge\"; \"perdonai quanto peccati\" è errato rispetto a \"non perdoni nessun cavaliere che pecchi\". Parziale fraintendimento.",
+        "Fluency": "La frase è grammaticalmente problematica: \"vedi che la legge prevede la vendetta\" e \"perdonai quanto peccati\" sono poco chiare e scorrette in italiano moderno.",
+        "Style": "La traduzione risulta innaturale e poco scorrevole, con costruzioni poco moderne e un tono poco umano.",
+        "Overall": "La traduzione mostra fraintendimenti e problemi di scorrevolezza, risultando poco fedele e poco naturale."
+      }
+    },
+    {
+      "id": 2,
+      "source": "Non d' altra forza d' animo fue ornato Ponzio Aufidiano, romano cavaliere.",
+      "prediction": "Iscritto Ponzio Aufidiano fu l’romano cavaliere non solo di altre forze d’animo.",
+      "reference": "Ponzio Aufidiano, cavaliere romano, non fu dotato di minore forza d’animo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione distorce il significato originale: introduce 'iscritto', omette 'non d'altra forza', e altera la struttura logica della frase. Il senso di paragone e il concetto di forza d'animo sono confusi.",
+        "Fluency": "La frase è poco comprensibile, con errori grammaticali ('fu l’romano cavaliere') e sintassi innaturale. Risulta difficile da seguire per un lettore moderno.",
+        "Style": "Lo stile è innaturale e poco scorrevole, con costruzioni che non riflettono il moderno italiano. Sembra tradotto parola per parola senza attenzione al tono.",
+        "Overall": "La traduzione presenta gravi problemi di fedeltà, scorrevolezza e stile, risultando poco comprensibile e inaccurata rispetto all’originale."
+      }
+    },
+    {
+      "id": 3,
+      "source": "Se questo piace a tutti e se 'l tempo hae bisogno d'avere Pompeio per cavaliere e non per compagno, non riterrò più i fati.",
+      "prediction": "I. Se questo piace a tutti e se il tempo ha bisogno di avere Pompeo come cavaliere e non come compagno, non tratterrò più il destino.",
+      "reference": "Se questo va bene a tutti e se il momento richiede che Pompeo sia un cavaliere e non un compagno, non ostacolerò più il destino.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è ben mantenuto, ma la resa di \"non riterrò più i fati\" come \"non tratterrò più il destino\" è leggermente più letterale e meno precisa rispetto all'originale, che implica 'non ostacolerò più il destino'.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La sintassi è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più letterale rispetto a una resa completamente umana. Tuttavia, rimane elegante e leggibile.",
+        "Overall": "Traduzione fedele e fluente, con minime imprecisioni nella resa di alcune sfumature. Nel complesso, il testo è ben comprensibile e naturale."
+      }
+    },
+    {
+      "id": 4,
+      "source": "Officio di questa arte pare che sia dicere appostatamente per fare credere, fine è far credere per lo dire.",
+      "prediction": "Imbstruisci in questa arte sembra che sia necessario dirlo esplicitamente per rendere credibile, e rendendo credibile con il dire.",
+      "reference": "Il compito di quest’arte sembra essere quello di parlare in modo appropriato per convincere; lo scopo è far credere attraverso la parola.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The translation distorts the original meaning. 'Imbstruisci' is incorrect, and the structure changes the sense. The purpose and function of the art are not clearly preserved.",
+        "Fluency": "Contains grammatical errors ('Imbstruisci' is not a word) and awkward phrasing. The sentence is difficult to follow and not idiomatic.",
+        "Style": "The translation is unnatural and does not resemble modern Italian. The phrasing is stiff and confusing, lacking elegance.",
+        "Overall": "Major issues in faithfulness, fluency, and style make the translation problematic and hard to understand. The meaning is not adequately conveyed."
+      }
+    },
+    {
+      "id": 5,
+      "source": "Ecco e larghi ventipiovoli caggiono delle risolute nebbie; e potresti credere che tutto il cielo cadesse nel mare",
+      "prediction": "I larghi piogge cadono dalle nebbie sgretolate; e potresti pensare che tutto il cielo stia cadendo nel mare.",
+      "reference": "Ecco che abbondanti acquazzoni cadono dalle nebbie che si sono dissolte; potresti pensare che tutto il cielo stia precipitando nel mare.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"ventipiovoli\" è reso come \"piogge\" invece di \"acquazzoni\" o \"rovesci\", perdendo una sfumatura. \"Ecco\" è omesso. Modernizzazione adeguata.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, con una sintassi moderna e comprensibile. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente meno evocativo rispetto all'originale. Manca un po' di vivacità espressiva.",
+        "Overall": "Traduzione fedele e fluida, con solo lievi perdite di sfumature lessicali e stilistiche. Comprensibile e moderna."
+      }
+    },
+    {
+      "id": 6,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Imbatta chiunque desideri questo, che coloro che non vogliono ancora crederci in Cristo, lo vedano insieme a noi, e perché non ci può negare, sorride con i denti.",
+      "reference": "Ma chi potrebbe ormai sperare ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi, e poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Significant meaning distortions: 'Imbatta chiunque desideri questo' misinterprets the original, and 'sorride con i denti' is incorrect for 'stridono colli denti.' Several key nuances are lost or altered.",
+        "Fluency": "The sentence is mostly grammatical, but awkward: 'Imbatta chiunque desideri questo' is not idiomatic, and 'sorride con i denti' is unnatural in context.",
+        "Style": "The translation feels stiff and unnatural, with phrases that do not fit modern Italian usage. It lacks elegance and human touch.",
+        "Overall": "Major meaning errors and stylistic issues undermine the translation, making it only partially understandable and not suitable for modern readers."
+      }
+    },
+    {
+      "id": 7,
+      "source": "I vendimenti de' morti et le presure de' vivi fece la frode d'uno feroce re.",
+      "prediction": "I rendimenti dei morti e la pressione dei vivi resero la frode di un re crudele.",
+      "reference": "Le vendite dei beni dei morti e le prigionie dei vivi furono causate dall’inganno di un re crudele.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene la struttura e il lessico dell'originale, ma 'vendimenti' non è modernizzato correttamente ('rendimenti' è fuorviante rispetto a 'vendite'). 'Presure' come 'pressione' è impreciso rispetto a 'prigionie'.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La sintassi è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma leggermente meccanico per via della resa letterale di alcuni termini.",
+        "Overall": "La traduzione è fluente e leggibile, ma presenta errori di modernizzazione lessicale che alterano il significato originale."
+      }
+    },
+    {
+      "id": 8,
+      "source": "Acciocché quegli, il quale ora per le sue gran reità è feroce e onorevole, egli d'ogni male afflitto e tormentato della impietà verso il mio padre.",
+      "prediction": "I desidero che colui che ora, per le sue grandi colpe, è feroce e rispettato, sia afflitto e tormentato da ogni male per l’empietà verso mio padre.",
+      "reference": "Affinché colui che ora, per le sue grandi colpe, è feroce e rispettato, sia afflitto e tormentato da ogni male per l'empietà commessa contro mio padre.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene quasi integralmente il significato originale, modernizzando correttamente la struttura. L’unico dettaglio minore è la resa di 'onorevole' con 'rispettato', che è comunque accettabile.",
+        "Fluency": "Il testo è grammaticalmente corretto, scorrevole e privo di errori sintattici. La frase è ben costruita e facilmente comprensibile.",
+        "Style": "La resa è naturale e moderna, con un tono umano e appropriato al registro. Nessuna rigidità o artificiosità percepita.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente naturale. Non presenta errori rilevanti e rispetta pienamente il senso e il tono dell’originale."
+      }
+    },
+    {
+      "id": 9,
+      "source": "Gli uomini spessamente a stare fermi nella bugia incontra la verità.",
+      "prediction": "I uomini spesso, al contrario, trovano la verità quando devono restare fermi alla bugia.",
+      "reference": "Gli uomini spesso, restando fermi nella menzogna, si scontrano con la verità.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è parzialmente distorto: il testo suggerisce che la verità si trova restando fermi nella bugia, mentre l'originale indica che si incontra la verità stando fermi nella bugia.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma la costruzione \"al contrario\" risulta poco naturale nel contesto.",
+        "Style": "Lo stile è generalmente scorrevole, ma la resa è leggermente artificiale e meno naturale rispetto a un parlante nativo moderno.",
+        "Overall": "La traduzione è comprensibile e moderna, ma presenta una parziale alterazione del significato originale."
+      }
+    },
+    {
+      "id": 10,
+      "source": "Marco Cornelio ch'era de' dieci compagni, studiosamente  si riservò di parlare all'ultimo.",
+      "prediction": "I compagni di Marco Cornelio, che facevano parte dei dieci, si misero a riflettere con molta attenzione prima di parlare.",
+      "reference": "Marco Cornelio, che faceva parte dei dieci compagni, scelse con attenzione di parlare per ultimo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione altera il soggetto e il senso: Marco Cornelio diventa un gruppo, e l'azione di parlare per ultimo viene omessa. Il significato originale è in parte perso.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben costruito.",
+        "Style": "Lo stile è naturale e moderno, ma leggermente impersonale rispetto all’originale. Manca la specificità del soggetto.",
+        "Overall": "La traduzione è fluente e naturale, ma la fedeltà è compromessa da un errore di interpretazione che altera il senso."
+      }
+    },
+    {
+      "id": 11,
+      "source": "cose ch'io sapeva che erano fatte in Italia.",
+      "prediction": "I fatti di cui so che siano accaduti in Italia.",
+      "reference": "cose che sapevo essere state fatte in Italia.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "The translation shifts 'cose' to 'i fatti,' which narrows the meaning. The subjunctive 'siano accaduti' is less direct than 'erano fatte.' Some nuance is lost, but the core meaning is mostly preserved.",
+        "Fluency": "The sentence is grammatically correct and clear, though the use of 'siano accaduti' is slightly formal. Overall, it reads well in modern Italian.",
+        "Style": "The translation is smooth and natural, though 'i fatti' is a bit more formal and specific than 'cose.' It feels human and modern, with only slight stiffness.",
+        "Overall": "A good, readable translation with minor semantic narrowing and slightly formal tone, but it preserves the main meaning and reads naturally."
+      }
+    },
+    {
+      "id": 12,
+      "source": "Corbio nipote d' Ortensio menò sua vita più bassa e più viziosa",
+      "prediction": "Ipotesi: Corbio, nipote di Ortensio, condusse una vita più degradata e più viziosa.",
+      "reference": "Corbio, nipote di Ortensio, condusse una vita più misera e più viziosa.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'degradata' non è la resa più precisa di 'più bassa', che suggerisce più 'misera' o 'umile'. Tuttavia, il senso complessivo è preservato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Risulta pienamente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, anche se leggermente formale. La scelta lessicale è appropriata, ma 'degradata' suona un po' meno idiomatico rispetto a 'misera'.",
+        "Overall": "Traduzione fedele e fluente, con una minima imprecisione lessicale che non compromette la comprensione globale."
+      }
+    },
+    {
+      "id": 13,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Imitano gli stessi sintomi un amante chiedendo perdono a sua donna, e lei si difende con le sue parole.",
+      "reference": "Allo stesso modo, un innamorato che chiede pietà alla sua donna le rivolge molte parole e ragioni, e lei si difende con le sue risposte.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono stati alterati: \"chiamando merzé\" è reso come \"chiedendo perdono\" invece di \"chiedendo pietà\"; \"parole e ragioni molte\" diventa solo \"gli stessi sintomi\". Mancano dettagli e alcune sfumature.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben costruito in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma l'uso di \"imitano gli stessi sintomi\" appare leggermente forzato rispetto al tono originale. Nel complesso, però, suona umano.",
+        "Overall": "La traduzione è fluente e stilisticamente buona, ma perde alcune informazioni e sfumature importanti dell'originale."
+      }
+    },
+    {
+      "id": 14,
+      "source": "Io mi ricordo (ch. 347) che essendo adirato scapigliai la mia donna. Ohi, quanti dì questa ira mi tolse!",
+      "prediction": "I mi ricordo (cap. 347) che, essendo arrabbiato, ho scompigliato i capelli della mia donna. Oh, quanti giorni questa rabbia mi ha portato via!",
+      "reference": "Mi ricordo che, preso dalla rabbia, scompigliai i capelli della mia donna. Quanti giorni questa rabbia mi ha portato via!",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"scapigliai\" viene esplicitato come \"ho scompigliato i capelli\", che è più dettagliato dell'originale. L'aggiunta di \"i capelli\" non è necessaria, ma non distorce il senso. Modernizzazione corretta.",
+        "Fluency": "La frase è grammaticalmente corretta e scorre bene. L'uso di \"I mi ricordo\" è un piccolo errore; dovrebbe essere \"Io mi ricordo\" o semplicemente \"Mi ricordo\".",
+        "Style": "Il tono è moderno e naturale, ma l'inizio \"I mi ricordo\" suona poco naturale. Il resto della frase è scorrevole e umano.",
+        "Overall": "Traduzione fedele e moderna, con minime imprecisioni stilistiche e di forma. Comprensibile e ben resa nel complesso."
+      }
+    },
+    {
+      "id": 15,
+      "source": "colui del quale tu tti solevi dolere ch' era amante della tua donna;",
+      "prediction": "Imbarazzo! Colui del quale ti lamentavi perché era innamorato della tua donna;",
+      "reference": "colui di cui ti lamentavi perché era innamorato della tua donna;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "L'aggiunta di 'Imbarazzo!' non è presente nell'originale e altera il significato. Il resto della frase mantiene il senso generale, ma questa aggiunta è una distorsione.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma l'inserimento di 'Imbarazzo!' la rende meno naturale nel contesto.",
+        "Style": "La traduzione è generalmente moderna e comprensibile, ma l'esclamazione iniziale risulta artificiale e poco naturale rispetto allo stile richiesto.",
+        "Overall": "La traduzione è comprensibile e moderna, ma l'aggiunta di 'Imbarazzo!' compromette fedeltà e stile."
+      }
+    },
+    {
+      "id": 16,
+      "source": "Ma no sapeano già le nomora di coloro dela congiurazione, ché la donna no nominava già li nomi.",
+      "prediction": "I non conoscevano ancora i nomi di coloro della congiura, perché la donna non faceva ancora i nomi.",
+      "reference": "Ma non conoscevano ancora i nomi di coloro che facevano parte della congiura, perché la donna non li aveva ancora rivelati.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato; la modernizzazione è accurata, ma \"faceva ancora i nomi\" è leggermente meno preciso di \"non li aveva ancora rivelati\".",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti.",
+        "Style": "La resa è naturale e moderna, anche se leggermente meno elegante rispetto a una formulazione umana ottimale.",
+        "Overall": "Traduzione fedele, fluida e naturale, con minime imprecisioni semantiche."
+      }
+    },
+    {
+      "id": 17,
+      "source": "Creti?  Certo quand'elli si mosse, elli ti dixe: \"O fedele mia donna, fa' che in mio luogo ti sia racomandato il nostro hoste troiano\".",
+      "prediction": "I ceri? Certo, quando lui si mosse, ti disse: \"O mia fedele donna, fa’ che al mio posto sia raccomandato il nostro ospite troiano\".",
+      "reference": "Credi? Certo, quando lui partì, ti disse: \"O mia fedele signora, fa' in modo che il nostro ospite troiano sia raccomandato da te al mio posto.\"",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"I ceri?\" è un errore rispetto a \"Creti?\" (credi?), e \"hoste\" è reso come \"ospite\" correttamente. Alcune sfumature, come \"partì\" vs \"si mosse\", sono leggermente perse.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La punteggiatura e la sintassi sono moderne e comprensibili.",
+        "Style": "Il tono è naturale e moderno, anche se leggermente più letterale rispetto a una resa completamente umana. Nel complesso, il testo suona scorrevole.",
+        "Overall": "La traduzione è fedele e molto fluida, con solo piccoli errori di interpretazione iniziale. Nel complesso, è una buona resa moderna del testo medievale."
+      }
+    },
+    {
+      "id": 18,
+      "source": "A Milano fue ripressa la malvagità d' una donna in simile bugìa, nel tempo medesimo di questo signore della republica, in questo modo:",
+      "prediction": "Inefficace fu la malvagità di una donna a Milano dimostrare tale inganno, nello stesso periodo di questo signore della repubblica, in questo modo:",
+      "reference": "A Milano fu scoperta la malvagità di una donna in una simile menzogna, proprio durante il periodo di questo signore della repubblica, in questo modo:",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione altera il significato: 'inefficace fu la malvagità' non corrisponde a 'fu ripressa la malvagità', e 'dimostrare tale inganno' distorce 'in simile bugìa'. Alcuni elementi chiave sono fraintesi.",
+        "Fluency": "La frase è grammaticalmente corretta ma poco scorrevole; la costruzione 'inefficace fu la malvagità... dimostrare' è innaturale in italiano moderno.",
+        "Style": "Lo stile è poco naturale e risulta forzato, con una struttura che non rispecchia il modo di esprimersi in italiano contemporaneo.",
+        "Overall": "La traduzione presenta errori di comprensione e uno stile innaturale, compromettendo la fedeltà e la leggibilità del testo."
+      }
+    },
+    {
+      "id": 19,
+      "source": "E lamentavansi dell'iniquità d'Appio, e ripiagnevano la malavventurata beltà della pulcella e la necessità del padre.",
+      "prediction": "I si lamentavano dell’ingiustizia di Appio, e piangevano ancora la sfortunata bellezza della giovane e il dolore del padre.",
+      "reference": "E si lamentavano dell'ingiustizia di Appio, piangevano ancora la sfortunata bellezza della giovane e la sofferenza del padre.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben preservato e modernizzato. Tutti gli elementi chiave (l'ingiustizia di Appio, la bellezza della giovane, il dolore del padre) sono resi correttamente.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. Non ci sono errori o costruzioni innaturali.",
+        "Style": "Il testo suona naturale e moderno, senza rigidità o artificiosità. L'espressione è fluida e umana.",
+        "Overall": "La traduzione è fedele, scorrevole e stilisticamente naturale. Nessun problema rilevante."
+      }
+    },
+    {
+      "id": 20,
+      "source": "Nella quale battaglia, certo io ebbi sempre ardire di ragionare di pace e sempre mi dolfi che non solamente la pace era schifata,",
+      "prediction": "Iso stesso scontro, certo ho sempre avuto il coraggio di parlare della pace e mi sono always sorretto dal pensiero che non solo la pace era rifiutata.",
+      "reference": "In quella battaglia, io ho sempre avuto il coraggio di parlare di pace e mi è sempre dispiaciuto che non solo la pace fosse rifiutata,",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi di significato sono stati travisati: 'mi sono always sorretto dal pensiero' non corrisponde a 'mi dolfi', che significa 'mi è dispiaciuto'. Inoltre, 'schifata' è reso con 'rifiutata', che è accettabile.",
+        "Fluency": "La frase contiene errori grammaticali ('mi sono always sorretto dal pensiero'), con un inserimento improprio di 'always'. La struttura è confusa e poco scorrevole.",
+        "Style": "Il testo appare innaturale e poco fluido, con un tono artificiale e un lessico non coerente con l'italiano moderno. L'inserimento di 'always' è particolarmente innaturale.",
+        "Overall": "La traduzione è parzialmente fedele ma presenta errori di comprensione e gravi problemi di fluidità e stile, rendendo il testo poco naturale e difficile da seguire."
+      }
+    },
+    {
+      "id": 21,
+      "source": "la seconda suole talora per la grande provedenzia fare timoroso, e la prima per l'ardire rendere altrui matto.",
+      "prediction": "I secondi a volte, per il grande provvidenza, fanno timorosi; i primi, per l’audacia, rendono gli altri folli.",
+      "reference": "A volte la seconda, per la sua grande prudenza, può rendere timorosi, mentre la prima, per il coraggio, può far diventare qualcuno incosciente.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni termini sono resi in modo troppo letterale: \"provvidenza\" invece di \"prudenza\" e \"rendere altrui matto\" come \"rendere gli altri folli\". Il senso generale è mantenuto, ma ci sono imprecisioni semantiche.",
+        "Fluency": "La frase è grammaticalmente corretta, ma l'uso di \"per il grande provvidenza\" è scorretto (manca l'articolo corretto e il genere). La struttura è leggibile ma poco scorrevole.",
+        "Style": "Il tono è piuttosto rigido e poco naturale. La traduzione appare meccanica e manca di eleganza stilistica tipica del moderno italiano.",
+        "Overall": "La traduzione è comprensibile ma presenta errori lessicali e stilistici che ne riducono la qualità complessiva. Accettabile ma migliorabile."
+      }
+    },
+    {
+      "id": 22,
+      "source": "Andò nel campo de' Cartaginesi e tutta la legione trasse seco.",
+      "prediction": "Imbarcò le navi nei campi dei Cartaginesi e portò con sé tutta la legione.",
+      "reference": "Andò nell'accampamento dei Cartaginesi e portò con sé tutta la legione.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione introduce un errore: \"Imbarcò le navi\" non è presente nell'originale, che parla solo di andare nel campo dei Cartaginesi e portare la legione. Questo altera il significato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben costruito in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma l'invenzione di \"imbarcò le navi\" rende il tono meno aderente all'originale. Tuttavia, la resa è comunque fluida.",
+        "Overall": "La traduzione è fluente e naturale, ma l'aggiunta di \"imbarcò le navi\" rappresenta una distorsione significativa del senso originale."
+      }
+    },
+    {
+      "id": 23,
+      "source": "Non lo volle cognoscere per nimico. Qesta è quella, la quale diede ardire al profeta Natan a riprendere con grande autoritade quello re, il quale avea peccato.",
+      "prediction": "Ilo non voleva conoscere come nemico. Questa era quella, che diede forza al profeta Nathan affinché potesse riprovare con grande autorità quel re, il quale aveva peccato.",
+      "reference": "Non volle riconoscerlo come nemico. Questa è la stessa cosa che diede coraggio al profeta Natan di rimproverare con grande autorità quel re che aveva peccato.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma 'Ilo non voleva conoscere come nemico' è una resa imprecisa; 'Ilo' è scorretto e la costruzione è meno fedele. 'Forza' per 'ardire' è accettabile ma meno preciso di 'coraggio'.",
+        "Fluency": "La frase presenta errori grammaticali ('Ilo', 'affinché potesse riprovare') e alcune costruzioni poco naturali. La leggibilità ne risente, ma il testo resta comprensibile.",
+        "Style": "Il testo è comprensibile ma rigido e poco naturale. Alcune scelte lessicali e sintattiche risultano meccaniche e non del tutto moderne.",
+        "Overall": "Traduzione accettabile ma con errori grammaticali e stilistici che ne limitano la qualità. Il significato è in parte preservato, ma la resa è poco naturale."
+      }
+    },
+    {
+      "id": 24,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "I soldati e insieme con essi attraversaste il campo di battaglia, quindi chi non avesse avuto coraggio in questo caso, avrebbe avuto questo stato d’animo.",
+      "reference": "Le armi e insieme con loro passarono tra i nemici, perché se qualcuno non avesse avuto il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono stati travisati: 'armi' diventa 'soldati', e 'tra i nemici' è reso come 'campo di battaglia'. Il senso generale è mantenuto ma con errori semantici.",
+        "Fluency": "La frase è grammaticalmente corretta, ma la costruzione è un po' forzata, specialmente nella seconda parte. Tuttavia, resta comprensibile.",
+        "Style": "Lo stile è moderno e leggibile, ma alcune scelte lessicali ('stato d’animo') risultano poco naturali nel contesto.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di fedeltà e alcune scelte stilistiche discutibili."
+      }
+    },
+    {
+      "id": 25,
+      "source": "Unde ragionevolemente Iob è interpretato dolente;",
+      "prediction": "Ibrida ragionevolmente Iob è stato interpretato come afflitto;",
+      "reference": "Perciò, giustamente, Giobbe viene interpretato come \"sofferente\".",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The translation introduces 'Ibrida' erroneously, distorting the original meaning. The rest of the sentence is mostly accurate, but this major error affects faithfulness.",
+        "Fluency": "The sentence is grammatically correct, but the inclusion of 'Ibrida' makes it confusing and less comprehensible.",
+        "Style": "The translation is somewhat stiff and the word 'Ibrida' makes it feel unnatural and less human-like.",
+        "Overall": "A major lexical error distorts the meaning, though the rest is modern and readable. The translation is only partially usable."
+      }
+    },
+    {
+      "id": 26,
+      "source": "quello che sopra tutti gli altri perdonasse a' cittadini, e a cui più sicuramente possiate credere; poi ch'egli fu vostro comandatore.",
+      "prediction": "Istruisciate colui che più di tutti perdonava ai cittadini e su cui potete riporre maggiore fiducia, poiché è stato il vostro comandante.",
+      "reference": "colui che più di tutti perdonò ai cittadini e di cui potete fidarvi con maggiore sicurezza, poiché è stato il vostro comandante.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è ben preservato, ma \"istruite\" invece di \"scegliete\" o \"indicate\" è una modernizzazione discutibile. Il resto è accurato e coerente con l’originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. L’uso dei tempi verbali e delle strutture sintattiche è appropriato per l’italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, anche se \"istruite\" risulta leggermente meno naturale rispetto ad altre possibilità. Nel complesso, però, la resa è fluida.",
+        "Overall": "Traduzione fedele e fluente, con una piccola scelta discutibile su \"istruite\". Comprensibile e ben resa nel complesso."
+      }
+    },
+    {
+      "id": 27,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "Igualmente si chiede inutilmente chi avesse scritto questo libro, poiché dovremmo credere fedelmente che l’Autore fosse lo Spirito Santo.",
+      "reference": "È inutile chiedersi chi abbia scritto questo Libro, poiché bisogna credere con fede che il suo Autore sia stato lo Spirito Santo.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben mantenuto, con una modernizzazione accurata. L'uso di \"igualmente\" è leggermente meno naturale rispetto a \"in vano\", ma il senso resta chiaro.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. L'unico piccolo appunto è la posizione di \"inutilmente\", che suona leggermente meno idiomatica.",
+        "Style": "Lo stile è moderno e naturale, anche se leggermente più formale rispetto alla lingua parlata. Nel complesso, suona umano e curato.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente appropriata, con solo minimi dettagli migliorabili."
+      }
+    },
+    {
+      "id": 28,
+      "source": "se non fosse usatissima, ciò parrebbe certo molto più incredibile: certo più agevolmente si può credere quello, posto che l'umano spirito al divino, ed il mutabile allo incommutabile",
+      "prediction": "Imbstruisca: Se non fosse una cosa abitualmente accaduta, quella cosa sarebbe molto meno credevole; sì, più facilmente possiamo credere a chi ha superato le capacità dell’umanità e il confine del divino.",
+      "reference": "Se non fosse così comune, questo sembrerebbe davvero molto più incredibile: sicuramente è più facile credere a ciò, dato che lo spirito umano è rispetto a quello divino, e il mutevole rispetto all’immutabile.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione distorce il significato originale: introduce elementi non presenti (superare capacità dell’umanità) e omette il confronto tra umano/divino e mutevole/immutabile. Il senso complessivo è solo parzialmente mantenuto.",
+        "Fluency": "Il testo è grammaticalmente corretto e comprensibile, ma alcune scelte lessicali risultano poco naturali e leggermente forzate.",
+        "Style": "Lo stile è generalmente scorrevole ma manca di naturalezza e modernità; alcune espressioni risultano innaturali per l’italiano contemporaneo.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e uno stile poco naturale. Accettabile ma non pienamente fedele né elegante."
+      }
+    },
+    {
+      "id": 29,
+      "source": "che prendessero la paga dal camarlingo per loro dispensa et immantenente andassero alla presenzia di messer lo papa per contradiare il passamento de' cavalieri che veniano di Cecilia in Toscana",
+      "prediction": "I quali ricevevano il compenso dal camerlingo per i loro servigi e, rimasti indietro, andarono a vedere messer Papa per contrastare il passaggio dei cavalieri che provenivano da Cecilia in Toscana.",
+      "reference": "che ricevessero il salario dal tesoriere per le loro spese e subito si recassero alla presenza di messer il papa per opporsi al passaggio dei cavalieri che arrivavano dalla Sicilia in Toscana",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono imprecisi: 'rimasti indietro' non corrisponde a 'immantenente', e 'per i loro servigi' non riflette 'per loro dispensa'. Tuttavia, il senso generale è mantenuto.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben strutturato.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente standardizzato rispetto all'originale. Manca un po' di vivacità, ma risulta comunque umano.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma alcune imprecisioni semantiche riducono la fedeltà al testo originale."
+      }
+    },
+    {
+      "id": 30,
+      "source": "Teseo reguardò Achelao fortemente meravigliandose e disse così: \"O messer Achelao, io vi prego che voi me diciate in che modo voi perdeste",
+      "prediction": "L’uccello, che hae impiastrato ali, non ha giorni di notte né di giorno.",
+      "reference": "Teseo guardò Achelao con grande stupore e disse: \"Signor Achelao, vi prego di dirmi in che modo avete perso.\"",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 5,
+        "Style": 2,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation is completely unfaithful; it introduces unrelated content about a bird and omits all original meaning and context.",
+        "Fluency": "The sentence is grammatically correct and fluent in modern Italian, but this does not compensate for the lack of faithfulness.",
+        "Style": "The style is natural and idiomatic but irrelevant to the source text, as the content is unrelated.",
+        "Overall": "Despite fluency, the translation fails to convey any of the original meaning, rendering it unusable for the intended purpose."
+      }
+    },
+    {
+      "id": 31,
+      "source": "Io spero in messer Iesù di mandare tosto a voi Timoteo, acciocché io sia d'animo buono",
+      "prediction": "I spero nel signore Gesù che Timoteo venga presto da voi, affinché io possa essere tranquillo.",
+      "reference": "Confido in Gesù che presto potrò mandarvi Timoteo, così che io possa essere tranquillo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma cambia il soggetto dell’azione: nell’originale si spera di mandare Timoteo, mentre nella traduzione si spera che Timoteo venga. Questo altera leggermente il senso.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori sintattici o lessicali.",
+        "Style": "Il tono è naturale e moderno, senza rigidità o artificiosità. Risulta leggibile e umano.",
+        "Overall": "La traduzione è fluente e naturale, ma la modifica del soggetto dell’azione riduce la fedeltà al testo originale."
+      }
+    },
+    {
+      "id": 32,
+      "source": "sanza fallo lo porco salvatico avanza l' uomo d' udire e 'l lupo cerviere del vedere",
+      "prediction": "Ipocondriaci, il maiale selvatico supera gli uomini nel rendere sordi o ciechi al suono o alla vista.",
+      "reference": "Senza dubbio il cinghiale supera l’uomo nell’udito e il lupo cerviere nella vista.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è stato frainteso: il testo originale parla di superiorità sensoriale di animali rispetto all’uomo, non di rendere sordi o ciechi. Presente anche un errore sull’animale (lupo cerviere).",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, anche se la costruzione è un po’ forzata per il contesto.",
+        "Style": "Lo stile è moderno e scorrevole, ma l’uso di 'ipocondriaci' e la struttura risultano innaturali rispetto al registro richiesto.",
+        "Overall": "La traduzione è fluente ma il senso originale è stato distorto, con errori di interpretazione e stile poco adatto."
+      }
+    },
+    {
+      "id": 33,
+      "source": "uno luogo si mandano lancioni;  la quale cosa i cavalieri l' appellano capo di porco",
+      "prediction": "I cavaliere chiamavano \"capo di maiale\" quel luogo dove si andava a scontrare.",
+      "reference": "un luogo dove si mandano i lancioni; cosa che i cavalieri chiamano 'testa di porco'",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono cambiati: 'lancioni' (lance) è omesso, e il soggetto è reso impersonale invece che specifico. Il senso generale è mantenuto ma con perdita di dettagli.",
+        "Fluency": "La frase è scorrevole e grammaticalmente corretta in italiano moderno, senza errori evidenti.",
+        "Style": "Il testo è naturale e moderno, ma la scelta di 'capo di maiale' invece di 'capo di porco' è una lieve modernizzazione non necessaria.",
+        "Overall": "La traduzione è fluida e comprensibile, ma perde dettagli chiave e modifica termini specifici. Accettabile ma non pienamente fedele."
+      }
+    },
+    {
+      "id": 34,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "strughi le reti per ai cerbi e sa bene dove abitare il maiale selvaggio.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono stati travisati: \"strughi\" non è corretto per \"tende\" e \"maiale selvaggio\" non rende il senso di \"furioso cinghiale\". Anche \"dove abitare\" è scorretto.",
+        "Fluency": "La frase contiene errori grammaticali: \"strughi le reti per ai cerbi\" e \"dove abitare\" non sono forme corrette in italiano moderno.",
+        "Style": "Il testo risulta innaturale e poco scorrevole, con costruzioni non idiomatiche e termini impropri per il registro moderno.",
+        "Overall": "La traduzione presenta errori di senso e forma che compromettono la comprensione e la naturalezza del testo."
+      }
+    },
+    {
+      "id": 35,
+      "source": "Ora spaventerai li disidirosi cervi con varie e diverse paure, o lo porco cenghiare caggia in terra passato collo spiedo.",
+      "prediction": "I cervi desiderosi saranno spaventati da vari e diversi timori, oppure il cinghiale cadrà a terra trafitto dall’spiedo.",
+      "reference": "Ora spaventerai i desiderosi cervi con varie e diverse paure, oppure il cinghiale cadrà a terra trafitto dallo spiedo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma omette l'imperativo iniziale \"ora spaventerai\" e riformula la seconda parte, perdendo la costruzione originale. L'articolo \"l’spiedo\" è errato.",
+        "Fluency": "La frase è generalmente fluida, ma l’errore \"l’spiedo\" interrompe la lettura e la sintassi è leggermente rigida nella prima parte.",
+        "Style": "Il tono è moderno ma un po' piatto e meccanico. Manca la vivacità dell’originale e la resa è poco naturale.",
+        "Overall": "Traduzione comprensibile ma con errori e perdita di stile e struttura originale. Accettabile ma migliorabile."
+      }
+    },
+    {
+      "id": 36,
+      "source": "tratta la natura delle cose incorporali le quali non conversano intra lle corpora, sì come Dio e le divine cose.",
+      "prediction": "I corpi inanimati non sono affatto simili alle cose incorporate, come Dio e le cose divine.",
+      "reference": "tratta della natura delle cose incorporee, che non si trovano tra i corpi, come Dio e le realtà divine.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione travisa il significato: parla di \"corpi inanimati\" invece che di \"cose incorporali\" e omette il concetto di non conversare tra i corpi. La modernizzazione è inaccurata.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma la scelta lessicale non riflette l'originale. Manca precisione terminologica.",
+        "Overall": "La traduzione è fluente ma poco fedele: il senso originale è in parte perso, nonostante la buona forma."
+      }
+    },
+    {
+      "id": 37,
+      "source": "Dio, per la quale si dispensano et iudicano tutte le cose.",
+      "prediction": "Imbarciatevi, signori, con Dio, per cui siete dispensati e giudicati di tutte le cose.",
+      "reference": "Dio, per il quale tutte le cose sono distribuite e giudicate.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione aggiunge elementi non presenti nell'originale (\"Imbarciatevi, signori\") e modifica il soggetto e il senso della frase. Il significato di \"dispensare e giudicare tutte le cose\" riferito a Dio viene distorto.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma l'inserimento di \"Imbarciatevi, signori\" risulta fuori contesto rispetto all'originale.",
+        "Style": "Lo stile è naturale e moderno, ma l'aggiunta di elementi estranei rende la resa meno fedele al tono sobrio dell'originale.",
+        "Overall": "La traduzione è fluente e stilisticamente accettabile, ma distorce il significato originale introducendo elementi non presenti."
+      }
+    },
+    {
+      "id": 38,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "I poeti, parlando di lui, dicono le sue virtù e dicono i suoi difetti in maniera fantastica, quando qualche altra lo superava nel compito affidatogli.",
+      "reference": "Perciò i poeti, parlando di loro, descrivono le loro virtù e raccontano in modo fiabesco i loro difetti, quando qualcuno di loro superava il limite a cui era destinato.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: 'di lui' invece di 'di loro', e 'qualche altra lo superava nel compito affidatogli' distorce 'quando alcuna passava l'ordine a loro deputato'. Il senso generale è mantenuto, ma ci sono imprecisioni.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. L'italiano è moderno e comprensibile, senza errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, ma alcune scelte ('in maniera fantastica') risultano leggermente meno eleganti rispetto a un testo umano raffinato.",
+        "Overall": "La traduzione è fluente e leggibile, ma presenta alcune imprecisioni di senso che ne riducono la fedeltà. Nel complesso è accettabile, ma non eccellente."
+      }
+    },
+    {
+      "id": 39,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "I quella cosa, che è diretta e onesta, e solo con la virtù, considero essere il bene.",
+      "reference": "E penso che solo ciò che è giusto, onesto e fatto con virtù sia davvero il bene.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma l'ordine logico è leggermente alterato e 'solo con la virtù' non corrisponde esattamente all'originale, che indica che solo ciò che è diretto, onesto e virtuoso è bene.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma la costruzione è un po' rigida e poco naturale in italiano moderno.",
+        "Style": "Lo stile è leggermente artificiale e risente di una struttura troppo vicina all'originale, risultando poco scorrevole per un lettore moderno.",
+        "Overall": "Traduzione fedele e comprensibile, ma manca di naturalezza e presenta lievi imprecisioni semantiche e stilistiche."
+      }
+    },
+    {
+      "id": 40,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "I serpenti avvelenavano qualche Romano ogni giorno, e allora era una meraviglia vedere come i Psilli si difendevano dal veleno, poiché neutralizzavano tutto con la loro saliva.",
+      "reference": "Quando i serpenti avvelenavano di giorno qualche Romano, era davvero sorprendente vedere come i Psilli si opponevano al veleno, perché lo annullavano completamente con la loro saliva.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben mantenuto, con una modernizzazione accurata. L'unica lieve perdita è la resa di \"imolavano tutto inazzi della loro salive\", che diventa \"neutralizzavano tutto con la loro saliva\", ma il senso generale è rispettato.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e pienamente comprensibile in italiano moderno. Non ci sono errori o costruzioni innaturali.",
+        "Style": "Il testo appare naturale e moderno, con una buona resa stilistica che rispetta il tono narrativo dell'originale. Nessuna rigidità o artificiosità.",
+        "Overall": "La traduzione è fedele, fluente e stilisticamente naturale. Modernizza efficacemente il testo mantenendo il significato e il tono."
+      }
+    },
+    {
+      "id": 41,
+      "source": "Dice il poeta: oh, che bella cosa è vedere apertamente con gli occhi quando tu glel fai diretro o in culo o in altro",
+      "prediction": "I poeti dicono: oh, che cosa meravigliosa è vedere chiaramente con gli occhi quando lo fai dietro o nel sedere o altrove.",
+      "reference": "Dice il poeta: oh, che cosa meravigliosa è vedere chiaramente con i propri occhi quando tu glielo fai dietro, o nel sedere, o altrove.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma passa da singolare a plurale (“i poeti dicono”) e omette il pronome “tu” che rende la frase meno personale. Tuttavia, il senso principale è preservato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, con sintassi moderna e comprensibile. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più impersonale rispetto all’originale. Manca un po’ della vivacità dell’originale, ma resta umano.",
+        "Overall": "Traduzione fedele e fluida, con minime differenze stilistiche e di soggetto. Comprensibile e ben resa nel complesso."
+      }
+    },
+    {
+      "id": 42,
+      "source": "ma pur questo fu colpa tua, però che volesti cercare di vedere con gli occhi corporali la cosa invisibile.",
+      "prediction": "Imbecchiò questa comunque essere colpa tua, perché hai voluto cercare di vedere con gli occhi del corpo ciò che è invisibile.",
+      "reference": "Ma comunque questa è stata colpa tua, perché hai voluto cercare di vedere con gli occhi del corpo ciò che è invisibile.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "L'inizio 'Imbecchiò questa' è un errore di comprensione e modernizzazione; il significato originale viene distorto. Il resto della frase è fedele, ma l'errore iniziale compromette la resa.",
+        "Fluency": "La frase è comprensibile ma l'inizio risulta grammaticalmente scorretto e innaturale. Il resto è fluente e corretto.",
+        "Style": "Lo stile è generalmente moderno, ma l'errore iniziale ('Imbecchiò questa') rende il testo poco naturale e meno simile a una resa umana.",
+        "Overall": "La traduzione è comprensibile ma compromessa da un errore iniziale che ne limita la fedeltà, la fluidità e la naturalezza."
+      }
+    },
+    {
+      "id": 43,
+      "source": "Vero è, ma non tine rispondo in questo tempo, perciò che ttu se' mio servo, o perciò ch' è tempo feriato, o perciò ch' io non debbo risponderti",
+      "prediction": "impressione: È vero, ma non ti rispondo subito perché tu sei il mio schiavo, o perché è un tempo festivo, o perché non devo rispondere a me.",
+      "reference": "È vero, ma non ti rispondo in questo momento, sia perché sei mio servitore, sia perché è un giorno festivo, sia perché non sono tenuto a risponderti.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono travisati: \"impressione\" è fuori luogo, \"schiavo\" è troppo forte rispetto a \"servo\", e \"non devo rispondere a me\" è un errore rispetto a \"non debbo risponderti\". Parziale perdita di significato.",
+        "Fluency": "La frase è generalmente comprensibile, ma \"impressione:\" all'inizio è fuori contesto e \"non devo rispondere a me\" è grammaticalmente scorretto.",
+        "Style": "Il tono è per lo più moderno, ma l'inserimento di \"impressione:\" e alcune scelte lessicali rendono il testo innaturale e poco elegante.",
+        "Overall": "La traduzione è comprensibile ma contiene errori semantici e stilistici che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": 44,
+      "source": "sì convene che lli desse grande avere perché · lasciasse andare via.",
+      "prediction": "Ili gli voleva dare molto denaro perché lo lasciasse andare.",
+      "reference": "Fu necessario che gli desse una grande somma di denaro perché lo lasciasse andare via.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione perde il senso di necessità ('sì convene') e introduce un soggetto errato ('Ili' invece di 'gli'). Il significato generale è comprensibile ma impreciso.",
+        "Fluency": "La frase è grammaticalmente corretta, ma l'uso di 'Ili' è scorretto e rende la frase meno fluida.",
+        "Style": "La traduzione è comprensibile ma appare poco naturale a causa del soggetto errato e della costruzione leggermente rigida.",
+        "Overall": "La traduzione è accettabile ma presenta errori di soggetto e perde sfumature di senso, risultando solo parzialmente fedele e naturale."
+      }
+    },
+    {
+      "id": 45,
+      "source": "notabile esemplo a ciascuno che si guardasse di fare e di pensar tradigione, il servo, il quale gli avea accusati, fu francato, e fugli donata grande quantità di moneta",
+      "prediction": "I servi che lo avevano accusati furono liberati e ricevettero una grande quantità di denaro come ricompensa per aver svelato la verità.",
+      "reference": "Un esempio importante per chiunque a stare attento a non commettere o anche solo pensare a un tradimento: il servo che li aveva accusati fu liberato e gli fu data una grande somma di denaro.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la parte esortativa e morale dell'esempio e trasforma il singolare 'servo' in plurale 'servi', alterando il significato. La ricompensa è resa correttamente.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben strutturato.",
+        "Style": "Lo stile è naturale e moderno, ma leggermente impersonale rispetto al tono originale. Manca l'enfasi morale presente nel testo antico.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma presenta gravi problemi di fedeltà semantica, con omissioni e alterazioni rilevanti."
+      }
+    },
+    {
+      "id": 46,
+      "source": "che sarebbe a llui cosa sconcia se ll'avesse commesso sì che lla colpa del servo e 'l gastigamento di Platone avesse meritato egualmente.",
+      "prediction": "Imbarocciarebbe il servo se lo avessi aiutato nell’esecuzione della colpa, tanto da meritare allo stesso modo la colpa del servo e la punizione di Platone.",
+      "reference": "che per lui sarebbe stato vergognoso se lo avesse fatto, tanto che avrebbe meritato allo stesso modo la colpa del servo e la punizione di Platone.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è stato in parte travisato: \"imbarocciarebbe il servo\" non corrisponde a \"sarebbe cosa sconcia per lui\". L'aiuto nell’esecuzione della colpa è un'aggiunta non presente nel testo originale.",
+        "Fluency": "La frase è grammaticalmente corretta, ma alcune scelte lessicali (\"imbarocciarebbe\") risultano poco chiare e innaturali in italiano moderno.",
+        "Style": "Il lessico è forzato e poco naturale. Il tono non rispecchia quello di una traduzione moderna e scorrevole.",
+        "Overall": "La traduzione è parzialmente fedele e comprensibile, ma presenta errori di interpretazione e uno stile poco naturale."
+      }
+    },
+    {
+      "id": 47,
+      "source": "mostroe massimamente le forze sue, dando lui re a questa cittade ne la quale nacque servo; al quale avvenne lunghissimamente lo imperio tenere",
+      "prediction": "struse con grande forza le sue capacità, diventando re di questa città nella quale era nato schiavo; e a lui accadde di mantenere il potere per molto tempo.",
+      "reference": "mostrò al massimo le sue capacità, diventando re di questa città nella quale era nato come schiavo; e a lui toccò di mantenere il potere per moltissimo tempo",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'struse' per 'mostroe' è un errore di interpretazione; inoltre, 'forze sue' diventa 'le sue capacità', che è accettabile ma meno letterale. Il resto è fedele.",
+        "Fluency": "La frase è grammaticalmente corretta e scorre bene, senza errori evidenti. La costruzione è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente meno elegante rispetto all'originale. Tuttavia, risulta umano e scorrevole.",
+        "Overall": "La traduzione è generalmente fedele e molto fluente, ma un errore di interpretazione ('struse') abbassa la valutazione complessiva."
+      }
+    },
+    {
+      "id": 48,
+      "source": "l' anima muta la sua forza per la propietade di quello corpo a cui ella si congiunge.",
+      "prediction": "I' animo, essendo muto, esercita la sua forza per il fatto che è collegato a quel corpo.",
+      "reference": "L'anima cambia la sua forza in base alle caratteristiche del corpo a cui si unisce.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione fraintende il soggetto ('anima' diventa 'animo') e il verbo ('muta' diventa 'essendo muto'), distorcendo il significato originale. La relazione causale è resa in modo impreciso.",
+        "Fluency": "La frase è grammaticalmente corretta ma presenta una costruzione poco naturale ('essendo muto') che rende il testo ambiguo e meno scorrevole.",
+        "Style": "Lo stile è rigido e poco naturale; l'uso di 'essendo muto' risulta innaturale in italiano moderno e non trasmette eleganza.",
+        "Overall": "La traduzione è comprensibile ma contiene errori di interpretazione e uno stile poco naturale, compromettendo la qualità complessiva."
+      }
+    },
+    {
+      "id": 49,
+      "source": "sono due già non in una carne, ma in uno spirito, cioè Iddio, e l' anima. Onde in altro luogo dice S. Paolo: Chi s' accosta a Dio è uno spirito",
+      "prediction": "I due sono già non nella stessa pelle, ma nello stesso spirito, cioè Dio. Perciò in un altro posto San Paolo dice: Chi si avvicina a Dio è come un spirito.",
+      "reference": "sono ormai due, non più una sola carne, ma un solo spirito, cioè Dio e l’anima. Perciò, in un altro passo, San Paolo dice: Chi si unisce a Dio è un solo spirito con Lui.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono stati persi o modificati: \"nella stessa pelle\" non corrisponde a \"una carne\" e manca \"l'anima\" nella spiegazione. L'ultima frase cambia \"uno spirito\" in \"come un spirito\".",
+        "Fluency": "Il testo è grammaticalmente corretto e comprensibile, ma alcune scelte lessicali risultano leggermente innaturali, come \"nella stessa pelle\".",
+        "Style": "Lo stile è generalmente scorrevole, ma alcune espressioni sono poco naturali e allontanano il testo dalla sensibilità moderna.",
+        "Overall": "Traduzione comprensibile ma con errori di fedeltà e alcune scelte stilistiche poco naturali. Accettabile ma migliorabile."
+      }
+    },
+    {
+      "id": 50,
+      "source": "per tanto che Lucano il disse, il vi racontiamo. Ivi, quando l'anima di Pompeo ebe sentito la chiarità di lasusso, ella sì cognobe prima in  grande",
+      "prediction": "Istruisci:",
+      "reference": "Poiché così racconta Lucano, ve lo narriamo anche noi. Lì, quando l’anima di Pompeo percepì la luce dall’alto, fu allora che la riconobbe pienamente.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione è completamente assente, quindi nessun significato è stato preservato o modernizzato.",
+        "Fluency": "Non c'è testo tradotto da valutare per grammatica o sintassi.",
+        "Style": "Manca qualsiasi resa stilistica, dato che la traduzione non è stata fornita.",
+        "Overall": "La traduzione è inesistente: nessun contenuto da valutare."
+      }
+    },
+    {
+      "id": 51,
+      "source": "Sicchè dolore è a udire, quando l' usare l' arme e la fatica ricusano, con grandissimo disonore come pecore essere",
+      "prediction": "Ipocrita! Quanto dolore è sentire quando si rinuncia all’ uso delle armi e della forza, rendendosi impotente come un agnello.",
+      "reference": "Quindi è doloroso da sentire, quando si rifiuta di usare le armi e di faticare, subendo così un grandissimo disonore, come essere delle pecore.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione aggiunge \"Ipocrita!\" e trasforma \"disonore\" in \"impotente\"; inoltre, \"come pecore\" diventa \"come un agnello\". Queste modifiche alterano il senso originale, con alcune omissioni e interpretazioni libere.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, senza errori evidenti. La frase è ben costruita e comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma l'aggiunta di \"Ipocrita!\" e la scelta di \"agnello\" rendono il tono meno fedele all'originale.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma alcune scelte lessicali e aggiunte alterano il significato originale, riducendo la fedeltà."
+      }
+    },
+    {
+      "id": 52,
+      "source": "et nonn ebbe in fastido Cristo cotali parole d'udire.",
+      "prediction": "I non riuscirono a sopportare di udire tali parole da Cristo.",
+      "reference": "E Cristo non provò fastidio ad ascoltare tali parole.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione attribuisce il fastidio a chi ascolta Cristo, non a Cristo stesso, invertendo il soggetto e cambiando il significato originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità.",
+        "Overall": "Nonostante la buona forma e stile, la traduzione distorce il significato originale invertendo soggetto e oggetto."
+      }
+    },
+    {
+      "id": 53,
+      "source": "la moltitudine de' quali tu ài potuto vedere e riguardare lo studio e poco dinanzi udire le voci, e lle cui mani e lance apena posso ritenere.",
+      "prediction": "I molti dei quali hai visto e guardato lo studio, e di cui le mani e la lancia solo appena potrai tenere serrate.",
+      "reference": "la moltitudine della quale hai potuto vedere e osservare l’impegno e poco fa sentire le voci, e le cui mani e lance a stento riesco a trattenere.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono stati omessi o alterati: manca il riferimento alle 'voci' udite poco prima e il senso di 'trattenere' le mani e le lance è reso meno chiaramente. Parziale fraintendimento del testo originale.",
+        "Fluency": "La frase è grammaticalmente corretta ma presenta una costruzione un po' rigida e poco scorrevole, soprattutto nella seconda parte.",
+        "Style": "Lo stile appare piuttosto meccanico e poco naturale, con alcune scelte lessicali che non risultano pienamente moderne o eleganti.",
+        "Overall": "La traduzione è comprensibile ma perde alcune sfumature importanti e risulta poco naturale sia nello stile che nella resa del significato."
+      }
+    },
+    {
+      "id": 54,
+      "source": "udire di belle novelle et odorare di belli fiori, come et quando et quanto si conviene",
+      "prediction": "I. Ascolta di bellissime storie e olora di bellissimi fiori, come, quando e quanto è conveniente.",
+      "reference": "ascoltare belle storie e sentire il profumo dei fiori, nel modo, nel momento e nella misura giusta",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"olora di bellissimi fiori\" è una resa troppo letterale e poco moderna di \"odorare di belli fiori\". \"Come, quando e quanto è conveniente\" è fedele ma un po' rigido.",
+        "Fluency": "La frase è grammaticalmente corretta, ma \"olora di bellissimi fiori\" non è naturale in italiano moderno. Il resto della frase è scorrevole.",
+        "Style": "Il tono è leggermente innaturale, specialmente per l'uso di \"olora\" che non si usa più in italiano moderno. Il resto è abbastanza fluido.",
+        "Overall": "Traduzione comprensibile e fedele, ma con scelte lessicali poco moderne che ne riducono la naturalezza."
+      }
+    },
+    {
+      "id": 55,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "I re entrarono in un giardino dietro il suo albergo, come se stesse riflettendo sulla risposta.",
+      "reference": "Il re entrò in un giardino dietro il suo alloggio, come se stesse riflettendo sulla risposta.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "C'è un errore: \"I re entrarono\" (plurale) invece di \"Il re entrò\" (singolare). Il resto del significato è mantenuto e modernizzato correttamente.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori sintattici o lessicali.",
+        "Style": "Lo stile è naturale e moderno, ma l'errore sul soggetto plurale riduce leggermente la naturalezza del testo.",
+        "Overall": "La traduzione è fluente e moderna, ma l'errore sul numero del soggetto compromette la fedeltà."
+      }
+    },
+    {
+      "id": 56,
+      "source": "Ma io disioso colà dove io non posso col corpo andare, con la mente vi volo",
+      "prediction": "Iso però, desideroso di essere là dove non posso andare con il corpo, ci vado con la mente.",
+      "reference": "Ma io, desideroso di essere là dove non posso andare fisicamente, ci vado con la mente.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma l'inizio 'Iso però' è una resa non standard di 'Ma io disioso', leggermente alterando il tono originale. Il resto è fedele e modernizzato correttamente.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma 'Iso però' risulta innaturale e poco idiomatico in italiano moderno.",
+        "Style": "Il tono è generalmente naturale, ma l'uso di 'Iso però' suona artificiale e poco umano. Il resto della frase è ben reso.",
+        "Overall": "Traduzione buona e comprensibile, con lievi problemi di resa iniziale che non compromettono il senso generale."
+      }
+    },
+    {
+      "id": 57,
+      "source": "Ed ecco di subito tutta questa turba degli uccelli si levò a volo dietro all'aquila",
+      "prediction": "Imbstrui, vediamo allora improvvisamente tutto questo stormo di uccelli salire in volo dietro l’aquila.",
+      "reference": "Ed ecco che improvvisamente tutto questo gruppo di uccelli si alzò in volo seguendo l'aquila.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "L'aggiunta di 'Imbstrui, vediamo allora' non è presente nell'originale e altera il significato. Il resto della frase mantiene il senso generale, ma non è del tutto fedele.",
+        "Fluency": "La frase è grammaticalmente corretta ma l'inizio ('Imbstrui, vediamo allora') è innaturale e confonde la comprensione.",
+        "Style": "Lo stile risulta innaturale e poco moderno a causa dell'inizio estraneo e della costruzione poco fluida.",
+        "Overall": "La traduzione è comprensibile ma presenta aggiunte non giustificate e uno stile poco naturale, compromettendo la qualità complessiva."
+      }
+    },
+    {
+      "id": 58,
+      "source": "Vede anche le ragioni del volo degli uccielli e di tutte le cose sa rendere vero giudicio.",
+      "prediction": "Igualmente vede le ragioni del volo degli uccelli e sa dare un giudizio veritiero su ogni cosa.",
+      "reference": "Osserva anche le ragioni del volo degli uccelli e sa giudicare con verità ogni cosa.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben mantenuto. L'aggiunta di 'igualmente' è una modernizzazione accettabile, anche se 'vede' potrebbe essere meglio reso come 'osserva'. Nel complesso, la modernizzazione è accurata.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno. Nessun errore sintattico o lessicale.",
+        "Style": "Il tono è naturale e moderno, con una scelta lessicale appropriata. La frase suona umana e non artificiale.",
+        "Overall": "Traduzione fedele, fluente e stilisticamente naturale. Nessun problema rilevante."
+      }
+    },
+    {
+      "id": 59,
+      "source": "Or ecco quanto per la sua superbia questo uccello volava in alto.",
+      "prediction": "Imbatta, e vedrai quanto questo uccello si sporge di superbia volando in alto.",
+      "reference": "Ecco fin dove questo uccello si spingeva in alto a causa della sua superbia.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione introduce \"Imbatta, e vedrai\" che non è presente nell'originale e omette la causa della superbia. Il senso generale è mantenuto, ma ci sono distorsioni.",
+        "Fluency": "La frase è grammaticalmente corretta, ma l'inizio \"Imbatta, e vedrai\" risulta poco naturale e forzato in italiano moderno.",
+        "Style": "Il tono è artificiale e poco scorrevole, specialmente l'uso di \"Imbatta\" che non si addice allo stile moderno.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di fedeltà e stile che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": 60,
+      "source": "Gorgone, e ho questa proprietà che io volo per l'aire sì come uno ucello\".",
+      "prediction": "I. Gorgonia, e ho questa caratteristica che volo nell'aria come un uccello.",
+      "reference": "Gorgone, e ho questa caratteristica: posso volare nell'aria come un uccello.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "The meaning is mostly preserved, but 'posso' (I can) is omitted, making the ability less explicit. Otherwise, the modernization is accurate.",
+        "Fluency": "The sentence is grammatically correct and easy to understand, with only a minor awkwardness due to the literal 'ho questa caratteristica'.",
+        "Style": "The translation is smooth but slightly mechanical, especially with 'ho questa caratteristica' instead of a more natural phrasing.",
+        "Overall": "A good translation with minor issues in naturalness and explicitness of ability, but overall faithful and readable."
+      }
+    },
+    {
+      "id": 61,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Imbstruisci nella matricola con il giuramento: per Dio, per Cristo, e per lo Spirito Santo.",
+      "reference": "quando vengono iscritti nell'elenco giurano su Dio, su Cristo e sullo Spirito Santo",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è parzialmente preservato: manca il riferimento temporale (“quando”) e la formula “imbstruisci” non corrisponde a “si scrivono”. L’atto del giuramento è reso, ma la struttura è alterata.",
+        "Fluency": "La frase è grammaticalmente corretta, ma l’uso di “imbstruisci” è insolito e poco chiaro in italiano moderno, rendendo la frase poco scorrevole.",
+        "Style": "Il tono è rigido e poco naturale. L’espressione “imbstruisci nella matricola con il giuramento” non suona moderna né idiomatica.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e scarsa naturalezza stilistica. Non è del tutto fedele né fluida."
+      }
+    },
+    {
+      "id": 62,
+      "source": "per necessitade i' ridico ke, secondo il comandamento tuo, padre santo Agostino, le battaglie già state nel mondo [..]",
+      "prediction": "struggendo per necessità, riporto che, secondoi il tuo comando, san Agostino ha combattuto le battaglie già esistite nel mondo.",
+      "reference": "Per necessità ripeto che, secondo il tuo comandamento, padre santo Agostino, le battaglie che ci sono già state nel mondo [...]",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono travisati: \"struggendo per necessità\" non corrisponde a \"per necessitade i' ridico\" e \"ha combattuto le battaglie\" è un errore rispetto al testo originale, che non indica Agostino come combattente.",
+        "Fluency": "La frase è grammaticalmente corretta ma presenta scelte lessicali insolite (\"struggendo per necessità\") e un uso scorretto di \"secondoi\".",
+        "Style": "Lo stile è un po' rigido e innaturale, con termini poco appropriati al registro moderno (\"struggendo per necessità\").",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e scelte stilistiche poco naturali."
+      }
+    },
+    {
+      "id": 63,
+      "source": "molto di maggiore memoria saranno faccendole al re, perciò che nella nostra cittade sempre fue santo e glorioso il nome reale, e sse furono compagni fue il loro nome santissimo;",
+      "prediction": "I compagni del re, avendo vissuto sempre in nostra città con il nome santo e glorioso, saranno di maggiore importanza per il re.",
+      "reference": "Sarà ricordato molto di più se lo si farà per il re, perché nella nostra città il nome reale è sempre stato santo e glorioso, e se furono suoi compagni, anche il loro nome fu santissimo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la parte sull'importanza di agire per il re e la relazione tra la memoria e il nome reale. Riduce il senso complessivo, concentrandosi solo sui compagni del re.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma la struttura è semplificata rispetto all'originale.",
+        "Style": "Il tono è moderno e naturale, ma la resa è troppo sintetica e manca della solennità dell'originale.",
+        "Overall": "La traduzione è fluente ma poco fedele e stilisticamente semplificata, con omissioni rilevanti di significato."
+      }
+    },
+    {
+      "id": 64,
+      "source": "Non voglio, che insuperbischi per lo santo proposito, e voto della verginità vedendo le sue laudi",
+      "prediction": "impresso dalla mia coscienza come cosa da vantare per il santo voto della verginità, non voglio che tu sia superba delle sue lodi.",
+      "reference": "Non voglio che si insuperbisca per il santo proposito e voto di verginità vedendo le sue lodi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono stati aggiunti o modificati: 'impresso dalla mia coscienza' non è presente nell'originale e cambia il soggetto. Il significato generale è comprensibile, ma ci sono deviazioni rilevanti.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, anche se leggermente complessa. Nessun errore evidente nella costruzione.",
+        "Style": "Il tono è moderno e naturale, ma l'aggiunta di elementi non presenti nell'originale rende lo stile meno fedele al testo di partenza.",
+        "Overall": "La traduzione è leggibile e moderna, ma deviazioni dal significato originale ne compromettono la fedeltà."
+      }
+    },
+    {
+      "id": 65,
+      "source": "Santo Agostino fece u· libro ch'avea nome \"Agostino Della Città di Dio\".",
+      "prediction": "Istruzione: San Agostino scrisse un libro intitolato \"Agostino della Città di Dio\".",
+      "reference": "Sant'Agostino scrisse un libro intitolato \"La Città di Dio\".",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The translation preserves the core meaning but introduces 'Istruzione' unnecessarily and repeats 'Agostino' in the book title, which is inaccurate. The original title refers to 'La Città di Dio.'",
+        "Fluency": "The sentence is grammatically correct and clear, but the initial 'Istruzione:' is out of place in the translation.",
+        "Style": "The translation is smooth and modern, but the inclusion of 'Istruzione:' and the awkward book title reduce its naturalness.",
+        "Overall": "The translation is understandable and mostly fluent, but inaccuracies in title rendering and unnecessary additions affect faithfulness and style."
+      }
+    },
+    {
+      "id": 66,
+      "source": "Gregorio. Non udii mai che egli avesse maestro; ma il dono dello Spirito Santo non si può stringere a legge.",
+      "prediction": "I. Gregorio. Non ho mai sentito che avesse un maestro; ma il dono dello Spirito Santo non può essere vincolato da una legge.",
+      "reference": "Gregorio. Non ho mai sentito che abbia avuto un maestro; ma il dono dello Spirito Santo non può essere limitato da una regola.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è pienamente preservato e modernizzato correttamente. L'unica differenza è la scelta di \"vincolato da una legge\" invece di \"limitato da una regola\", ma il senso resta fedele all'originale.",
+        "Fluency": "La frase è scorrevole e grammaticalmente corretta, senza errori. Il linguaggio è moderno e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, privo di rigidità o artificiosità. Suona come una traduzione umana.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente naturale. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": 67,
+      "source": "Verbigrazia: Mercatanti fiorentini passavano in nave per andare oltramare.",
+      "prediction": "I mercanti fiorentini navigavano in nave per andare all’estero.",
+      "reference": "Ad esempio: mercanti fiorentini viaggiavano in nave per andare oltremare.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"navigavano in nave\" è ridondante e \"all’estero\" non rende pienamente \"oltramare\", che indica territori oltre il mare, non genericamente l'estero.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma l'espressione \"navigavano in nave\" risulta poco naturale in italiano moderno.",
+        "Style": "Lo stile è scorrevole ma leggermente meccanico; l'uso di \"navigavano in nave\" appare poco elegante rispetto a soluzioni più naturali.",
+        "Overall": "Traduzione comprensibile e fedele nel complesso, ma con alcune scelte lessicali e stilistiche migliorabili."
+      }
+    },
+    {
+      "id": 68,
+      "source": "Quando averai nel cavaliere i detti segni veduti non andare a grandezza caendo, perchè nelle battaglie sono più utili i forti che i grandi.",
+      "prediction": "I segni visti nel cavaliere non dovresti vedere scomparsi facilmente, poiché nella battaglia sono più utile avere forza che essere grande.",
+      "reference": "Quando avrai visto questi segni nel cavaliere, non scegliere chi è solo grande di statura, perché nelle battaglie sono più utili i forti che i grandi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi semantici sono stati alterati: la frase \"non andare a grandezza caendo\" è resa come \"non dovresti vedere scomparsi facilmente\" i segni, che distorce il senso originale. Il resto è fedele.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma \"sono più utile avere forza che essere grande\" è poco scorrevole e leggermente innaturale.",
+        "Style": "Il tono è moderno ma manca di eleganza e risulta un po' meccanico, soprattutto nella seconda parte della frase.",
+        "Overall": "La traduzione è comprensibile ma presenta una parziale distorsione di significato e uno stile poco naturale."
+      }
+    },
+    {
+      "id": 69,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "I. E, cosa che è ancora più gravosa, cioè essere catturato o fuggire e lasciare vincere il tuo comune.",
+      "reference": "e, cosa ancora più grave, cioè essere catturato, oppure fuggire e lasciare che il proprio Comune venga sconfitto.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"il tuo comune\" è una modernizzazione eccessivamente personale rispetto all'originale \"suo Comune\" (più impersonale o collettivo).",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La costruzione è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma l'uso di \"il tuo comune\" suona leggermente meno formale rispetto al tono originale.",
+        "Overall": "Traduzione fedele e scorrevole, con una lieve imprecisione nella resa di \"suo Comune\". Nel complesso buona."
+      }
+    },
+    {
+      "id": 70,
+      "source": "Sappiate veramente, che se noi non ci fossimo sì affrettati del fuggire, noi saremmo tutti morti.",
+      "prediction": "Imbecchiatevi davvero che, se non ci fossimo affrettati a fuggire, saremmo tutti morti.",
+      "reference": "Sappiate davvero che, se non ci fossimo affrettati a fuggire, saremmo tutti morti.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Il verbo iniziale 'Imbecchiatevi' è un grave errore: non corrisponde a 'Sappiate' e altera il significato. Il resto della frase è fedele, ma l'errore iniziale compromette la correttezza semantica.",
+        "Fluency": "La frase è grammaticalmente corretta, ma l'uso di 'Imbecchiatevi' rende l'inizio incomprensibile e innaturale. Il resto è fluente.",
+        "Style": "L'errore nel verbo iniziale rende lo stile innaturale e poco umano. Il resto della frase è più naturale, ma l'inizio compromette l'impressione generale.",
+        "Overall": "L'errore nel verbo iniziale compromette gravemente la fedeltà e lo stile, pur mantenendo una struttura generalmente comprensibile."
+      }
+    },
+    {
+      "id": 71,
+      "source": "Tarco cretense che in aiuto era alli nimici avrebbe potuto fuggire, ma la vergogna d'abbandonare li nobilissimi cavalieri della gente achea poco avanti da lui",
+      "prediction": "I cittadini di Tarco, che erano accorrenti ad aiutare i nemici, potevano fuggire, ma l’umiliazione di abbandonare così i più illustri cavalieri della gente achea, era troppo grande per essere superata.",
+      "reference": "Tarco, il cretese, che era venuto in aiuto dei nemici, avrebbe potuto fuggire, ma la vergogna di abbandonare i nobilissimi cavalieri dell’esercito acheo, che erano poco avanti a lui, glielo impedì.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: 'Tarco cretense' diventa 'i cittadini di Tarco', e manca 'poco avanti da lui'. L'essenza è mantenuta, ma ci sono imprecisioni.",
+        "Fluency": "Il testo è scorrevole e grammaticalmente corretto, senza errori evidenti. La frase è ben strutturata e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più esplicativo rispetto all’originale. Manca un po’ di concisione, ma resta umano.",
+        "Overall": "La traduzione è fluente e naturale, ma presenta alcune imprecisioni semantiche che ne riducono la fedeltà all’originale."
+      }
+    },
+    {
+      "id": 72,
+      "source": "e l' acconciamento a fare grandissime cose, cioè a ttenere pace et amare Idio e 'l proximo, a ffare cittadi, castella e magioni",
+      "prediction": "struggono per fare cose di grande portata, cioè tenere la pace con Dio e gli altri, diventare cittadini, castelli e magioni.",
+      "reference": "e la disposizione a compiere grandissime imprese, cioè mantenere la pace e amare Dio e il prossimo, costruire città, castelli e dimore",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni significati sono distorti: \"diventare cittadini, castelli e magioni\" è un fraintendimento di \"fare cittadi, castella e magioni\" (costruire, non diventare). Manca anche \"amare Dio e il prossimo\".",
+        "Fluency": "Il testo è grammaticalmente corretto, ma la frase \"diventare cittadini, castelli e magioni\" risulta poco comprensibile e innaturale.",
+        "Style": "Il tono è moderno, ma la resa è innaturale e poco umana a causa della confusione semantica nella seconda parte della frase.",
+        "Overall": "La traduzione è parzialmente comprensibile ma contiene errori di interpretazione che ne compromettono la fedeltà e la naturalezza."
+      }
+    },
+    {
+      "id": 73,
+      "source": "colui che ancora non sa amare il prossimo come sé medesimo già cominci a temere i giudicii di Dio.",
+      "prediction": "Imbaroccato chi non sa ancora amare il prossimo come se stesso, cominciando a temere i giudizi di Dio.",
+      "reference": "Chi non sa ancora amare il prossimo come se stesso cominci almeno a temere il giudizio di Dio.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "L'aggiunta di 'Imbaroccato' non ha senso nel contesto e distorce il significato originale. L'ordine e la struttura della frase sono alterati, portando a una parziale perdita di significato.",
+        "Fluency": "La frase non è grammaticalmente corretta: 'Imbaroccato' è fuori luogo e la costruzione è confusa, rendendo difficile la comprensione.",
+        "Style": "Il tono è innaturale e la presenza di termini errati rende la frase poco umana e incoerente rispetto all'italiano moderno.",
+        "Overall": "La traduzione presenta gravi problemi di fedeltà, scorrevolezza e stile, risultando poco comprensibile e non adatta come versione moderna."
+      }
+    },
+    {
+      "id": 74,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "I raggiungimi gli uccelli dopo che hanno impiastrato le ali? Non fuggono facilmente, né il cinghiale selvatico esce facilmente dalle reti in cui cadono.",
+      "reference": "L'uccello, dopo che ha le ali impastoiate, non riesce a fuggire facilmente, né il cinghiale selvatico riesce a liberarsi bene dalle reti in cui è caduto.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The translation introduces errors: 'I raggiungimi gli uccelli' is incorrect and unrelated to the source; 'cinghiale selvatico' is correct, but 'esce facilmente' is a slight shift from 'bene.' The overall meaning is partially distorted.",
+        "Fluency": "The sentence is ungrammatical and confusing, especially the first part. The structure is awkward and not idiomatic modern Italian.",
+        "Style": "The translation feels unnatural and contains phrases that are not stylistically coherent with modern Italian, particularly the opening.",
+        "Overall": "Major faithfulness and fluency issues render the translation confusing and stylistically poor. The meaning is not reliably preserved."
+      }
+    },
+    {
+      "id": 75,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "I ci siamo aperti, e loro sono fuggiti. E che cosa significa che il tuo cuore debba restare chiuso al tuo sposo Cristo?",
+      "reference": "Io gli aprii, e quelli fuggirono. E che motivo c’è perché il tuo cuore resti chiuso al tuo sposo Cristo?",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The first sentence misinterprets the subject ('Io gli apersi' becomes 'I ci siamo aperti'), and 'che bisogno è' is rendered as 'che cosa significa', altering the meaning. The rest is generally preserved.",
+        "Fluency": "The translation is grammatically correct and easily understandable, with no major errors. The sentences flow well in modern Italian.",
+        "Style": "The style is smooth and modern, though slightly less elegant than a human translation might be. It reads naturally overall.",
+        "Overall": "The translation is fluent and natural but contains a significant faithfulness issue in the first sentence, affecting overall accuracy."
+      }
+    },
+    {
+      "id": 76,
+      "source": "E dunque, da che queste cose son così, Catellina, e tu non puoi buonamente qui dimorare, dubiti tu d'andartene in alcuna terra ed usare questa vita fuggendo per li diserti",
+      "prediction": "Icò, se queste cose sono così, Catellina, e tu non puoi vivere tranquillamente qui, dobbi dubitare se andare in qualche altra terra e vivere questa vita fuggendo attraverso i boschi o i campi.",
+      "reference": "E dunque, visto che stanno così le cose, Catilina, e tu non puoi davvero restare qui, esiti forse ad andartene in qualche altro paese e a condurre questa vita fuggendo per terre desolate?",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: 'buonamente' reso come 'tranquillamente' cambia il tono, e 'diserti' come 'boschi o campi' distorce il senso originale di luoghi desolati. Il significato generale è mantenuto, ma con imprecisioni.",
+        "Fluency": "La frase è generalmente scorrevole, ma 'dobbi dubitare se andare' è poco idiomatico e crea confusione. Alcune scelte lessicali risultano innaturali.",
+        "Style": "Il testo è comprensibile ma presenta rigidità e alcune espressioni poco naturali ('dobbi dubitare se andare'). Manca la fluidità di un italiano moderno.",
+        "Overall": "La traduzione è accettabile ma presenta imprecisioni semantiche e stilistiche che la rendono meccanica e poco naturale."
+      }
+    },
+    {
+      "id": 77,
+      "source": "Questi due, volendo contra la voglia del senato dimorare ne l'ufficio del tribunato, furono morti da la plebe, incitandola i padri coscritti.",
+      "prediction": "I due, volendo restare nell’ufficio di tribuno contro la volontà del senato, furono uccisi dal popolo, istigato dai senatori.",
+      "reference": "Questi due, volendo restare nell'incarico di tribuni contro la volontà del senato, furono uccisi dal popolo, istigato dai senatori.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene quasi integralmente il significato originale. 'Tribunato' reso come 'tribuno' è leggermente meno preciso, ma non distorce il senso. Modernizzazione corretta.",
+        "Fluency": "Il testo è scorrevole e grammaticalmente corretto, senza errori evidenti. La frase è ben costruita e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, con una resa fluida che appare umana. Solo una minima rigidità nella scelta di 'tribuno'.",
+        "Overall": "Traduzione fedele, fluida e naturale, con solo minime imprecisioni terminologiche che non compromettono la comprensione."
+      }
+    },
+    {
+      "id": 78,
+      "source": "i giovani, a cui il difendimento delle provincie, e la ventura di tutta la battaglia si commette",
+      "prediction": "I giovani, a cui viene affidato il difendersi delle province e il successo di tutta la battaglia.",
+      "reference": "i giovani, ai quali è affidata la difesa delle province e l’esito di tutta la battaglia",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'il difendersi delle province' è meno fedele rispetto a 'la difesa delle province'. 'Il successo' è una resa accettabile di 'la ventura', ma perde la sfumatura di 'esito' o 'sorte'.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La costruzione è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente meno elegante rispetto alla versione di riferimento. Rimane comunque fluido e umano.",
+        "Overall": "Traduzione buona, con minime imprecisioni semantiche. Il testo è fluente e naturale, ma alcune scelte lessicali potrebbero essere migliorate per maggiore fedeltà."
+      }
+    },
+    {
+      "id": 79,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "I romani presero nuovi nemici dalle montagne; contro i quali fu scontro con varie sorti di fortuna: perché nella prima battaglia, avendo consolato Valerio, morì uno dei Romani.",
+      "reference": "Dai monti dei Romani sorsero nuovi nemici, contro i quali si combatté con alterne fortune: infatti, nella prima battaglia, quando Valerio era console, morirono tremilacinquecento Romani.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Significant meaning loss: 'presero nuovi nemici' misinterprets 'si feciero nuovi nemici', omitting the sense of enemies arising. 'Morì uno dei Romani' is a major error, missing the number and scale of casualties. Several details are distorted or omitted.",
+        "Fluency": "The translation is mostly grammatical, but 'avendo consolato Valerio' is awkward and incorrect. Some phrases are unnatural, but the text remains readable overall.",
+        "Style": "The style is somewhat stiff and lacks the natural flow of modern Italian. Some phrases feel mechanical or awkward, especially the handling of historical expressions.",
+        "Overall": "Major faithfulness issues with key misinterpretations and omissions. While readable, the translation is not accurate or stylistically strong."
+      }
+    },
+    {
+      "id": 80,
+      "source": "noi iscaciati e dipartiti per debito dela cittade, e tutti iscaciati da fama e da ventura buona.",
+      "prediction": "strugiurìamoci e allontanatoci per decisione della città, e tutti privati della fama e della buona sorte.",
+      "reference": "noi esiliati e allontanati per debito dalla città, e tutti privati della fama e della buona sorte.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione altera il significato: \"strugiurìamoci\" non corrisponde a \"iscaciati\" (esiliati), e \"per decisione\" non rende \"per debito\". \"Privati della fama e della buona sorte\" è corretto.",
+        "Fluency": "Il testo è grammaticalmente corretto ma \"strugiurìamoci\" non è italiano moderno e risulta incomprensibile. Il resto della frase è fluente.",
+        "Style": "La frase suona innaturale a causa di \"strugiurìamoci\" e \"allontanatoci\"; manca scorrevolezza e modernità. Il tono è poco naturale.",
+        "Overall": "La traduzione è parzialmente fedele e comprensibile, ma contiene errori lessicali e stilistici che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": 81,
+      "source": "pregaste gli dei per me; e' vostri preghieri valsono: e se voi domandate chi ebbe ventura di questa battaglia; io non fui vinto da colui.",
+      "prediction": "Ivi aveete pregato gli dèi per me; le vostre preghiere valsero: e se chiedete chi ebbe fortuna in questa battaglia, io non fui sconfitto da lui.",
+      "reference": "Avete pregato gli dèi per me; le vostre preghiere sono valse: e se chiedete chi ha avuto fortuna in questa battaglia, io non sono stato sconfitto da lui.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben preservato e modernizzato. L'aggiunta di 'Ivi' è superflua ma non altera il senso. Tutti gli elementi chiave sono presenti e corretti.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. L'uso dei tempi verbali e della sintassi è appropriato per l'italiano moderno.",
+        "Style": "Il testo è naturale e moderno, con un tono umano. Solo 'Ivi' risulta leggermente arcaico, ma il resto è elegante.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente buona, con solo minime tracce di arcaicismo."
+      }
+    },
+    {
+      "id": 82,
+      "source": "una villa chiamata Vitermina, con ciò fosse cosa che piusori principi di scherani corressero per ventura a quel tempo a vederlo, Scipione, stimando che venissero per isforzarlo, allogò ne la casa",
+      "prediction": "Una villa chiamata Vitermina, poiché diversi capi di soldati si recarono casualmente in quel periodo a vederlo, Scipione, ritenendo che venissero per costringerlo, si rifugiò nella casa.",
+      "reference": "una villa chiamata Vitermina; poiché diversi capi di soldati, per caso, si recarono lì in quel periodo per vederlo, Scipione, pensando che fossero venuti per costringerlo, si rifugiò nella casa",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è sostanzialmente preservato, ma \"per ventura\" è reso come \"casualmente\", che è corretto ma perde una sfumatura di possibilità/fortuna. \"Allogò\" viene modernizzato come \"si rifugiò\", che è accettabile ma meno neutro.",
+        "Fluency": "La frase è ben costruita, scorrevole e grammaticalmente corretta. Non ci sono errori evidenti e la sintassi è moderna e chiara.",
+        "Style": "Il testo suona naturale e moderno, anche se leggermente più formale rispetto a una conversazione quotidiana. La resa è scorrevole e umana.",
+        "Overall": "Traduzione fedele e molto fluida, con minime perdite di sfumature. Nel complesso, la qualità è alta e il testo è pienamente comprensibile."
+      }
+    },
+    {
+      "id": 83,
+      "source": "contra lui e contra le sue sorelle  e contra il reame e contra l' alto pregio della sua ingenerazione e della sua familia",
+      "prediction": "strugliarono contro di lui e contro le sue sorelle e contro il regno e contro il grande onore dell’sua discendenza e della sua famiglia.",
+      "reference": "contro di lui, contro le sue sorelle, contro il regno e contro l'alto prestigio della sua stirpe e della sua famiglia",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The translation introduces 'strugliarono', which is not present in the original and alters the meaning. 'Alto pregio della sua ingenerazione' is rendered as 'grande onore della sua discendenza', which is a reasonable modernization but not exact. Some nuance is lost.",
+        "Fluency": "There is a grammatical error: 'dell’sua discendenza' should be 'della sua discendenza'. Otherwise, the sentence is readable and mostly correct.",
+        "Style": "The style is understandable but somewhat stiff and less elegant than natural modern Italian. The use of 'strugliarono' is awkward and not idiomatic.",
+        "Overall": "The translation is understandable but contains a semantic shift, a grammatical slip, and awkward phrasing. It is fair but not fully faithful or fluent."
+      }
+    },
+    {
+      "id": 84,
+      "source": "Allora che il navilio si fue impinto e messo in alto mare per andare diritto per mezo questo trapasso periglioso, l'aira divenne nuvolosa e pioveginosa",
+      "prediction": "Imbarcandosi nella nave e salendo in alto mare per attraversare direttamente questa passaggio pericoloso, l’aria divenne nuvolosa e cominciò a piovere.",
+      "reference": "Quando la nave fu spinta e portata in alto mare per attraversare direttamente questo passaggio pericoloso, il cielo divenne nuvoloso e iniziò a piovigginare.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono cambiati: 'imbarcandosi' implica un'azione personale non presente nell'originale; 'cominciò a piovere' è meno preciso di 'pioveginosa'. Tuttavia, il senso generale è mantenuto.",
+        "Fluency": "La frase è scorrevole e grammaticalmente corretta. La costruzione è moderna e facilmente comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più narrativo rispetto all’originale. Manca un po’ della sobrietà del testo medievale.",
+        "Overall": "Traduzione fedele e fluente, con minime imprecisioni semantiche e stilistiche. Comprensione piena garantita."
+      }
+    },
+    {
+      "id": 85,
+      "source": "ne salìo in su l'argine del fosso, e in su lo steccato, se da alto si potessero difendere, o per alcuna maniera passare oltre e scampare.",
+      "prediction": "Isalarono sull’argine del fossato e sulla palizzata, per vedere se dall’alto potevano difendersi o in qualche modo superare l’ostacolo e fuggire.",
+      "reference": "salirono sull'argine del fossato e sulla palizzata, per vedere se dall'alto potessero difendersi o, in qualche modo, passare oltre e fuggire.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben preservato, con una modernizzazione accurata. L'unica lieve variazione è 'superare l’ostacolo' invece di 'passare oltre', ma il senso resta invariato.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e pienamente comprensibile in italiano moderno.",
+        "Style": "Il testo risulta naturale e moderno, senza rigidità o artificiosità; la resa è fluida e umana.",
+        "Overall": "La traduzione è fedele, fluente e stilisticamente naturale. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": 86,
+      "source": "Ma l' occhio della intelligenza è più alto. Perciò che, passata la grandezza della universitade, quella medesima semplice forma vede nella sottil vista",
+      "prediction": "Istanza: Ma l’occhio dell’intelligenza è superiore. Poiché, superata la grandezza dell’università, vede quella stessa forma semplice con la sua acuta visione.",
+      "reference": "Ma l'occhio dell'intelletto è più elevato. Infatti, superata la grandezza dell'insieme, vede quella stessa forma semplice con una visione più sottile.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'università' per 'universitade' è fuorviante; sarebbe meglio 'insieme' o 'totalità'. 'Con la sua acuta visione' è una resa accettabile di 'nella sottil vista'.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, senza errori evidenti. La sintassi è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più tecnico rispetto all'originale. Manca un po' della raffinatezza del testo di riferimento.",
+        "Overall": "Traduzione fedele e fluida, con una scelta terminologica migliorabile su 'università', ma nel complesso chiara e leggibile."
+      }
+    },
+    {
+      "id": 87,
+      "source": "Et se l' occhio è nobile membro del corpo dell' uomo, dunque la salutazione è nobile parte della pistola, c' altressì allumina tutta la lettera come l' occhio allumina l' uomo.",
+      "prediction": "I. Se gli occhi sono membri nobili del corpo dell’uomo, allora la salutazione è una parte nobile della pistola, perché illumina tutta la lettera come gli occhi illuminano l’uomo.",
+      "reference": "E se l’occhio è una nobile parte del corpo umano, allora anche il saluto è una parte nobile della lettera, perché illumina tutta la lettera così come l’occhio illumina l’uomo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "There is a major semantic error: 'pistola' is used instead of 'lettera', distorting the meaning. The rest is generally preserved, but this is a significant mistake.",
+        "Fluency": "The sentence is grammatically correct and reads smoothly in modern Italian, with no major errors.",
+        "Style": "The style is natural and modern, but the mistranslation of 'pistola' slightly disrupts the naturalness of the text.",
+        "Overall": "The translation is fluent and mostly natural, but the key mistranslation of 'lettera' as 'pistola' is a serious issue."
+      }
+    },
+    {
+      "id": 88,
+      "source": "Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.",
+      "prediction": "I Tarentini, che erano nati da coloro di Sparta e da lui avevano ricevuto la cittadinanza greca.",
+      "reference": "I Tarantini, che erano originari di quelli di Sparta e che avevano fondato la loro nobile città greca.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma 'da lui avevano ricevuto la cittadinanza greca' non corrisponde a 'facta da lloro nobile cittade de' Greci', che si riferisce alla fondazione della città. C'è una parziale perdita di significato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole in italiano moderno, senza errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità evidenti.",
+        "Overall": "La traduzione è fluente e naturale, ma la fedeltà è compromessa da una parziale interpretazione errata di una parte del testo."
+      }
+    },
+    {
+      "id": 89,
+      "source": "Ulecois, ebe un uomo rico e nobile: Orgentore fue chiamato per nome.",
+      "prediction": "I cittadini di Ulecois avevano un uomo ricco e nobile: si chiamava Orgentore.",
+      "reference": "A Ulecois c'era un uomo ricco e nobile: si chiamava Orgentore.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma \"I cittadini di Ulecois\" è una modernizzazione interpretativa di \"Ulecois\" che non appare nell'originale, dove si indica solo il luogo. L'informazione principale resta intatta.",
+        "Fluency": "La frase è fluida, ben costruita e grammaticalmente corretta. Nessun errore evidente nella sintassi o nella scelta delle parole.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più esplicativo rispetto all'originale. Il tono è umano e scorrevole.",
+        "Overall": "Traduzione molto buona, fedele e moderna, con una piccola interpretazione aggiuntiva su \"i cittadini\". Comprensibile e naturale."
+      }
+    },
+    {
+      "id": 90,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "implicitamente, se una cosa nobile e alta è sconfiggere il nemico, non è meno lodevole sapere mostrare misericordia.",
+      "reference": "Poiché, se è nobile e grande cosa sconfiggere il nemico, non è meno degno di lode saper mostrare misericordia dopo.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma l'aggiunta di 'implicitamente' non è presente nell'originale e manca il riferimento temporale 'dopo'.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, senza errori evidenti.",
+        "Style": "Lo stile è moderno e naturale, anche se leggermente più formale rispetto all'originale.",
+        "Overall": "Traduzione fedele e fluida, con minime discrepanze semantiche e stilistiche rispetto all'originale."
+      }
+    },
+    {
+      "id": 91,
+      "source": "Alexandri, ciò è il genero e 'l figliuolo, da Phausonia, gentile iovane di Macedonia, stando in uno luogo strecto sanza guardia, fue morto.",
+      "prediction": "I sopravvissuti di Alessandro, cioè il marito e il figlio, da Faustonio, giovane macedone della nobiltà, all'interno di un posto stretto senza guardie, furono uccisi.",
+      "reference": "Alessandro, cioè il genero e il figlio di Phausonia, un nobile giovane della Macedonia, fu ucciso mentre si trovava in un luogo stretto e senza protezione.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione confonde i ruoli: trasforma \"Alexandri\" in \"i sopravvissuti di Alessandro\" e cambia i rapporti familiari. Anche \"Phausonia\" viene reso come \"Faustonio\" e il senso complessivo è distorto.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, con buona sintassi e lessico moderno. Nessun errore evidente nella costruzione.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità. Sembra scritto da un parlante nativo.",
+        "Overall": "Nonostante la buona forma e lo stile, la traduzione presenta errori sostanziali di comprensione e fedeltà al testo originale."
+      }
+    },
+    {
+      "id": 92,
+      "source": "Alchuno è riccho e gentile, ma lamentasi che vorebbe avere altra moglie che quella ch'egli à.",
+      "prediction": "Imbarocciato di risorse e gentile, lamentava che avrebbe voluto avere un’altra moglie rispetto a quella che aveva.",
+      "reference": "C'è qualcuno che è ricco e di buona famiglia, ma si lamenta perché vorrebbe avere un'altra moglie rispetto a quella che ha.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma 'imbarocciato di risorse' è una resa errata di 'ricco', distorcendo il senso originale. Il resto della frase è fedele.",
+        "Fluency": "La frase è grammaticalmente corretta, ma l'uso di 'imbarocciato di risorse' rende il testo poco naturale e crea confusione.",
+        "Style": "Lo stile è generalmente moderno, ma l'espressione iniziale è innaturale e poco umana. Il resto è scorrevole.",
+        "Overall": "La traduzione è comprensibile ma compromessa da una scelta lessicale errata che ne limita la fedeltà e la naturalezza."
+      }
+    },
+    {
+      "id": 93,
+      "source": "Pietro, essendogli mostrato in figura il populo Gentile, sì gli fu detto: ammazza, e mangia",
+      "prediction": "Icorpo a Pietro venne mostrata in forma il popolo gentile. Allora gli disse: uccidi e mangia.",
+      "reference": "A Pietro, dopo che gli fu mostrato in visione il popolo dei Gentili, fu detto: uccidi e mangia.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The meaning is mostly preserved, but 'Icorpo a Pietro' is an error, and 'in forma' is less accurate than 'in visione.' Minor nuance loss in 'popolo gentile' vs. 'popolo dei Gentili.'",
+        "Fluency": "The sentence contains grammatical errors ('Icorpo a Pietro' is ungrammatical), and 'in forma' is awkward. The rest is understandable but not smooth.",
+        "Style": "The translation is stiff and contains unnatural phrasing, especially at the beginning. It does not read like idiomatic modern Italian.",
+        "Overall": "The translation is understandable but marred by errors and awkward phrasing. It partially preserves meaning but lacks fluency and naturalness."
+      }
+    },
+    {
+      "id": 94,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "I pregati di liberarlo dall’obbligo nella cui condizione era rimasto legato. Il gentiluomo accettò e lo liberò, e ne fece una dichiarazione scritta.",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione in cui lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento scritto.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è preservato, ma \"I pregati\" è una resa errata di \"pregollo\" (dovrebbe essere \"gli chiese\"). Il resto è fedele e ben modernizzato, salvo questa imprecisione iniziale.",
+        "Fluency": "La frase iniziale è poco fluida e grammaticalmente scorretta (\"I pregati di liberarlo\"). Il resto del testo è scorrevole e corretto.",
+        "Style": "Lo stile è generalmente moderno, ma l'inizio risulta innaturale e poco umano. Il resto mantiene un tono adeguato e naturale.",
+        "Overall": "La traduzione è comprensibile ma presenta un errore significativo all'inizio che ne compromette la qualità complessiva. Il resto è ben reso."
+      }
+    },
+    {
+      "id": 95,
+      "source": "L'oro verrà dall'Aquilone. Che figuriamo noi per l'Aquilone, se non il populo Gentile congelato dal freddo del peccato, il qual populo tenne sotto il giogo della sua tirannia",
+      "prediction": "struggono contro l’oro proveniente dall’Est. Chi ci immagini come l’Est? Il popolo gentile sottoposto alla tirannide di colui che lo ha tradito, lasciandolo cadere nella schiena per l’avversità del suo peccato.",
+      "reference": "L'oro verrà dal Nord. E cosa rappresentiamo noi con il Nord, se non il popolo pagano, irrigidito dal freddo del peccato, quel popolo che fu tenuto sotto il giogo della sua tirannia?",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono travisati: 'Aquilone' (Nord) è reso come 'Est', e il senso di 'congelato dal freddo del peccato' è perso. La tirannia è attribuita a un traditore, non al peccato. Presenza di omissioni e distorsioni.",
+        "Fluency": "Il testo è grammaticalmente corretto e comprensibile, ma alcune frasi risultano leggermente forzate ('lasciandolo cadere nella schiena'). Nel complesso, la lettura è fluida.",
+        "Style": "Lo stile è generalmente naturale, ma alcune scelte lessicali ('cadere nella schiena') suonano innaturali e poco moderne. Manca l'eleganza della prosa moderna.",
+        "Overall": "La traduzione è comprensibile ma contiene errori di interpretazione e alcune scelte stilistiche poco felici. Non è completamente fedele né stilisticamente raffinata."
+      }
+    },
+    {
+      "id": 96,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "struggi tra di noi: con noi non puoi più tranquillamente restare, perché non lo farò soffrire e non lo lascerò.",
+      "reference": "sia tra me e te: con noi non puoi più restare, perché io non lo permetterò e non lo tollererò.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi di significato sono stati alterati: 'struggi tra di noi' non corrisponde a 'sia in mezzo tra me e te', e 'tranquillamente' non è presente nell'originale. Il resto è in parte fedele.",
+        "Fluency": "Il testo è grammaticalmente corretto e comprensibile, ma l'uso di 'struggi tra di noi' risulta poco chiaro e innaturale.",
+        "Style": "Il tono è generalmente moderno, ma alcune scelte lessicali ('struggi tra di noi') risultano innaturali e poco umane.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di fedeltà e alcune scelte stilistiche poco naturali."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3.093,
+      "std": 0.909
+    },
+    "Fluency": {
+      "mean": 4.01,
+      "std": 1.05
+    },
+    "Style": {
+      "mean": 3.412,
+      "std": 0.928
+    },
+    "Overall": {
+      "mean": 3.206,
+      "std": 0.919
+    }
+  }
+}

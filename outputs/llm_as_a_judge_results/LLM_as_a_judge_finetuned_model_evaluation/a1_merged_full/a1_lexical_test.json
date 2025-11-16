@@ -1,0 +1,121 @@
+{
+  "model_name": "a1_merged_full",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "molto inutile chiedersi chi avesse scritto questo Libro, in quanto è necessario tenere presente che l'Autore reale poteva essere lo Spirito Santo.",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette l'aspetto della fede (“fedelmente si debba credere”) e trasforma il senso da dovere credere a “tenere presente”. Anche il tono di necessità è attenuato. Parziale perdita di significato.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, senza errori evidenti. La frase è ben costruita e facilmente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente meno solenne rispetto all’originale. Manca un po’ della gravità del testo antico, ma resta umano.",
+        "Overall": "La traduzione è fluente e naturale, ma perde una sfumatura importante di significato legata alla fede. Complessivamente accettabile, ma non pienamente fedele."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "mette i retini per i cervi e sa bene in quale valle abita il feroce cinghiale.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"retini\" è una modernizzazione eccessiva di \"reti\" e \"abita\" è meno preciso di \"dimora\". \"Feroce\" sostituisce \"furioso\" con una sfumatura leggermente diversa.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. Non ci sono errori sintattici o lessicali evidenti.",
+        "Style": "Il testo è naturale e moderno, ma l'uso di \"retini\" suona leggermente meno naturale rispetto a \"reti\" in questo contesto.",
+        "Overall": "Traduzione buona e comprensibile, con lievi deviazioni lessicali che non compromettono il senso generale."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si sono fatte nuove enemy: contro di cui è stato combattuto con diverse sorti di fortuna: perché nella prima battaglia, essendo console Valerio, MMMD persero la vita dei Romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'nuove enemy' è un errore lessicale e 'persero la vita dei Romani' è meno diretto di 'ne morirono dei Romani'. Alcune sfumature sono perse.",
+        "Fluency": "La frase 'nuove enemy' è un errore grammaticale e lessicale. Il resto è comprensibile ma leggermente rigido in alcune parti.",
+        "Style": "Il testo è comprensibile ma presenta rigidità e un errore ('enemy') che rende la frase poco naturale. Manca scorrevolezza.",
+        "Overall": "Traduzione accettabile ma con errori lessicali e stilistici che ne compromettono la naturalezza e precisione."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "molto crudele, e di tutte le colpe prende la vendetta, come dice la legge, ed a nessun cavaliere perdonerà i peccati.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "L'aggiunta di 'molto' e la resa di 'perdoni che pecchi' come 'perdonerà i peccati' altera il significato: il testo originale si riferisce a non perdonare chi pecca, non i peccati in generale.",
+        "Fluency": "La frase è grammaticalmente corretta e facilmente comprensibile in italiano moderno, senza errori evidenti.",
+        "Style": "Il tono è naturale e scorrevole, ma la scelta di alcune espressioni ('perdonerà i peccati') risulta leggermente meno elegante rispetto a una resa più fedele.",
+        "Overall": "Traduzione leggibile e moderna, ma la fedeltà semantica è compromessa da una scelta interpretativa errata."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "mancato di allenare le sue ali, l'uccello non riesce a fuggire in salvo; nemmeno il selvaggio maiale uscire bene dalle rete dove si è imbottigliato.",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono travisati: 'mancato di allenare le sue ali' non corrisponde a 'impaniate le ali' (impigliate), e 'imbottigliato' non rende 'cade nelle reti'. Il senso generale è mantenuto, ma con errori di interpretazione.",
+        "Fluency": "La frase è grammaticalmente corretta ma presenta costruzioni poco naturali, come 'uscire bene dalle rete'. Alcuni errori di concordanza ('dalle rete') compromettono la scorrevolezza.",
+        "Style": "Il testo appare innaturale e poco moderno ('mancato di allenare le sue ali', 'imbottigliato'). Lo stile è rigido e poco idiomatico.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e scelte stilistiche poco naturali. Accettabile ma migliorabile."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3.2,
+      "std": 0.4
+    },
+    "Fluency": {
+      "mean": 4.2,
+      "std": 0.98
+    },
+    "Style": {
+      "mean": 3.6,
+      "std": 0.49
+    },
+    "Overall": {
+      "mean": 3.4,
+      "std": 0.49
+    }
+  }
+}

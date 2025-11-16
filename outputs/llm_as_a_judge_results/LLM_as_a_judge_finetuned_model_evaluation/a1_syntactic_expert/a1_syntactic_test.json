@@ -1,0 +1,139 @@
+{
+  "model_name": "a1_syntactic_expert",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "struse il re in un giardino dietro all'albergo, quasi come se dovesse andare a pensare la risposta.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono travisati: 'struse' non è corretto per 'entrò', e 'dovesse andare a pensare la risposta' distorce il senso originale. Mancano precisione e modernizzazione.",
+        "Fluency": "La frase presenta errori grammaticali ('struse') e costruzioni poco naturali ('dovesse andare a pensare'). La comprensione è compromessa.",
+        "Style": "Il tono risulta innaturale e poco moderno, con scelte lessicali e sintattiche non idiomatiche per l’italiano contemporaneo.",
+        "Overall": "La traduzione presenta errori lessicali e sintattici che compromettono fedeltà, scorrevolezza e stile. Risulta poco comprensibile e innaturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "struggendo in quella guerra, l'operazione fu ben fatta, etc. Da una parte Aiace era un cavaliere francese e valoroso nell'arme, ma non era pienamente dotato di grande senso.",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono travisati: 'struggendo' non appare nell'originale, 'franco' è reso come 'francese' (nazionalità, non carattere), e 'di gran guisa' è omesso. Tuttavia, il senso generale è mantenuto.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, anche se l'inizio ('struggendo in quella guerra') è ambiguo e poco naturale.",
+        "Style": "Lo stile è generalmente moderno e leggibile, ma alcune scelte ('struggendo', 'francese') suonano meno naturali rispetto al contesto storico-letterario.",
+        "Overall": "La traduzione è comprensibile e moderna, ma presenta errori di interpretazione e alcune scelte stilistiche discutibili."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "strudelavano i Psille tutti i loro sforzi per sottrarre a un romano il vantaggio dell'invellatura di serpente. Era meraviglioso vedere come facevano combattuto al veleno.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione distorce il significato originale: i Psille non cercano di sottrarre un vantaggio, ma si difendono dal veleno. Mancano riferimenti a saliva e sacrificio. Modernizzazione inaccurata.",
+        "Fluency": "La frase è grammaticalmente corretta ma poco chiara e innaturale. \"Facevano combattuto\" è scorretto e \"strudelavano\" non è italiano standard.",
+        "Style": "Lo stile è innaturale e poco scorrevole. L'uso di termini come \"strudelavano\" e la costruzione \"facevano combattuto\" risultano artificiali e poco umani.",
+        "Overall": "La traduzione è poco fedele, poco fluida e stilisticamente debole. Il senso originale è in parte perso e la resa non è moderna né naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "struggendoli aperni e fuggiti. E chi ha bisogno che il tuo cuore resti chiuso a Cristo come tuo sposo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The first sentence is mistranslated: 'struggendoli aperni e fuggiti' does not preserve the original meaning. The second sentence is mostly accurate, though slightly reworded. Major meaning loss in the first part.",
+        "Fluency": "The first sentence is ungrammatical and confusing. The second sentence is mostly correct, but the overall fluency suffers due to the first part's errors.",
+        "Style": "The translation lacks naturalness, especially in the first sentence, which is awkward and non-idiomatic. The second sentence is better but still a bit stiff.",
+        "Overall": "Major issues in faithfulness and fluency, especially in the first sentence, make the translation poor overall despite a partially acceptable second sentence."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane noi ci fregiamo nuovi nemici; contro di essi è stato combattuto con diverse sorti: perciò nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La frase \"noi ci fregiamo nuovi nemici\" è una grave distorsione: il soggetto e il significato sono alterati. Il resto è più fedele, ma l'errore iniziale compromette la correttezza.",
+        "Fluency": "La frase iniziale è poco comprensibile e grammaticalmente scorretta. Il resto della traduzione è più fluido, ma l'errore iniziale pesa sulla leggibilità.",
+        "Style": "Lo stile è compromesso dalla scelta errata di \"noi ci fregiamo\". Il resto è più naturale, ma l'inizio rende il testo poco umano.",
+        "Overall": "La traduzione contiene un errore grave che distorce il senso e compromette fluidità e stile. Solo la parte centrale e finale sono accettabili."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "struggono a scrivere la loro matricola giurando su Dio, Cristo e lo Spirito Santo.",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è parzialmente alterato: 'struggono a scrivere la loro matricola' non corrisponde a 'quando nella matricola si scrivono'. L'azione del giurare è resa correttamente.",
+        "Fluency": "La frase è grammaticalmente corretta ma l'uso di 'struggono' è inappropriato e rende il testo meno scorrevole.",
+        "Style": "La traduzione suona innaturale per via di 'struggono a scrivere la loro matricola', che non è una formulazione moderna né elegante.",
+        "Overall": "La traduzione è comprensibile ma contiene errori di interpretazione e scelte stilistiche poco naturali."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.333,
+      "std": 0.471
+    },
+    "Fluency": {
+      "mean": 2.5,
+      "std": 0.764
+    },
+    "Style": {
+      "mean": 2.167,
+      "std": 0.373
+    },
+    "Overall": {
+      "mean": 2.333,
+      "std": 0.471
+    }
+  }
+}

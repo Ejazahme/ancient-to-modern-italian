@@ -1,0 +1,121 @@
+{
+  "model_name": "unified_merged_full",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "mancano d'altro i nobili e alti atteggiamenti dell'abbate contro l'avversario; tuttavia, essere misericordioso è pure lodabile.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è stato in parte travisato: la frase sull'abbattere il nemico è resa come 'atteggiamenti dell'abbate', che è un errore di interpretazione. Manca anche la struttura causale iniziale ('poiché, se...').",
+        "Fluency": "La frase è grammaticalmente corretta, ma la costruzione è un po' confusa e poco scorrevole, soprattutto nella prima parte. Tuttavia, rimane comprensibile.",
+        "Style": "Lo stile è poco naturale e risulta artificiale, specialmente per l'uso di 'atteggiamenti dell'abbate', che non ha senso nel contesto moderno.",
+        "Overall": "La traduzione presenta errori di interpretazione e scarsa naturalezza stilistica, pur rimanendo parzialmente comprensibile."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: con noi non puoi più tranquillamente vivere, perché io non ti sopporto e non ti lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "The main meaning is preserved, but 'tranquillamente vivere' is an interpretative addition not present in the original. The sense of 'dimorare' as simply 'staying' is slightly altered.",
+        "Fluency": "The sentence is fluent, grammatically correct, and clear in modern Italian. There are no awkward constructions.",
+        "Style": "The translation reads naturally and smoothly, with a modern and human tone. It avoids archaisms and feels idiomatic.",
+        "Overall": "A good, modern translation with minor interpretative liberties. Meaning is mostly preserved and the text is fluent and natural."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "mancato invece di essere catturato, oppure di fuggire, ed aver lasciato sconfigto il proprio comune.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli semantici sono persi: manca 'cosa più grave' e la relazione tra le azioni è meno chiara. 'Lasciare vincere' è reso come 'aver lasciato sconfigto', che è meno preciso.",
+        "Fluency": "La frase è grammaticalmente corretta ma la costruzione è un po' rigida e poco naturale, specie nella parte finale ('aver lasciato sconfigto').",
+        "Style": "Il tono è piuttosto meccanico e manca di scorrevolezza; la resa non appare pienamente naturale o moderna.",
+        "Overall": "Traduzione comprensibile ma con perdita di dettagli e stile poco naturale. Accettabile ma migliorabile in precisione e fluidità."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "mancano anche gli amanti che chiamando mercede alla loro donna rispondono a parole e ragioni tante, e lei si difende in propria persona.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono travisati: 'mancano anche' non riflette il senso originale; 'rispondono a parole e ragioni tante' distorce il soggetto e l'azione. Alcuni dettagli sono modernizzati ma con errori di interpretazione.",
+        "Fluency": "La frase è grammaticalmente corretta ma presenta costruzioni poco naturali come 'rispondono a parole e ragioni tante'. Nel complesso leggibile, ma non scorrevole.",
+        "Style": "Il testo appare rigido e innaturale, con scelte lessicali poco moderne ('mancano anche', 'in propria persona'). Non sembra scritto da un madrelingua moderno.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e rigidità stilistica che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "mentre si giura in presenza della matricola con riferimento a Dio, a Cristo e allo Spirito Santo.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette il riferimento all'atto dell'iscrizione e trasforma il giuramento in un'azione svolta 'in presenza della matricola', alterando il senso originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti.",
+        "Style": "Lo stile è moderno e naturale, ma leggermente impersonale rispetto all'originale.",
+        "Overall": "Traduzione fluente e moderna, ma la perdita di un dettaglio chiave ne compromette la fedeltà."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3,
+      "std": 0.632
+    },
+    "Fluency": {
+      "mean": 3.8,
+      "std": 0.98
+    },
+    "Style": {
+      "mean": 3.4,
+      "std": 1.02
+    },
+    "Overall": {
+      "mean": 3,
+      "std": 0.632
+    }
+  }
+}

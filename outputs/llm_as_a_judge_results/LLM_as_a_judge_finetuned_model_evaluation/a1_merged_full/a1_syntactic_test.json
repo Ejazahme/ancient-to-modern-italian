@@ -1,0 +1,139 @@
+{
+  "model_name": "a1_merged_full",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "mentre il re entra in un giardino dietro all'albergo, pare che stia pensando alla risposta.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma cambia il tempo verbale (presente invece di passato) e l'ordine delle azioni, perdendo la sfumatura di 'quasi come se'.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. L'uso dei tempi verbali è moderno e comprensibile.",
+        "Style": "Il tono è naturale e moderno, ma l'inizio con 'mentre' introduce una sfumatura non presente nell'originale, rendendo lo stile leggermente meno fedele.",
+        "Overall": "Traduzione fluida e naturale, ma la modifica di tempo e struttura riduce la fedeltà all'originale. Comprensibile e leggibile."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "molto bene si era svolta quella guerra perché eccetto che... E da un altro lato Aiace era un cavaliere francese e valente nella battaglia, molto forte, ma non era pienamente dotato di grande senso.",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati fraintesi: 'franco' è tradotto erroneamente come 'francese', e 'ben fatta l'opera' come 'molto bene si era svolta quella guerra'. Il senso generale è mantenuto, ma ci sono imprecisioni.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, senza errori evidenti. La frase è comprensibile e ben strutturata in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente meno elegante rispetto a una traduzione umana esperta. Tuttavia, non risulta artificiale.",
+        "Overall": "La traduzione è fluente e leggibile, ma alcune imprecisioni semantiche riducono la fedeltà. Nel complesso, è accettabile ma migliorabile."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "mancava sorpresa quando i serpenti ingannavano un romano al volgere del giorno, poichè i Psilli si battevano furiosamente per il veleno, essendo loro consuetudine sacrificare tutto sulla loro saliva.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono travisati: 'mancava sorpresa' inverte il senso originale, e 'ingannavano' non rende 'avvelenavano'. 'Sacrificare tutto sulla loro saliva' è ambiguo rispetto all'originale. Preservazione del significato solo parziale.",
+        "Fluency": "La frase è grammaticalmente corretta ma presenta alcune costruzioni poco naturali, come 'al volgere del giorno' e 'sacrificare tutto sulla loro saliva'. Complessivamente leggibile.",
+        "Style": "Il tono è moderno ma alcune scelte lessicali risultano innaturali ('mancava sorpresa', 'sacrificare sulla saliva'). Manca scorrevolezza piena.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di senso e alcune scelte stilistiche poco naturali. Accettabile ma migliorabile."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "m'apppersi e loro fuggirono. E cosa serve che il tuo cuore resti chiuso al tuo marito Cristo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette il soggetto \"Io\" e usa \"marito\" invece di \"sposo\", che è meno fedele al testo originale. Tuttavia, il significato generale è mantenuto.",
+        "Fluency": "La frase è comprensibile, ma \"m'apppersi\" contiene un errore di battitura e la costruzione \"E cosa serve che\" è meno idiomatica.",
+        "Style": "Il testo appare leggermente meccanico e poco naturale, specialmente per l'uso di \"marito\" e la struttura della domanda.",
+        "Overall": "Traduzione accettabile ma con errori di battitura, scelte terminologiche meno appropriate e stile poco naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si sono fatte nuovi nemici; contro di cui è stato combattuto con diverse sorti di fortuna: perché nella prima battaglia, avendo console Valerio, persero più di mille romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati persi o alterati: 'si sono fatte nuovi nemici' è scorretto, e 'persero più di mille romani' distorce 'morirono tremila'. Il senso generale è mantenuto ma con errori significativi.",
+        "Fluency": "La frase presenta errori grammaticali ('si sono fatte nuovi nemici') e alcune costruzioni poco naturali. Tuttavia, il testo rimane comprensibile.",
+        "Style": "Lo stile è piuttosto rigido e poco naturale, con alcune espressioni che suonano innaturali per l’italiano moderno. Manca scorrevolezza.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di fedeltà, grammatica e stile che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "mentre si giura in presenza della matricola per Dio, per Cristo e per lo Spirito Santo",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette il riferimento all'atto di iscrizione nella matricola e introduce l'elemento della 'presenza', non presente nell'originale. Il giuramento è reso correttamente, ma il contesto è parzialmente alterato.",
+        "Fluency": "La frase è fluente e grammaticalmente corretta, con sintassi moderna e scorrevole. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità. La frase risulta leggibile e umana.",
+        "Overall": "La traduzione è fluente e naturale, ma la perdita di un dettaglio chiave riduce la fedeltà. Comprensibile, ma non pienamente accurata."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3,
+      "std": 0.0
+    },
+    "Fluency": {
+      "mean": 4.167,
+      "std": 0.898
+    },
+    "Style": {
+      "mean": 3.667,
+      "std": 0.745
+    },
+    "Overall": {
+      "mean": 3.5,
+      "std": 0.5
+    }
+  }
+}

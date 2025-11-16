@@ -1,0 +1,121 @@
+{
+  "model_name": "a1_lexical_expert",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "struppando in invano chi scriveva questo Libro, perché si dovesse considerare fedelmente che l'Autore di quel fosse lo Spirito Santo.",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "L'inizio ('struppando in invano') è un errore di interpretazione: 'struppando' non ha senso qui. Il resto mantiene il significato generale, ma ci sono imprecisioni ('quel' invece di 'quello').",
+        "Fluency": "La frase è poco fluida: 'struppando in invano' non è italiano moderno, e 'che l'Autore di quel fosse' è scorretto. La comprensione è compromessa.",
+        "Style": "Il tono è innaturale e poco moderno. L'uso di termini errati e la struttura rigida rendono il testo poco scorrevole e poco umano.",
+        "Overall": "La traduzione presenta errori di interpretazione e scarsa scorrevolezza. Il significato originale è solo parzialmente mantenuto e la resa è poco naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "strucca i reti ai cervi e sa bene in quale valle dimora il furioso cinghiale.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"strucca\" non è una modernizzazione corretta di \"tenda\". \"Ai cervi\" e \"il furioso cinghiale\" sono resi fedelmente. \"In quale valle\" perde il plurale originale.",
+        "Fluency": "La frase è grammaticalmente corretta, ma \"strucca i reti\" è un errore; la forma corretta sarebbe \"tende le reti\". Il resto della frase è fluente.",
+        "Style": "La traduzione appare un po' rigida e poco naturale, soprattutto per l'uso di \"strucca\" e la mancata modernizzazione completa. Non suona pienamente moderna.",
+        "Overall": "La traduzione è comprensibile ma presenta errori lessicali e stilistici che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "dai monti dei Romani si formarono nuovi nemici; contro i quali si combatté con esiti diversi: perché nella prima battaglia, avendoconsole Valerio, morirono migliaia di Romani;",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The translation preserves most of the original meaning, but omits 'MMMD' (the numeral) and replaces it with 'migliaia', losing numerical specificity. 'Avendo console Valerio' is awkward and less precise than 'essendo console Valerio'.",
+        "Fluency": "Generally fluent and understandable, but 'avendoconsole Valerio' is a grammatical error. Otherwise, the sentence structure is modern and clear.",
+        "Style": "The style is mostly natural, but the phrase 'avendoconsole Valerio' is unidiomatic and disrupts the flow. The rest reads smoothly and modernly.",
+        "Overall": "The translation is understandable and mostly modern, but the omission of 'MMMD' and the awkward phrase lower its quality. Acceptable, but with clear issues."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "strudele, e di tutte le colpe prendi vendetta, come dice la legge, e a nessun cavaliere perdoni che sbagli.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La parola iniziale 'strudele' è un errore rispetto a 'crudele', alterando il significato. 'Sbagli' per 'pecchi' è una modernizzazione accettabile ma meno precisa. Il resto del significato è mantenuto.",
+        "Fluency": "La frase è generalmente fluida e comprensibile, ma l'errore su 'strudele' interrompe la lettura. Il resto è grammaticalmente corretto.",
+        "Style": "La traduzione appare moderna e naturale, ma l'errore iniziale e la scelta di 'sbagli' rendono il tono leggermente meno formale rispetto all'originale.",
+        "Overall": "La traduzione è comprensibile ma presenta un errore lessicale importante e una modernizzazione semantica meno precisa."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "struggliare con gli avversari e non fuggire, poiché si è dotato di ali (cioè ha acquistato capacità); ",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione travisa il significato originale: introduce il concetto di 'struggliarsi con gli avversari' e omette sia l'uccello che il porco selvatico, alterando profondamente il senso.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma la coerenza sintattica è compromessa dal cambiamento di soggetto e contenuto.",
+        "Style": "Il tono è moderno e naturale, ma la scelta lessicale ('struggliare') risulta poco appropriata e distante dallo stile originale.",
+        "Overall": "La traduzione è fluente ma infedele: il senso originale è distorto e i riferimenti principali sono omessi."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.6,
+      "std": 0.49
+    },
+    "Fluency": {
+      "mean": 2.8,
+      "std": 0.4
+    },
+    "Style": {
+      "mean": 2.8,
+      "std": 0.4
+    },
+    "Overall": {
+      "mean": 2.6,
+      "std": 0.49
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "model_name": "a1_semantic_expert",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "struggiamo invece contro un concetto nobilissimo e alto: l'abbattimento del nemico. È dunque meno meritevolmente lodabile non aver compassione?",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The model introduces new concepts ('struggiamo contro un concetto') and alters the structure, losing the conditional and temporal sequence. The meaning is partially misinterpreted, especially in the second sentence.",
+        "Fluency": "The translation is grammatically correct and mostly fluent, though the first sentence is slightly convoluted due to the added concept. Still, it is readable and understandable.",
+        "Style": "The style is modern and smooth, but the introduction of new elements makes it feel less faithful to the original's tone. It is slightly more rhetorical than the source.",
+        "Overall": "The translation is fluent and stylistically modern, but significant deviations from the original meaning reduce its faithfulness. Acceptable, but not fully accurate."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: tu non puoi coesistere con noi ancora per così lungo tempo, senza che io non lo sappia e non lo consentisca.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"coesistere\" è una modernizzazione eccessiva e il senso di distanza o separazione personale è attenuato. Alcune sfumature di rifiuto e limite temporale sono rese meno chiaramente.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma l'uso di \"coesistere\" risulta un po' forzato nel contesto.",
+        "Style": "Il testo è leggibile e moderno, ma alcune scelte lessicali (\"coesistere\") suonano innaturali per il registro richiesto.",
+        "Overall": "La traduzione è comprensibile e moderna, ma alcune scelte lessicali riducono la fedeltà e la naturalezza rispetto al testo originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "struggendo, cosa ancora più grave: dover beinggiurare di arrendersi, o alla finestra fuggire, e abbandonare il suo popolo al nemico.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono travisati: 'dover beinggiurare di arrendersi' non è presente nell'originale; 'alla finestra fuggire' è un'aggiunta. Il senso generale di scelta tra resa e fuga è mantenuto, ma con distorsioni.",
+        "Fluency": "La frase è poco fluida: 'dover beinggiurare di arrendersi' è grammaticalmente scorretto e 'alla finestra fuggire' è innaturale. La struttura risulta confusa.",
+        "Style": "Lo stile è innaturale e poco moderno. Espressioni come 'dover beinggiurare di arrendersi' e 'alla finestra fuggire' non suonano umane né eleganti.",
+        "Overall": "La traduzione è comprensibile ma contiene errori di senso, scarsa fluidità e uno stile poco naturale. Richiede revisioni sostanziali."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "struggendo a volerla lasciare, un uomo innamorato le chiede perdono alla donna che ama, mentre lei replica con sue parole e argomentazioni.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono stati omessi o modificati: 'struggendo a volerla lasciare' non è presente nell'originale; 'chiede perdono' non corrisponde a 'chiamando merzé' (che significa chiedere pietà, non perdono).",
+        "Fluency": "La frase è scorrevole e grammaticalmente corretta, con buona coesione sintattica. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, ma alcune scelte lessicali ('chiede perdono', 'struggendo') appaiono meno appropriate rispetto al tono originale.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma presenta errori di fedeltà che ne compromettono l'accuratezza semantica."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "struggendo nella matricola giurano di giuro per Dio, per Cristo e per lo Spirito Santo.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The translation distorts the original meaning: 'struggendo' is incorrect for 'quando', and 'giurano di giuro' is redundant and unfaithful. The core idea of swearing upon God, Christ, and the Holy Spirit is preserved, but the context and structure are misrepresented.",
+        "Fluency": "The sentence is awkward and ungrammatical: 'struggendo nella matricola' and 'giurano di giuro' are not idiomatic or correct in modern Italian. The structure impedes comprehension.",
+        "Style": "The translation sounds unnatural and mechanical, with redundancies and archaic-sounding constructions that do not fit modern Italian. It lacks elegance and fluidity.",
+        "Overall": "Major issues in faithfulness, fluency, and style render the translation confusing and unnatural. The meaning is only partially preserved, and the text is not suitable for modern readers."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.8,
+      "std": 0.4
+    },
+    "Fluency": {
+      "mean": 3.4,
+      "std": 1.2
+    },
+    "Style": {
+      "mean": 3,
+      "std": 0.894
+    },
+    "Overall": {
+      "mean": 2.6,
+      "std": 0.49
+    }
+  }
+}

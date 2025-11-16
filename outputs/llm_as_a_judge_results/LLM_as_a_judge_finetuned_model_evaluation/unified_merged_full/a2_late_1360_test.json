@@ -1,0 +1,139 @@
+{
+  "model_name": "unified_merged_full",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "mancano armi e passano attraverso i nemici; quindi chi non avrebbe avuto il coraggio di farlo, e avessero avuto tale animo.",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi di significato sono stati persi o distorti: \"mancano armi\" non corrisponde all'originale, e la struttura logica della frase è alterata. Il senso complessivo è solo parzialmente mantenuto.",
+        "Fluency": "La frase risulta poco scorrevole e presenta costruzioni poco naturali, come \"mancano armi\" e la seconda parte della frase, che è confusa.",
+        "Style": "Lo stile è rigido e poco naturale; la traduzione non suona come italiano moderno fluente e sembra frammentaria.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione, scarsa scorrevolezza e uno stile poco naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi avrebbe oggi a sperare quel che i non credenti ancora a Cristo non accettano, lo vedono comunque con noi, e perché non possono negarlo, lo fanno con dolori e gemiti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi semantici sono alterati: \"lo fanno con dolori e gemiti\" non rende \"stridono colli denti\". L'ordine logico è leggermente confuso, ma il senso generale si mantiene.",
+        "Fluency": "Il testo è grammaticalmente corretto, ma alcune scelte lessicali e sintattiche risultano poco naturali o ambigue per l’italiano moderno.",
+        "Style": "La resa è comprensibile ma piuttosto meccanica e manca di naturalezza; alcune espressioni risultano innaturali per un lettore moderno.",
+        "Overall": "Traduzione accettabile ma con errori semantici e stilistici che ne compromettono la naturalezza e la precisione."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "mancata quel fatto che sia diretto, onesto e avvenuto con virtù, mi sembra esserlo il solo bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Significant meaning distortion: 'mancata' and 'quel fatto' are not present in the original; 'avvenuto con virtù' misinterprets 'con virtute.' The core message is altered.",
+        "Fluency": "The sentence is awkward and ungrammatical ('mancata quel fatto che sia...'). It lacks clarity and proper structure for modern Italian.",
+        "Style": "The phrasing is unnatural and confusing, lacking the elegance and clarity of modern Italian. Feels forced and not human-like.",
+        "Overall": "Major faithfulness and fluency issues render the translation confusing and inaccurate. The intended meaning is not preserved."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "mentre i poeti, parlando di loro, dichiarano le loro virtù e narrano in modo fantasioso i loro difetti quando qualcosa violava l'ordine assegnatogli.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"qualcosa violava l'ordine\" è meno preciso di \"qualcuno superava l’ordine\"; c'è una lieve perdita di sfumatura soggettiva.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è facilmente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, anche se \"dichiarano\" è leggermente meno idiomatico rispetto a \"raccontano\". Nel complesso, il tono è umano.",
+        "Overall": "Traduzione fedele e fluente, con minime imprecisioni semantiche che non compromettono la comprensione generale."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "mancava un prego per farlo uscire da quel impegno, in cui lo aveva tenuto intrappolato. L'uomo gentile acconsentì e lo liberò, e ne fece una copia della carta.",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi sono fraintesi: \"mancava un prego\" non corrisponde a \"pregollo\" (che significa \"gli chiese\"). \"Far uscire da quell'impegno\" non rende \"liberasse di quella obbligazione\". \"Copia della carta\" è impreciso rispetto a \"fecene carta\".",
+        "Fluency": "Il testo è grammaticalmente corretto ma presenta alcune espressioni poco idiomatiche, come \"mancava un prego\" e \"copia della carta\", che risultano innaturali.",
+        "Style": "Lo stile è generalmente comprensibile ma risulta innaturale e poco elegante, con alcune scelte lessicali poco moderne o forzate.",
+        "Overall": "La traduzione è comprensibile ma presenta fraintendimenti chiave e uno stile poco naturale, compromettendo la fedeltà e la scorrevolezza."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "messaggio che lo liberasse da quel compromesso, nel quale era intrappolato. Il gentiluomo accordò, e lo liberò, e ne fece un documento.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione sostituisce 'obbligazione' con 'compromesso', che altera il significato originale. 'Intrappolato' è un'aggiunta interpretativa non presente nel testo. Alcune sfumature sono perse.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La costruzione è moderna e comprensibile.",
+        "Style": "Il testo è naturale e moderno, ma alcune scelte lessicali ('compromesso', 'intrappolato') risultano meno appropriate rispetto al registro richiesto.",
+        "Overall": "Traduzione scorrevole e moderna, ma la resa di alcuni termini chiave compromette la fedeltà al testo originale."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.833,
+      "std": 0.687
+    },
+    "Fluency": {
+      "mean": 3.5,
+      "std": 1.118
+    },
+    "Style": {
+      "mean": 3.167,
+      "std": 0.687
+    },
+    "Overall": {
+      "mean": 2.833,
+      "std": 0.687
+    }
+  }
+}

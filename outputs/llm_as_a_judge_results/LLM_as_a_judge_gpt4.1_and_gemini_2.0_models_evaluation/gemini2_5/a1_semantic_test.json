@@ -1,0 +1,121 @@
+{
+  "model_name": "gemini2_5",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "Anche se abbattere il nemico è un'azione nobile e importante, non è meno lodevole saper avere misericordia.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione rende bene il senso generale, ma introduce \"anche se\" che altera la relazione logica originale. L'ordine temporale \"dopo\" è omesso, cambiando leggermente il significato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è ben comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità. Risulta simile a una traduzione umana.",
+        "Overall": "La traduzione è fluente e naturale, ma la modifica della struttura logica e l'omissione di \"dopo\" riducono la fedeltà."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sarà un punto di discordia tra me e te: non puoi più restare con noi a lungo, perché non lo sopporterò e non lo permetterò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma 'punto di discordia' è più forte di 'in mezzo', e manca l'idea di 'distanza'. Il resto è ben reso e modernizzato.",
+        "Fluency": "La frase è scorrevole e corretta dal punto di vista grammaticale, senza errori evidenti.",
+        "Style": "Il tono è naturale e moderno, anche se leggermente più drammatico rispetto all’originale.",
+        "Overall": "Traduzione fedele e fluida, con solo una lieve enfasi diversa rispetto all’originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "E, cosa ancora più grave, essere catturato, oppure fuggire e lasciare che il proprio Comune venga sconfitto.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma manca la specificazione \"dal nemico\" presente nell'originale e nella traduzione di riferimento. Tuttavia, la modernizzazione è accurata.",
+        "Fluency": "La frase è fluente, ben costruita e rispetta la sintassi del moderno italiano. Nessun errore grammaticale.",
+        "Style": "Lo stile è naturale e scorrevole, adatto all'italiano contemporaneo. Suona umano e moderno.",
+        "Overall": "Traduzione di alta qualità, con solo una lieve omissione di dettaglio. Comprensibile, fluida e naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Allo stesso modo, un amante, chiedendo pietà alla sua amata, pronuncia molte parole e argomentazioni, e lei si difende nel suo discorso.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è ben preservato, con una modernizzazione appropriata. L'aggiunta di \"pronuncia\" e \"argomentazioni\" è accettabile, anche se \"ragioni\" poteva restare. \"Nel suo discorso\" è una resa valida di \"in suo dire\".",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità. Il tono è appropriato e simile a una traduzione umana.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente naturale. Nessun problema rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando vengono iscritti, nella lista giurano per Dio, per Cristo e per lo Spirito Santo.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato originale, riportando correttamente il giuramento su Dio, Cristo e lo Spirito Santo. L'aggiunta di 'nella lista' è superflua ma non distorce il senso.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori o costruzioni innaturali.",
+        "Style": "Il tono è naturale e moderno, anche se leggermente formale. La resa è umana e adatta al contesto.",
+        "Overall": "Traduzione fedele, fluente e stilisticamente appropriata, con solo minime aggiunte non problematiche."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.2,
+      "std": 0.748
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.8,
+      "std": 0.4
+    },
+    "Overall": {
+      "mean": 4.4,
+      "std": 0.49
+    }
+  }
+}

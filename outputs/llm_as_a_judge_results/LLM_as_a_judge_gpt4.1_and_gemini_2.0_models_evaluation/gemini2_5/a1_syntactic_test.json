@@ -1,0 +1,139 @@
+{
+  "model_name": "gemini2_5",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "Il re entrò in un giardino dietro il suo palazzo, come se stesse pensando alla risposta.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "The translation preserves the core meaning, but 'palazzo' instead of 'albergo' slightly alters the setting. The sense of 'quasi come se' is rendered as 'come se', omitting 'quasi'.",
+        "Fluency": "The sentence is grammatically correct and reads smoothly in modern Italian. There are no errors or awkward constructions.",
+        "Style": "The style is natural and modern, though the omission of 'quasi' slightly reduces the nuance and subtlety of the original.",
+        "Overall": "A good, readable translation with minor faithfulness and stylistic issues, but overall clear and modern."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "Quella guerra fu ben condotta, e l'opera compiuta perché eccetera. D'altra parte, Aiace era un cavaliere franco e valoroso in armi, di grande statura, ma non particolarmente dotato di senno.",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'di gran guisa' è reso come 'di grande statura', che è un'interpretazione discutibile; inoltre, 'non particolarmente dotato di senno' attenua il giudizio originale.",
+        "Fluency": "Il testo è scorrevole e grammaticalmente corretto, senza errori evidenti. La sintassi è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, con un registro appropriato. Risulta leggermente più neutro rispetto all'originale, ma resta umano.",
+        "Overall": "La traduzione è fedele e molto fluente, con minime imprecisioni interpretative che non compromettono la comprensione."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "Quando un serpente avvelenava un romano, era incredibile vedere come gli Psilli combattessero il veleno, neutralizzandolo completamente con la loro saliva.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma omette \"di giorno\" e interpreta \"imolavano tutto inazzi della loro salive\" come \"neutralizzandolo completamente con la loro saliva\", che è una modernizzazione interpretativa, non letterale.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno.",
+        "Style": "Il testo è naturale e moderno, con una resa elegante e umana, anche se leggermente interpretativa.",
+        "Overall": "Traduzione fluida e naturale, con piccole omissioni e interpretazioni che non compromettono la comprensione generale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "Io gli aprii, e quelli fuggirono. E perché mai il tuo cuore dovrebbe rimanere chiuso al tuo sposo Cristo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è quasi completamente preservato, ma \"E perché mai il tuo cuore dovrebbe rimanere chiuso\" introduce una sfumatura interrogativa leggermente diversa dall'originale \"E che bisogno è\".",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, con una formulazione elegante e adatta al contesto.",
+        "Overall": "Traduzione molto buona, con una minima variazione di sfumatura rispetto all'originale, ma fedele, fluida e stilisticamente appropriata."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne dei Romani sorsero nuovi nemici, contro i quali si è combattuto con alterne fortune: infatti, nella prima battaglia, quando era console Valerio, morirono 3500 Romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è ben preservato, con una modernizzazione accurata. L'unica lieve discrepanza è 'sorsero' invece di 'si feciero', ma il senso resta chiaro. La cifra '3500' è una modernizzazione accettabile di 'MMMD'.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e rispetta la sintassi moderna. Nessun errore evidente o costruzione innaturale.",
+        "Style": "Il testo appare naturale, moderno e fluido, senza rigidità o meccanicità. Il tono è appropriato e umano.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente moderna. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando vengono iscritti nel registro, giurano per Dio, per Cristo e per lo Spirito Santo.",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente preservato e la modernizzazione è accurata. L'unica differenza è la scelta di \"vengono iscritti\" invece di \"si scrivono\", ma il senso rimane invariato.",
+        "Fluency": "La frase è grammaticalmente corretta, scorrevole e perfettamente comprensibile in italiano moderno.",
+        "Style": "La traduzione suona naturale e moderna, senza rigidità o artificiosità. Sembra scritta da un madrelingua.",
+        "Overall": "Traduzione fedele, fluida e naturale, senza errori o rigidità. Ottima resa complessiva."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.333,
+      "std": 0.471
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.667,
+      "std": 0.471
+    },
+    "Overall": {
+      "mean": 4.5,
+      "std": 0.5
+    }
+  }
+}

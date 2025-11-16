@@ -1,0 +1,121 @@
+{
+  "model_name": "a1_merged_full",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "mancano solo pochi gradi di nobiltà e altezza per abbattere l'avversario, ma non è meno lodabile sapere mostrare pietà.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The model omits the causal conjunction ('poiché') and introduces 'mancano solo pochi gradi', which is not present in the original. The sense of 'afterwards' (ampoi) is also lost. Partial misinterpretation.",
+        "Fluency": "The sentence is grammatically correct and clear, with no major errors. The structure is modern and comprehensible.",
+        "Style": "The translation reads smoothly and naturally, with idiomatic expressions. It feels like modern Italian, though some original nuance is lost.",
+        "Overall": "While fluent and natural, the translation partially misinterprets the original, omitting key elements and altering meaning. Acceptable but not fully faithful."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: con noi non puoi più a lungo rimanere, perché io non lo farò e non lo lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma omette la distinzione tra \"me e te\" (diventa \"fra di noi\") e semplifica \"sofferrò\" e \"lascerò\" senza chiarire il loro senso originale. Modernizzazione buona ma con piccole perdite di sfumature.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. L'italiano è moderno e comprensibile, senza errori sintattici o lessicali.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente semplificato rispetto all'originale. Manca un po' di enfasi drammatica presente nel testo antico.",
+        "Overall": "Traduzione fedele e fluida, con minime semplificazioni che non compromettono la comprensione. Leggera perdita di sfumature stilistiche e semantiche."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "mancato di rispondere adeguatamente, e addirittura peggio, aver lasciato il proprio comune abbandonare la lotta.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette parti chiave: non menziona l'essere catturato o la fuga, e distorce il significato di \"lasciare vincere\" come \"abbandonare la lotta\". Il senso complessivo è alterato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo risulta leggibile e comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma manca di enfasi e drammaticità presenti nell'originale. Tuttavia, la resa è umana e scorrevole.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma la perdita di elementi chiave del significato ne compromette la fedeltà."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "molto spesso un amante che chiede perdono a sua donna dice parole e ragioni tante, ma lei si difende.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"merzé\" (pietà/grazia) è reso come \"perdono\", che non è esatto. \"Altressì\" (inoltre) è omesso. Piccola perdita di sfumature.",
+        "Fluency": "La frase è scorrevole e grammaticalmente corretta. L’italiano è moderno e comprensibile senza errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente semplificato rispetto all’originale. Manca un po’ di eleganza rispetto a una resa umana.",
+        "Overall": "Traduzione fedele e fluente, con piccole imprecisioni semantiche ma comunque chiara e naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "mentre si giura in presenza della matricola per Dio, Cristo e lo Spirito Santo.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette il riferimento all'atto dell'iscrizione e introduce 'in presenza della matricola', che non è presente nell'originale. Il giuramento è reso correttamente, ma manca una parte del significato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben strutturato.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più formale rispetto all'originale. La resa è fluida e non appare artificiale.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma la perdita di una parte del significato ne limita la fedeltà complessiva."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3.2,
+      "std": 0.748
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.2,
+      "std": 0.4
+    },
+    "Overall": {
+      "mean": 3.6,
+      "std": 0.49
+    }
+  }
+}

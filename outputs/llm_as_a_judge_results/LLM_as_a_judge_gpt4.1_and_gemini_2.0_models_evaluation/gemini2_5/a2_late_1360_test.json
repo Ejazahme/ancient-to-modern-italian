@@ -1,0 +1,139 @@
+{
+  "model_name": "gemini2_5",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "Le armi e, insieme a loro, passarono in mezzo ai nemici, perciò se qualcuno non avesse il coraggio di fare questo, eppure aveva questo desiderio.",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma 'eppure aveva questo desiderio' distorce 'avevano questo animo', che indica spirito/coraggio d'azione, non solo desiderio. Manca inoltre la distinzione tra chi ha o meno coraggio.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, anche se la seconda parte risulta leggermente contorta e poco scorrevole.",
+        "Style": "Il testo è leggibile e moderno, ma la seconda parte ('eppure aveva questo desiderio') appare un po' innaturale e meno elegante.",
+        "Overall": "La traduzione è comprensibile e moderna, ma una scelta lessicale imprecisa e una struttura poco fluida ne riducono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Chi spererebbe ormai ciò che persino quelli che ancora non vogliono credere in Cristo vedono già con noi, e poiché non lo possono negare, stridono i denti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "The translation accurately conveys the original meaning and modernizes the archaic structures well. All key elements are preserved, with only slight shifts in word order.",
+        "Fluency": "The sentence is grammatically correct and idiomatic in modern Italian. There are no awkward constructions or errors.",
+        "Style": "The translation reads smoothly and naturally, resembling human writing. The tone is appropriate and modern.",
+        "Overall": "An excellent translation: faithful, fluent, and stylistically natural. No significant issues detected."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "E penso che solo ciò che è giusto, onesto e virtuoso possa essere considerato il bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è in gran parte preservato, ma l'aggiunta di 'possa essere considerato' introduce una sfumatura interpretativa non presente nell'originale, che era più assertivo.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il lessico è moderno e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma la costruzione 'possa essere considerato' è leggermente più formale e distante rispetto all'originale.",
+        "Overall": "Traduzione fedele e fluente, con una piccola deviazione interpretativa che non compromette la comprensione."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "Perciò i poeti, parlando di loro stessi, ne esaltano le virtù e ne raccontano in modo fantasioso i difetti, soprattutto quando qualcuno di questi superava i limiti loro imposti.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'parlando di loro stessi' è un'aggiunta non presente nell'originale. 'Superava i limiti loro imposti' interpreta liberamente 'passava l'ordine a loro deputato'.",
+        "Fluency": "La frase è scorrevole, ben costruita e priva di errori grammaticali. Il testo è facilmente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più interpretativo rispetto all'originale. Nel complesso, risulta umano e gradevole.",
+        "Overall": "Traduzione fedele e fluida, con minime libertà interpretative che non compromettono la comprensione. Buon equilibrio tra modernizzazione e rispetto dell'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Lo pregò di liberarlo da quell'obbligo a cui lo aveva vincolato. Il gentiluomo acconsentì, lo liberò e ne fece redigere un documento.",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è pienamente preservato e modernizzato correttamente. L'uso di \"redigere un documento\" è una resa accurata di \"fecene carta\".",
+        "Fluency": "Il testo è scorrevole, grammaticalmente corretto e perfettamente comprensibile in italiano moderno.",
+        "Style": "La resa è naturale, elegante e tipica di un traduttore umano. Nessuna rigidità o artificiosità.",
+        "Overall": "Traduzione eccellente: fedele, fluida e stilisticamente moderna. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Lo pregò di liberarlo da quell'obbligo a cui l'aveva vincolato. Il nobile acconsentì, lo liberò e ne fece redigere un documento.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è stato pienamente preservato e modernizzato correttamente. Tutti gli elementi chiave sono presenti e resi in modo accurato.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e perfettamente comprensibile in italiano moderno.",
+        "Style": "Il testo risulta naturale, elegante e coerente con uno stile moderno e umano.",
+        "Overall": "La traduzione è fedele, fluente e stilisticamente naturale; eccellente sotto tutti i criteri."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.333,
+      "std": 0.745
+    },
+    "Fluency": {
+      "mean": 4.833,
+      "std": 0.373
+    },
+    "Style": {
+      "mean": 4.333,
+      "std": 0.745
+    },
+    "Overall": {
+      "mean": 4.333,
+      "std": 0.745
+    }
+  }
+}

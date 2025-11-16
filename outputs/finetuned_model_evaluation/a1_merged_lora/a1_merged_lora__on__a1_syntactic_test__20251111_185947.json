@@ -1,0 +1,56 @@
+{
+  "model_name": "a1_merged_lora",
+  "model_type": "adapter",
+  "model_path": "models_hf/a1_merged_lora",
+  "dataset_name": "a1_syntactic_test",
+  "dataset_path": "data/processed/approach1/syntactic/test.jsonl",
+  "num_samples": 6,
+  "metrics": {
+    "bleu": 17.4709680742659,
+    "chrf++": 49.629607222076245,
+    "rougeL": 41.63526714513557,
+    "meteor": 0.4396929918283968,
+    "token_f1": 0.4032204563226011,
+    "bertscore_f1": 0.8286173939704895,
+    "has_reference": true,
+    "num_predictions": 6
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "mantenendo l'impressione di voler riflettere sulla risposta, il re entrò in un giardino dietro all'albergo suo.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo."
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "mancava a quella guerra di essere completamente condotta perché, etc. Da una parte, Aiace era un cavaliere francese coraggioso e abile nell'uso delle armi, di grandissima statura, ma non aveva molta saggezza.",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza."
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "mancava sorpresa quando i serpenti mordevano qualche romano durante il giorno, visto che i Psille si battevano furiosamente contro il veleno, poichè essi annullavano completamente la sua efficacia.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva."
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "m'apppersi e loro fuggirono. E perché dovrebbe stare chiuso il tuo cuore verso il tuo marito Cristo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?"
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai Monti Romani si resero nuovi nemici; contro di cui fu combattuta con diverse sorti di fortuna: perché nella prima battaglia, essendone console Valerio, persero più di mille romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani."
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "mentre si giura in una matricola di fronte a Dio, Cristo e lo Spirito Santo.",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo"
+    }
+  ]
+}

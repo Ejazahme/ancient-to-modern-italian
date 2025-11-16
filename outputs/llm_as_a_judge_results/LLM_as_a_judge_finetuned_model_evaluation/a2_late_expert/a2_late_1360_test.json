@@ -1,0 +1,139 @@
+{
+  "model_name": "a2_late_expert",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "struse le armi e insieme a esse passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questa determinazione.",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'struse le armi' è un errore: il soggetto sono le persone, non le armi. Il resto è fedele e modernizzato correttamente.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma l'errore iniziale rende il testo leggermente confuso.",
+        "Style": "Lo stile è generalmente naturale e moderno, ma l'inizio suona innaturale a causa della scelta del soggetto.",
+        "Overall": "Traduzione comprensibile e moderna, ma l'errore sul soggetto compromette fedeltà e naturalezza."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi spererebbe ora ciò che anche coloro che ancora non vogliono credere in Cristo già vedono insieme a noi, e poiché non possono negarlo, digrignano i denti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente preservato e modernizzato in modo accurato. Non ci sono omissioni o distorsioni rilevanti rispetto al testo di partenza.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori o costruzioni innaturali. Il testo risulta facilmente comprensibile.",
+        "Style": "Il tono è naturale e moderno, con una resa che appare umana e non artificiale. La scelta lessicale è appropriata.",
+        "Overall": "La traduzione è fedele, scorrevole e stilisticamente naturale. Non presenta difetti rilevanti."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "struggo per capire che cosa sia retta e onesta, e virtuosa, poiché solo quella penso sia il bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "The translation introduces 'struggo per capire' (I struggle to understand), which is not present in the original and shifts the meaning. The core idea is partially preserved but altered.",
+        "Fluency": "The sentence is grammatically correct and reads smoothly in modern Italian, with no major errors.",
+        "Style": "The translation is natural and idiomatic, but the added introspective tone is less faithful to the original's style.",
+        "Overall": "While fluent and natural, the translation partially distorts the original meaning by adding an interpretative element not present in the source."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "struiscono quindi i poeta, parlando di loro, le virtù e dicono in modo fiabesco i loro difetti, quando qualcuno superava il limite a loro assegnato.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma 'struiscono quindi i poeta' è un errore e 'ordine' viene reso come 'limite', che attenua il significato originale. Alcuni dettagli sono leggermente alterati.",
+        "Fluency": "La frase presenta errori grammaticali ('i poeta', 'struiscono quindi'), che compromettono la scorrevolezza. Il resto della frase è comprensibile ma non del tutto fluido.",
+        "Style": "Il testo risulta poco naturale a causa di errori grammaticali e scelte lessicali poco moderne ('struiscono quindi'). Manca eleganza e scorrevolezza.",
+        "Overall": "La traduzione è comprensibile ma presenta errori grammaticali e alcune imprecisioni semantiche che ne riducono qualità e naturalezza."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "strugnese se lo liberasse da quel legame, nel quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"strugnese\" non è una resa moderna di \"pregollo\" (chiese, pregò). \"Legame\" è accettabile, ma meno preciso di \"obbligazione\". \"Documento\" è una resa valida di \"carta\".",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole. L'uso di \"strugnese\" è però arcaico e poco comprensibile in italiano moderno.",
+        "Style": "La traduzione è generalmente naturale, ma \"strugnese\" suona innaturale e poco moderno, rendendo il testo meno elegante.",
+        "Overall": "Traduzione fedele e comprensibile, ma l'uso di \"strugnese\" compromette modernità e naturalezza. Nel complesso buona, ma migliorabile."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "strugòlo che lo liberasse da quel compromesso, nel quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione è generalmente fedele, ma 'compromesso' non è sinonimo di 'obbligazione' e può alterare il senso giuridico del testo originale. Il resto del significato è ben mantenuto.",
+        "Fluency": "Il testo è fluente e grammaticalmente corretto, senza errori evidenti. La sintassi è moderna e scorrevole.",
+        "Style": "Lo stile è naturale e moderno, adatto a un lettore contemporaneo. Solo lievemente meno elegante rispetto a una traduzione umana ideale.",
+        "Overall": "Traduzione buona, fedele e scorrevole, ma la scelta di 'compromesso' invece di 'obbligazione' riduce leggermente la precisione semantica."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3.667,
+      "std": 0.745
+    },
+    "Fluency": {
+      "mean": 4.333,
+      "std": 0.745
+    },
+    "Style": {
+      "mean": 3.5,
+      "std": 0.957
+    },
+    "Overall": {
+      "mean": 3.667,
+      "std": 0.745
+    }
+  }
+}

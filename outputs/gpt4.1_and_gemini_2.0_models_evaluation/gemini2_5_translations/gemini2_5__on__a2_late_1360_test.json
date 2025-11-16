@@ -1,0 +1,44 @@
+{
+  "model_name": "gemini-2.0-flash",
+  "dataset_name": "a2_late_1360_test",
+  "dataset_path": "data/processed/approach2/late_1360/test.jsonl",
+  "num_samples": 6,
+  "predictions": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "Le armi e, insieme a loro, passarono in mezzo ai nemici, perciò se qualcuno non avesse il coraggio di fare questo, eppure aveva questo desiderio.",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito."
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Chi spererebbe ormai ciò che persino quelli che ancora non vogliono credere in Cristo vedono già con noi, e poiché non lo possono negare, stridono i denti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti."
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "E penso che solo ciò che è giusto, onesto e virtuoso possa essere considerato il bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene."
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "Perciò i poeti, parlando di loro stessi, ne esaltano le virtù e ne raccontano in modo fantasioso i difetti, soprattutto quando qualcuno di questi superava i limiti loro imposti.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro."
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Lo pregò di liberarlo da quell'obbligo a cui lo aveva vincolato. Il gentiluomo acconsentì, lo liberò e ne fece redigere un documento.",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto."
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Lo pregò di liberarlo da quell'obbligo a cui l'aveva vincolato. Il nobile acconsentì, lo liberò e ne fece redigere un documento.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento."
+    }
+  ]
+}

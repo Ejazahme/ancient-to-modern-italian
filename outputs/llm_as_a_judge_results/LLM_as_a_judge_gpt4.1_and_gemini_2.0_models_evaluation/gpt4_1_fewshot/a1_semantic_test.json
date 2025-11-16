@@ -1,0 +1,121 @@
+{
+  "model_name": "gpt4_1_fewshot",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "Perché, se è nobile e grande abbattere il nemico, non è meno degno di lode saper mostrare misericordia dopo.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è ben mantenuto, con una modernizzazione appropriata. L'aggiunta di 'mostrare' misericordia è una leggera interpretazione, ma non altera il senso generale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori sintattici o lessicali.",
+        "Style": "Il testo suona naturale e moderno, con una costruzione elegante e umana.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente naturale. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia testimone tra me e te: non puoi più restare con noi, perché io non lo permetterò e non lo tollererò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'sia testimone' è una modernizzazione legittima di 'sia in mezzo', anche se leggermente interpretativa. Nessuna omissione rilevante.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e perfettamente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, senza rigidità o artificiosità. Suona come una frase scritta da un madrelingua.",
+        "Overall": "Traduzione fedele e molto fluida, con una modernizzazione stilistica efficace. Solo una minima interpretazione su 'sia in mezzo'."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "E, cosa ancora più grave, cioè essere catturato oppure fuggire e lasciare che il proprio Comune venga sconfitto.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato originale, modernizzando correttamente la struttura. L'omissione di \"dal nemico\" è trascurabile, poiché il senso generale resta intatto.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e facilmente comprensibile in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, senza rigidità o artificiosità; la resa è fluida e umana.",
+        "Overall": "Traduzione fedele, fluida e naturale, con solo una minima omissione di dettaglio."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Allo stesso modo, un uomo innamorato, mentre chiede misericordia alla donna che ama, le rivolge molte parole e argomentazioni, ed essa risponde difendendo la propria posizione con le sue parole.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma aggiunge dettagli non presenti nell’originale, come “mentre chiede misericordia” e “difendendo la propria posizione”, che interpretano oltre il testo. Modernizzazione adeguata, ma con leggere sovrainterpretazioni.",
+        "Fluency": "Il testo è scorrevole, grammaticalmente corretto e comprensibile. La sintassi è moderna e non presenta errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più elaborato rispetto all’originale. Manca un po’ della semplicità, ma risulta comunque umano e fluido.",
+        "Overall": "Traduzione fedele e fluente, con qualche interpretazione in più rispetto all’originale. Complessivamente di buona qualità, leggibile e naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "quando si iscrivono nell'albo giurano per Dio, per Cristo e per lo Spirito Santo",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato originale, modernizzando correttamente la struttura. L'unica differenza è l'uso di 'albo' invece di 'matricola', che è comunque accettabile in molti contesti.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole in italiano moderno, senza errori o ambiguità.",
+        "Style": "Lo stile è naturale e moderno, senza rigidità o artificiosità; risulta simile a una traduzione umana.",
+        "Overall": "La traduzione è fedele, fluida e stilisticamente appropriata, con solo una minima variazione terminologica."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.4,
+      "std": 0.49
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.8,
+      "std": 0.4
+    },
+    "Overall": {
+      "mean": 4.8,
+      "std": 0.4
+    }
+  }
+}

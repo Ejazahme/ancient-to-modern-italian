@@ -1,0 +1,139 @@
+{
+  "model_name": "gpt4_1_fewshot",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "Le armi e coloro che le portavano passarono insieme tra i nemici, perché se qualcuno non avesse avuto il coraggio di farlo, loro invece avevano questo spirito.",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è quasi completamente preservato, ma \"coloro che le portavano\" esplicita un soggetto non presente nell'originale, introducendo una piccola interpretazione. Modernizzazione corretta.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. L'uso dei tempi verbali e delle strutture sintattiche è appropriato per l'italiano moderno.",
+        "Style": "Lo stile è naturale e vicino a quello di un traduttore umano, anche se leggermente esplicativo rispetto all'originale.",
+        "Overall": "Traduzione fedele e fluente con una leggera esplicitazione non necessaria, ma nel complesso molto buona."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Eppure, chi spererebbe qualcosa che anche coloro che ancora non vogliono credere in Cristo già vedono insieme a noi, e poiché non possono negarlo, digrignano i denti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "The translation accurately conveys the original meaning, with only a slight addition of 'qualcosa' that does not distort the sense. Modernization is appropriate and nothing essential is omitted.",
+        "Fluency": "The sentence is grammatically correct and flows naturally. There are no awkward constructions or errors.",
+        "Style": "The translation reads smoothly and naturally in modern Italian, with a human touch and no stiffness.",
+        "Overall": "A faithful, fluent, and stylistically natural translation that fully meets the requirements for modern Italian."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "E quella cosa che è giusta, onesta e fatta con virtù, solo quella considero essere il bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'fatta con virtù' aggiunge un elemento non presente nell'originale ('con virtute'), che indica solo accompagnamento, non azione. L'ordine delle idee è rispettato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. La sintassi è moderna e comprensibile senza errori evidenti.",
+        "Style": "Il testo è naturale e moderno, anche se 'fatta con virtù' suona leggermente meno elegante rispetto a una resa più sintetica. Nel complesso, il tono è umano.",
+        "Overall": "Traduzione fedele e fluente, con una piccola imprecisione semantica. Nel complesso, il testo è leggibile e naturale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "Per questo motivo i poeti, parlando di loro, raccontano le loro virtù e attribuiscono in modo fiabesco i loro difetti, quando qualcuno superava il limite a loro assegnato.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"attribuiscono in modo fiabesco i loro difetti\" è una modernizzazione più libera di \"dicono fabolosamente gli loro difetti\". \"Limite a loro assegnato\" rende bene \"ordine a loro deputato\".",
+        "Fluency": "Il testo è scorrevole, grammaticalmente corretto e facilmente comprensibile in italiano moderno. Nessun errore evidente.",
+        "Style": "Lo stile è naturale e moderno, con una scelta lessicale appropriata. L’espressione \"in modo fiabesco\" è leggermente più creativa rispetto all’originale, ma resta naturale.",
+        "Overall": "Traduzione fedele, fluida e stilisticamente naturale, con solo una piccola libertà interpretativa su \"fabolosamente\"."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Gli chiese di liberarlo da quell'obbligazione in cui l'aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento scritto.",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è pienamente rispettato e modernizzato correttamente. L'espressione \"ne fece un documento scritto\" è equivalente a \"carta\" nel contesto medievale.",
+        "Fluency": "La frase è scorrevole, grammaticalmente corretta e rispetta la sintassi del moderno italiano.",
+        "Style": "Il testo appare naturale, elegante e coerente con lo stile della lingua italiana contemporanea.",
+        "Overall": "Traduzione fedele, fluente e stilisticamente naturale. Nessun errore rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Gli chiese di liberarlo da quell'obbligazione in cui lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento scritto.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 5,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 5
+      },
+      "feedback": {
+        "Faithfulness": "Il significato è pienamente preservato e modernizzato correttamente. L'aggiunta di 'documento scritto' è leggermente più esplicita rispetto all'originale, ma non altera il senso.",
+        "Fluency": "La frase è scorrevole, corretta e idiomatica in italiano moderno. Nessun errore grammaticale o sintattico rilevato.",
+        "Style": "Il testo è naturale, elegante e rispetta lo stile di un italiano moderno e umano. Nessuna rigidità o meccanicità.",
+        "Overall": "Traduzione eccellente: fedele, fluente e stilisticamente naturale. Nessun problema rilevante."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 4.5,
+      "std": 0.5
+    },
+    "Fluency": {
+      "mean": 5,
+      "std": 0.0
+    },
+    "Style": {
+      "mean": 4.667,
+      "std": 0.471
+    },
+    "Overall": {
+      "mean": 4.667,
+      "std": 0.471
+    }
+  }
+}

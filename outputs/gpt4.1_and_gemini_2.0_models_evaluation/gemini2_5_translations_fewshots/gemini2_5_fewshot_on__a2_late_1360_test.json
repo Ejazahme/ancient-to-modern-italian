@@ -1,0 +1,7 @@
+{
+  "model_name": "gemini-2.0-flash",
+  "dataset_name": "a2_late_1360_test",
+  "dataset_path": "data/processed/approach2/late_1360/test.jsonl",
+  "num_samples": 0,
+  "predictions": []
+}
