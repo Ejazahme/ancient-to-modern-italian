@@ -5,7 +5,7 @@ from datetime import datetime
 from pydantic import BaseModel, Field
 import json, time, re
 
-API_KEY = "AIzaSyD_bBD-74Xw1vRTmX7JdCMchz2pIKb3eBw"  
+API_KEY = "A"  
 MODEL_NAME = "gemini-2.0-flash"                     
 TEMPERATURE = 0.4
 MAX_RETRIES = 3
