@@ -1,0 +1,56 @@
+{
+  "model_name": "BASE__Mistral7BInstruct_v0_2",
+  "model_type": "base",
+  "model_path": "mistralai/Mistral-7B-Instruct-v0.2",
+  "dataset_name": "a2_late_1360_test",
+  "dataset_path": "data/processed/approach2/late_1360/test.jsonl",
+  "num_samples": 6,
+  "metrics": {
+    "bleu": 4.2886926825159595,
+    "chrf++": 22.210919224178273,
+    "rougeL": 18.759534706331046,
+    "meteor": 0.14608315727172913,
+    "token_f1": 0.19669258832565284,
+    "bertscore_f1": 0.6618031859397888,
+    "has_reference": true,
+    "num_predictions": 6
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "mancano i soldati di fatti armi e vestizione e rendendola: \"Istruisci soldati, armi vostada:",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito."
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi avrebbe aspettato quello che ancora questi non credono in Cristo, lo vedono con noi, e per questo non possono negarlo, grattigliano i denti. (Non ho trovato una forma più naturale di esprimere \"stridono colli denti\" con una locuzione moderna)",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti."
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "���che frase: e quella cosa, quella cosa che io fornato: «e quella cosa, la quale è diretta:",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene."
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "misura (o insegna questa frase perché sia comprensibile ma chiara e corretta.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro."
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "migliadore di grammatica il testo: \"Il prete lo pregolloquio: *pregolo",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto."
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "���mparre la tua domanda per chiedeja: \"Preggiungo colloquiale.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento."
+    }
+  ]
+}

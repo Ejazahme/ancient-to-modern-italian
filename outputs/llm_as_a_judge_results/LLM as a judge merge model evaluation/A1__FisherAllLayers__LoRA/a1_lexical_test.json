@@ -1,0 +1,121 @@
+{
+  "model_name": "A1__FisherAllLayers__LoRA",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "Inutile chiedersi chi stesse scrivendo questo Libro, perché era vero che il suo Autore dovesse essere considerato lo Spir",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la parte finale ('Spirito santo') e modifica il senso: 'chi stesse scrivendo' è meno fedele di 'chi scrivesse'. La modernizzazione è parziale e c'è una perdita di significato.",
+        "Fluency": "La frase è grammaticalmente corretta fino all'interruzione, ma la frase è incompleta e ciò compromette la comprensibilità.",
+        "Style": "Lo stile è generalmente moderno e leggibile, ma l'interruzione improvvisa e la mancanza di chiusura rendono il testo poco naturale.",
+        "Overall": "La traduzione è incompleta e perde parte del significato originale, risultando poco fedele e poco fluida."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "Lei tende le reti ai cervi e sa bene in quali valli risiede il furioso cinghiale porcospino.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"porcospino\" è un errore: \"cinghiale porcospino\" non è corretto, mentre l'originale si riferisce solo al cinghiale. \"Risiede\" è accettabile ma meno preciso di \"dimora\".",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma \"cinghiale porcospino\" crea confusione e appesantisce la lettura.",
+        "Style": "Il tono è generalmente naturale, ma l'aggiunta di \"porcospino\" rende la frase meno elegante e meno umana rispetto a una traduzione naturale.",
+        "Overall": "Traduzione comprensibile e fluida, ma l'errore su \"cinghiale porcospino\" compromette fedeltà e stile. Buona, ma con un errore semantico rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti dei Romani si formarono nuovi nemici; contro di cui fu combattuta una battaglia con esiti differenti: perché nella prima battaglia, avendolo comandato come console Valerio, morirono più di migliaia di Romani;",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma 'più di migliaia di Romani' è un errore: l'originale indica 'MMMD' (3500), non 'più di migliaia'. L'espressione 'avendolo comandato come console Valerio' è meno chiara rispetto all'originale.",
+        "Fluency": "Il testo è generalmente scorrevole, ma alcune costruzioni risultano poco naturali, come 'contro di cui fu combattuta una battaglia' e 'avendolo comandato come console Valerio'.",
+        "Style": "Lo stile è comprensibile ma un po' rigido e poco naturale, con alcune scelte lessicali che suonano meccaniche e poco moderne.",
+        "Overall": "Traduzione accettabile ma con errori di fedeltà e scelte stilistiche poco naturali; necessita revisione per maggiore accuratezza e scorrevolezza."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "È crudevoli, e di tutte modernea:",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette gran parte del significato originale e non modernizza correttamente il testo. Solo la parola 'crudele' viene mantenuta, ma il resto è incomprensibile o mancante.",
+        "Fluency": "La frase risultante non è grammaticalmente corretta né comprensibile in italiano moderno. La seconda parte non ha senso.",
+        "Style": "Lo stile è incoerente e non rispecchia né il tono né la struttura di un testo moderno o umano.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e stile. Il significato originale è quasi completamente perso."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "Quando l'avoli, il corvo non riesce a moderata:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non mantiene il significato originale: introduce elementi non presenti (\"il corvo\") e omette parti fondamentali (il porco selvatico e le reti). Il senso della frase è completamente travisato.",
+        "Fluency": "La frase è grammaticalmente scorretta e incompleta. La costruzione \"Quando l'avoli, il corvo non riesce a moderata\" non ha senso compiuto in italiano moderno.",
+        "Style": "Lo stile è incoerente e non naturale. La frase risulta artificiale e non rispetta né il tono né la chiarezza richiesti per una traduzione moderna.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e naturalezza. Il significato originale è completamente perso."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2,
+      "std": 0.894
+    },
+    "Fluency": {
+      "mean": 2.2,
+      "std": 1.166
+    },
+    "Style": {
+      "mean": 2,
+      "std": 0.894
+    },
+    "Overall": {
+      "mean": 2,
+      "std": 0.894
+    }
+  }
+}

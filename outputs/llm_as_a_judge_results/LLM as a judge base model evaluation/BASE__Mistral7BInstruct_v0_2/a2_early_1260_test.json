@@ -1,0 +1,211 @@
+{
+  "model_name": "BASE__Mistral7BInstruct_v0_2",
+  "dataset_name": "a2_early_1260_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 10,
+  "results": [
+    {
+      "id": null,
+      "source": "la moltitudine de' quali tu ài potuto vedere e riguardare lo studio e poco dinanzi udire le voci, e lle cui mani e lance apena posso ritenere.",
+      "prediction": "��� La folla di quegli i due passaggi per renderla comprensibile agliamo:",
+      "reference": "La moltitudine della quale hai potuto vedere e osservare l'impegno e poco fa ascoltare le voci, e le cui mani e lance riesco a stento a trattenere.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non conserva il significato originario: manca quasi tutto il contenuto della frase e introduce elementi estranei. Il senso del testo medievale è completamente perso.",
+        "Fluency": "La frase è grammaticalmente scorretta e priva di senso compiuto. Non è leggibile né comprensibile come italiano moderno.",
+        "Style": "Lo stile è incoerente e non naturale; la frase sembra un frammento senza alcuna eleganza o fluidità.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e stile. Non trasmette il significato né si avvicina al testo originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "udire di belle novelle et odorare di belli fiori, come et quando et quanto si conviene",
+      "prediction": "mantenizione per l'arte questa frase: \"Uditevi che uditevi una volta simile a quell'ancisana:",
+      "reference": "ascoltare belle notizie e sentire il profumo dei fiori, come, quando e quanto è opportuno",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation does not preserve the original meaning. Key elements like 'belle novelle' and 'odorare di belli fiori' are missing or distorted. The sentence is not properly modernized and introduces unrelated content.",
+        "Fluency": "The sentence is ungrammatical and confusing, with awkward phrasing and unclear structure. It is difficult to understand in modern Italian.",
+        "Style": "The translation lacks coherence and does not resemble natural or human-like modern Italian. It is stylistically incoherent and fragmented.",
+        "Overall": "The translation fails to convey the original meaning, lacks fluency, and is stylistically incoherent. It is unusable as a modern Italian translation."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai Monti Romani si sono fatto nuovi nemici; contro di essi si è impegnato con diverse sorti di fortuna: perché nella prima battaglia, essendo console Valerio, ne persero MMMD romani.",
+      "reference": "Dai monti dei Romani sorsero nuovi nemici, contro i quali si combatté con esiti diversi: poiché nella prima battaglia, quando Valerio era console, tremilacinquecento Romani morirono.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma \"si sono fatto nuovi nemici\" è grammaticalmente scorretto e \"ne persero MMMD romani\" non chiarisce che morirono. Manca precisione nella resa di \"morirono\".",
+        "Fluency": "La frase iniziale è sgrammaticata e \"si sono fatto\" è un errore. Alcune parti sono corrette, ma la sintassi è talvolta innaturale.",
+        "Style": "Il testo è comprensibile ma risulta rigido e poco naturale. Alcune scelte lessicali e sintattiche sono poco moderne.",
+        "Overall": "La traduzione è comprensibile ma presenta errori grammaticali e stilistici che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "l' anima muta la sua forza per la propietade di quello corpo a cui ella si congiunge.",
+      "prediction": "mia anima: \"L'anze questa espressione per farla capace di essere comprensivo.",
+      "reference": "L'anima cambia la sua forza in base alle caratteristiche del corpo a cui si unisce.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è completamente perso: la frase non riflette il contenuto dell'originale né lo modernizza correttamente. Non vi è alcun riferimento alla trasformazione della forza dell'anima o alla relazione con il corpo.",
+        "Fluency": "La frase è grammaticalmente scorretta e non ha senso in italiano moderno. La costruzione è confusa e incomprensibile.",
+        "Style": "Lo stile è incoerente e non naturale; la frase non rispecchia alcun registro moderno e appare priva di senso.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è poco fluida e stilisticamente incoerente."
+      }
+    },
+    {
+      "id": null,
+      "source": "Vero è, ma non tine rispondo in questo tempo, perciò che ttu se' mio servo, o perciò ch' è tempo feriato, o perciò ch' io non debbo risponderti",
+      "prediction": "miei signore, io non posso libreria (testo) mettendo \"moderno\":",
+      "reference": "È vero, ma non ti rispondo in questo momento, perché sei mio servitore, oppure perché è tempo di festa, oppure perché non devo risponderti.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale e non modernizza correttamente il testo. Il contenuto è completamente diverso e non corrisponde all'originale.",
+        "Fluency": "La frase è grammaticalmente scorretta e incomprensibile; non segue le regole della lingua italiana moderna.",
+        "Style": "Lo stile è incoerente e non rispecchia né il tono né la struttura di un testo moderno italiano.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è scorretta e lo stile non è adeguato."
+      }
+    },
+    {
+      "id": null,
+      "source": "per necessitade i' ridico ke, secondo il comandamento tuo, padre santo Agostino, le battaglie già state nel mondo [..]",
+      "prediction": "miei miei discema: \"Per necessità io dico: 'per necessitate io la dico: per necessità io dico:",
+      "reference": "Per necessità ti dico che, secondo il tuo comandamento, santo padre Agostino, le battaglie che ci sono già state nel mondo [...]",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation omits key elements such as the addressee, the reference to 'santo Agostino,' and the battles. It also repeats phrases unnecessarily, distorting the original meaning.",
+        "Fluency": "The sentence is fragmented, repetitive, and lacks grammatical coherence, making it difficult to understand in modern Italian.",
+        "Style": "The translation is disjointed, repetitive, and does not resemble natural or human-like modern Italian.",
+        "Overall": "Major omissions, lack of fluency, and incoherent style render the translation unusable for conveying the original meaning."
+      }
+    },
+    {
+      "id": null,
+      "source": "Vero è, ma non tine rispondo in questo tempo, perciò che ttu se' mio servo, o perciò ch' è tempo feriato, o perciò ch' io non debbo risponderti",
+      "prediction": "mantenendo qua li parole il seguente frase: \"Vero certamente a dir cheggiorno e gentilissimo signore, voi mi dite che voi dite quanto voi intendo che io debbono io non posso dire niente.",
+      "reference": "È vero, ma non ti rispondo in questo momento, perché sei mio servo, oppure perché è tempo di riposo, oppure perché non devo risponderti.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non mantiene il significato originale: omette le ragioni per cui non si risponde e introduce elementi non presenti nel testo di partenza. Il senso complessivo è perso.",
+        "Fluency": "La frase è confusa, con errori grammaticali e sintattici che la rendono difficile da comprendere. Non è scorrevole né idiomatica.",
+        "Style": "Lo stile è incoerente e innaturale, con ripetizioni e costruzioni non moderne. Non sembra una traduzione umana né moderna.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è poco comprensibile e lo stile è incoerente."
+      }
+    },
+    {
+      "id": null,
+      "source": "Tarentini, i quali erano nati di quegli di Lacedemonia et facta da lloro nobile cittade de' Greci.",
+      "prediction": "mantenendo che Tarentini erano i tuo opera per farla comprensamente eleganteo.",
+      "reference": "I Tarantini, che erano discendenti dei Lacedemoni e fondarono la loro nobile città greca.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale: omette completamente il riferimento ai Lacedemoni e alla fondazione della città. Il senso è distorto e non corrisponde al testo di partenza.",
+        "Fluency": "La frase è grammaticalmente scorretta e poco comprensibile. La costruzione è confusa e non segue la sintassi dell'italiano moderno.",
+        "Style": "Lo stile è incoerente e innaturale, con termini e costruzioni non adatti all'italiano moderno. Non sembra una traduzione umana.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è poco fluida e lo stile è incoerente."
+      }
+    },
+    {
+      "id": null,
+      "source": "contra lui e contra le sue sorelle  e contra il reame e contra l' alto pregio della sua ingenerazione e della sua familia",
+      "prediction": "mantienza, siate gentilmente questa espressione: \"contra contra lui e contro le sue sorelle e contro regno suo e contro quello di loro ed a loro non farle e contro il suo regno e contro la sua nobile stirpezza",
+      "reference": "contro di lui, contro le sue sorelle, contro il regno e contro l'alto prestigio della sua discendenza e della sua famiglia",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The translation is confusing and introduces redundancies and inaccuracies (e.g., repeated 'contra', 'mantienza', and unclear references). Several elements are distorted or omitted, and the meaning is not fully preserved.",
+        "Fluency": "The sentence is ungrammatical, with awkward structure, repetition, and unclear referents. It is difficult to follow and does not read as proper modern Italian.",
+        "Style": "The translation lacks naturalness and coherence. It feels disjointed and artificial, with a robotic tone and several stylistic inconsistencies.",
+        "Overall": "Major issues in faithfulness, fluency, and style render the translation confusing and stylistically poor. The meaning is not clearly conveyed."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "migliadurai di questi giorni il testo: \"E, cosa che tutti i tempi: *e, che, che io detto è un'hanque tu ne' peccato, io sono stato fors'in tal modo, per salvare la vita, avendo l'ampe l'avversione contemporanea:",
+      "reference": "E, ciò che è ancora più grave, cioè essere catturato, oppure fuggire, e lasciare che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è completamente perso: la traduzione non conserva né il senso né la struttura della frase medievale. Mancano riferimenti chiave come la cattura, la fuga e la sconfitta della città.",
+        "Fluency": "La frase è grammaticalmente scorretta, sconnessa e in gran parte incomprensibile in italiano moderno. La sintassi è caotica e non segue alcuna logica.",
+        "Style": "Lo stile è incoerente e non rispetta alcun registro moderno o naturale. Sembra un testo generato casualmente, privo di eleganza o coesione.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è incomprensibile e lo stile è caotico. Non risponde ai criteri minimi di traduzione."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.3,
+      "std": 0.64
+    },
+    "Fluency": {
+      "mean": 1.3,
+      "std": 0.64
+    },
+    "Style": {
+      "mean": 1.3,
+      "std": 0.64
+    },
+    "Overall": {
+      "mean": 1.3,
+      "std": 0.64
+    }
+  }
+}

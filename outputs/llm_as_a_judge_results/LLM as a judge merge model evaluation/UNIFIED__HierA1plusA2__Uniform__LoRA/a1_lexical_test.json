@@ -1,0 +1,121 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__Uniform__LoRA",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "È inutile chiedersi chi avesse scritto questo Libro, perché si debba tenere per sicuro che l’Autore fosse lo",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma omette \"Spirito santo\" e modifica leggermente la struttura logica, perdendo la specificazione dell'autore. Modernizzazione corretta ma con omissione importante.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben formulato in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, con una formulazione che risulta umana e scorrevole. Tuttavia, la frase è leggermente tronca alla fine.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma l'omissione di \"Spirito santo\" compromette la fedeltà. Complessivamente accettabile ma con una lacuna semantica."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "metti le reti per la volpe e sa dove risiede il cinghiale infuriato nella sua grotteca.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione cambia 'cerbi' (cervi) in 'volpe', che è un errore di interpretazione. Inoltre, 'grotteca' non corrisponde a 'valle'. Il senso generale è parzialmente mantenuto, ma ci sono distorsioni significative.",
+        "Fluency": "La frase è generalmente comprensibile, ma 'grotteca' non è una parola italiana e rende il testo poco fluido. Il resto della frase è grammaticalmente corretto.",
+        "Style": "Il tono è abbastanza naturale, ma l'uso di 'grotteca' e il cambio di animale rendono la frase meno umana e meno coerente con lo stile moderno.",
+        "Overall": "Errori di fedeltà e scelta lessicale compromettono la qualità generale. La traduzione è comprensibile ma presenta problemi di accuratezza e stile."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si resero nuovi nemici; contro di cui fu combattuta con diverse fortunas: perché nella prima battaglia, essendo console Valerio, morirono MMMD romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione è generalmente fedele, ma 'si resero nuovi nemici' è una resa imprecisa di 'si feciero nuovi nemici' (che significa 'si fecero nuovi nemici'). 'Fortunas' è un errore rispetto a 'ventura'.",
+        "Fluency": "La frase è comprensibile ma presenta errori: 'contro di cui' è poco naturale, 'fu combattuta' non concorda bene, 'fortunas' è scorretto in italiano moderno.",
+        "Style": "Il testo risulta un po' rigido e innaturale, con alcune scelte lessicali poco moderne ('contro di cui', 'fortunas'). Non sembra scritto da un madrelingua.",
+        "Overall": "Traduzione accettabile ma con errori di lessico e sintassi che la rendono poco fluida e naturale. Comprensibile ma migliorabile."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Crudeli, e di ogni colpa implacabile nel prendere la vendetta, come dice la legge, e nessun cavaliere li perdonava se non peccava.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni errori di interpretazione: \"Crudeli\" (plurale) invece di \"crudele\" (singolare), e la frase finale \"nessun cavaliere li perdonava se non peccava\" distorce il senso originale, che indica che non perdona nessun cavaliere che pecca.",
+        "Fluency": "La frase è grammaticalmente corretta, ma la costruzione \"li perdonava se non peccava\" è confusa e poco fluida. Il resto è leggibile ma non perfettamente scorrevole.",
+        "Style": "Lo stile è un po' rigido e la traduzione appare meccanica, specialmente nella seconda parte. Manca la naturalezza di un testo moderno.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e uno stile poco naturale, compromettendo la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "Sì, quando un uccelline, il volo. Lo stesso uccione:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non mantiene il significato originale: omette completamente la seconda parte della frase e distorce la prima. Il senso complessivo è perso.",
+        "Fluency": "La frase è frammentaria e priva di coerenza grammaticale. Non è comprensibile come frase in italiano moderno.",
+        "Style": "Lo stile è incoerente e non naturale; la traduzione appare come una serie di parole scollegate, senza fluidità o eleganza.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, chiarezza e stile. Il significato originale non è trasmesso."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.2,
+      "std": 0.748
+    },
+    "Fluency": {
+      "mean": 3,
+      "std": 1.265
+    },
+    "Style": {
+      "mean": 2.6,
+      "std": 1.02
+    },
+    "Overall": {
+      "mean": 2.4,
+      "std": 0.8
+    }
+  }
+}

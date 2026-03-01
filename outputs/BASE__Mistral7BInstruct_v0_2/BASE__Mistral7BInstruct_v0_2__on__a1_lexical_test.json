@@ -1,0 +1,50 @@
+{
+  "model_name": "BASE__Mistral7BInstruct_v0_2",
+  "model_type": "base",
+  "model_path": "mistralai/Mistral-7B-Instruct-v0.2",
+  "dataset_name": "a1_lexical_test",
+  "dataset_path": "data/processed/approach1/lexical/test.jsonl",
+  "num_samples": 5,
+  "metrics": {
+    "bleu": 8.971245537718534,
+    "chrf++": 30.91143839682035,
+    "rougeL": 14.688311688311689,
+    "meteor": 0.13635118408364663,
+    "token_f1": 0.15596343311860553,
+    "bertscore_f1": 0.6612181067466736,
+    "has_reference": true,
+    "num_predictions": 5
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "migliadura: Questa edita la frase per farla comprensare:",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo."
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "���vembro per imparare ad aggiunta: \"Tenda l'hoca: Tenda le rete per imparare:",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale."
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si sono creati nuovi nemici; contro di essi è stato combattuto con diverse sorti di fortuna: perché nella prima battaglia, avendoci console Valerio, morirono MMMD romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;"
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "migliadura scollegare le espressione \"cruda per descrivere una volontà crudelissima istruada:",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi."
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "mantenuta, il volo questa frase per farla diventar più chiara e corretta:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade."
+    }
+  ]
+}

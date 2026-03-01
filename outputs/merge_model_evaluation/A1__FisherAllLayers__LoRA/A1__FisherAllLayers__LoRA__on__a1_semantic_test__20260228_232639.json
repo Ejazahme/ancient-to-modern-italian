@@ -1,0 +1,50 @@
+{
+  "model_name": "A1__FisherAllLayers__LoRA",
+  "model_type": "adapter",
+  "model_path": "models_hf/a1_merged_lora_merges/a1_fisher_lora",
+  "dataset_name": "a1_semantic_test",
+  "dataset_path": "data/processed/approach1/semantic/test.jsonl",
+  "num_samples": 5,
+  "metrics": {
+    "bleu": 22.937918861289486,
+    "chrf++": 39.590515662481415,
+    "rougeL": 43.10966810966811,
+    "meteor": 0.41001804303935907,
+    "token_f1": 0.38886104149262046,
+    "bertscore_f1": 0.7905362844467163,
+    "has_reference": true,
+    "num_predictions": 5
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "Ma se una cosa nobile e alta è abbattere il nemico, ancora di più è laudabile sapere avere pietà.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia"
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: tu non puoi già più a lungo rimanere con noi, perché io non lo sofferro e non lo lascio.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga."
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "E, cosa ancora più grave, cio Moderna:",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta."
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Inoltre, un amante chiamandolo piedà alla sua donna, dice parole e ragioni molte, e lei si difende nel suo dire.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole."
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando nelle matricole si scritturano giuri di rendere veri per Dio, per Cristo santo, e per lo Spirito Santo.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana"
+    }
+  ]
+}

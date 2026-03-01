@@ -1,0 +1,121 @@
+{
+  "model_name": "BASE__Mistral7BInstruct_v0_2",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "messo che, sse un nobilissimo l'esco: \"perchesca, rispettivo alla presente:",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è completamente perso. La traduzione non riflette il senso della frase medievale, né modernizza correttamente il contenuto.",
+        "Fluency": "La frase è grammaticalmente scorretta e incomprensibile in italiano moderno. Non segue alcuna struttura sintattica coerente.",
+        "Style": "Lo stile è incoerente e non naturale. La traduzione appare frammentaria e priva di senso compiuto.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e stile. Non trasmette il significato originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Siamo in mezzo a me e te: ormai tu non puoi più vivere con noi, perché non lo sopporto e non lo lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione perde la sfumatura di 'essere in mezzo' come distanza o separazione, interpretandolo come 'siamo in mezzo'. Inoltre, 'dimorare' viene reso con 'vivere', che è meno preciso. Alcune sfumature di intenzione sono attenuate.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma l'inizio ('Siamo in mezzo a me e te') è innaturale e poco chiaro in italiano moderno.",
+        "Style": "Il tono è generalmente moderno, ma l'espressione iniziale risulta innaturale e poco elegante. Il resto della frase è più scorrevole.",
+        "Overall": "La traduzione è comprensibile ma presenta imprecisioni semantiche e stilistiche che ne riducono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "migliadura:",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione \"migliadura\" non preserva alcun significato della frase originale e non modernizza il contenuto. Tutti i concetti chiave sono omessi.",
+        "Fluency": "La traduzione non è una frase completa e non ha alcuna struttura grammaticale; è incomprensibile.",
+        "Style": "Non c'è alcun tentativo di rendere la frase naturale o umana; la parola isolata è priva di stile.",
+        "Overall": "La traduzione è inutilizzabile: manca completamente di fedeltà, scorrevolezza e stile."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "��� Mettendo la seguente espressione per farla essere comprensale: \"Altrebbene un amante chiamando la sua amata disse, ch'io che al fin dove non era contento, rispondè: «Mi mi pien perche tu hai, et tuo dir, e lui, l'amante:",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è stato in gran parte perso. La frase è confusa, con aggiunte e omissioni che alterano il senso del testo medievale. Mancano elementi chiave come la difesa della donna.",
+        "Fluency": "La frase è grammaticalmente scorretta e difficile da comprendere. La sintassi è spezzata e molte parti risultano prive di senso compiuto.",
+        "Style": "Lo stile è incoerente e innaturale, con espressioni non idiomatiche e una struttura disorganica che non rispetta il tono del testo originale.",
+        "Overall": "La traduzione è inutilizzabile: il significato è distorto, la frase è poco fluida e lo stile incoerente. Richiede una riscrittura completa."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "messo alunno di recitare questa frase per farle sembrareggiante:",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non conserva il significato originale: manca il riferimento al giuramento e agli elementi religiosi. Il senso è completamente alterato.",
+        "Fluency": "La frase è grammaticalmente corretta, ma il contenuto non è pertinente al testo originale, risultando confusa.",
+        "Style": "La frase appare artificiale e non naturale, con un tono poco coerente rispetto al contesto richiesto.",
+        "Overall": "La traduzione è inutilizzabile: il significato originale è perso e lo stile non è adeguato."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.4,
+      "std": 0.8
+    },
+    "Fluency": {
+      "mean": 1.6,
+      "std": 0.8
+    },
+    "Style": {
+      "mean": 1.6,
+      "std": 0.8
+    },
+    "Overall": {
+      "mean": 1.4,
+      "std": 0.8
+    }
+  }
+}

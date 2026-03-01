@@ -1,0 +1,139 @@
+{
+  "model_name": "A2__FisherAllLayers__LoRA",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "Istruzione:",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione fornita è completamente assente; manca qualsiasi resa del significato originale. Nessun elemento semantico è stato preservato.",
+        "Fluency": "Non c'è alcuna frase da valutare; la parola 'Istruzione:' non costituisce una traduzione fluente o comprensibile.",
+        "Style": "Non esiste alcun tentativo stilistico; la risposta non riflette alcuna scelta di registro o naturalezza.",
+        "Overall": "La traduzione è inesistente e non risponde al compito richiesto. Non è valutabile come traduzione."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi avrebbe sperato ciò che anche coloro che ancora non vogliono credere in Cristo vedono insieme a noi, e poiché non possono negarlo, sbattono i denti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"stridono colli denti\" viene reso con \"sbattono i denti\", che è meno preciso di \"digrignano\". Il resto è fedele e ben modernizzato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole. L'uso di \"sbattono i denti\" è leggermente meno idiomatico, ma la struttura è moderna e comprensibile.",
+        "Style": "Il testo è naturale e scorrevole, ma \"sbattono i denti\" suona meno elegante e meno umano rispetto a \"digrignano\". Nel complesso, però, è abbastanza naturale.",
+        "Overall": "Traduzione fedele e fluida, con una piccola imprecisione stilistica che non compromette la comprensione."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "Quindi moderne:",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione è completamente assente; il significato originale non è stato preservato né modernizzato. Nessun elemento semantico della frase originale è presente.",
+        "Fluency": "Non c'è alcuna frase moderna fornita; la traduzione è incompleta e non leggibile.",
+        "Style": "Manca qualsiasi resa stilistica, non essendoci una traduzione da valutare.",
+        "Overall": "La traduzione è assente e inutilizzabile, non soddisfa nessuno dei criteri richiesti."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "modernamento:",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione è completamente assente, quindi il significato originale non è stato preservato né modernizzato.",
+        "Fluency": "Non c'è alcuna frase da valutare; la traduzione è vuota e non presenta alcuna struttura grammaticale.",
+        "Style": "Manca qualsiasi elemento stilistico, poiché non è stata fornita alcuna traduzione.",
+        "Overall": "La traduzione è inesistente e quindi inutilizzabile sotto ogni aspetto."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Pregolo che lo liberasse da quel compromesso, nel quale era rimasto per averlo trattenne consenzientemente. Il nobile uomo accord",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la parte finale ('e ne fece carta') e introduce un errore nel senso della frase centrale, confondendo il soggetto e il motivo dell'obbligazione. Alcuni dettagli semantici sono persi o alterati.",
+        "Fluency": "La frase è grammaticalmente incompleta e si interrompe bruscamente. La seconda frase è troncata ('Il nobile uomo accord'), compromettendo la comprensione.",
+        "Style": "Lo stile è innaturale e poco scorrevole, con una costruzione poco moderna e una chiusura incompleta che rende il testo poco leggibile.",
+        "Overall": "La traduzione presenta omissioni, errori di senso e problemi di fluidità e completezza che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Gli disse di liberarlo dall’obbligazione in cui lo aveva tenuto legato. Il nobile uomo acconsentì, lo",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la parte finale ('e liberollo, e fecene carta'), quindi manca un'informazione importante. Il resto è generalmente fedele, ma la perdita di dettagli riduce la completezza.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, ma la frase si interrompe bruscamente, compromettendo la coerenza.",
+        "Style": "Lo stile è moderno e naturale fino all'interruzione, ma la frase incompleta rende il testo meno fluido e umano.",
+        "Overall": "Traduzione comprensibile e moderna, ma l'omissione finale e l'incompletezza abbassano la qualità generale."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2,
+      "std": 1.155
+    },
+    "Fluency": {
+      "mean": 2,
+      "std": 1.155
+    },
+    "Style": {
+      "mean": 2,
+      "std": 1.155
+    },
+    "Overall": {
+      "mean": 2,
+      "std": 1.155
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "model_name": "BASE__Mistral7BInstruct_v0_2",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "mancano i soldati di fatti armi e vestizione e rendendola: \"Istruisci soldati, armi vostada:",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non conserva il significato originale: introduce elementi non presenti (soldati, vestizione) e omette il senso centrale del passaggio tra i nemici e il coraggio.",
+        "Fluency": "La frase è sconnessa, con errori grammaticali e sintattici che la rendono difficile da comprendere in italiano moderno.",
+        "Style": "Il testo appare incoerente e privo di naturalezza; manca di coesione e non rispetta uno stile moderno o umano.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è poco fluida e stilisticamente incoerente."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi avrebbe aspettato quello che ancora questi non credono in Cristo, lo vedono con noi, e per questo non possono negarlo, grattigliano i denti. (Non ho trovato una forma più naturale di esprimere \"stridono colli denti\" con una locuzione moderna)",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"aspettato\" non rende bene \"spererebbe\" e manca \"ora\". \"Grattigliano i denti\" non è equivalente a \"stridono colli denti\". Alcune sfumature sono perse.",
+        "Fluency": "Il testo è comprensibile ma presenta costruzioni poco naturali, soprattutto nella prima frase. \"Grattigliano i denti\" è insolito in italiano moderno.",
+        "Style": "La resa è piuttosto rigida e poco naturale. L'espressione \"grattigliano i denti\" suona innaturale e il periodo risulta forzato.",
+        "Overall": "Traduzione comprensibile ma con scelte lessicali e sintattiche poco moderne e naturali. Alcune sfumature del testo originale sono perse."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "���che frase: e quella cosa, quella cosa che io fornato: «e quella cosa, la quale è diretta:",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è quasi completamente perso. La frase è confusa, ripetitiva e non trasmette il senso di onestà, rettitudine e virtù espresso nell'originale.",
+        "Fluency": "La frase è grammaticalmente scorretta e difficile da comprendere. La struttura è spezzata e non segue la sintassi dell'italiano moderno.",
+        "Style": "Lo stile è incoerente e innaturale. Sembra un testo generato automaticamente senza attenzione alla fluidità o eleganza.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è poco fluida e lo stile è incoerente."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "misura (o insegna questa frase perché sia comprensibile ma chiara e corretta.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non mantiene il significato originale: manca ogni riferimento ai poeti, alle virtù, ai difetti e all'ordine stabilito. Il contenuto è completamente omesso o frainteso.",
+        "Fluency": "La frase è incompleta e poco chiara, non costituisce una frase corretta o comprensibile in italiano moderno.",
+        "Style": "Lo stile è incoerente e non naturale; sembra una nota redazionale o una frase guida, non una traduzione.",
+        "Overall": "La traduzione è inutilizzabile: manca il contenuto originale, non è fluida né stilisticamente adeguata."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "migliadore di grammatica il testo: \"Il prete lo pregolloquio: *pregolo",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale e non modernizza il testo. Il contenuto è incompleto e non corrisponde al senso della frase antica.",
+        "Fluency": "Il testo non è grammaticalmente corretto né comprensibile in italiano moderno. Presenta errori e parti non sensate.",
+        "Style": "La resa è incoerente e non naturale, con termini inventati e struttura non umana.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e stile. Non trasmette il senso dell’originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "���mparre la tua domanda per chiedeja: \"Preggiungo colloquiale.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non conserva il significato dell'originale: il contenuto è completamente diverso e non modernizza correttamente il testo medievale. Mancano tutti gli elementi chiave della frase originale.",
+        "Fluency": "Il testo non è grammaticalmente corretto né comprensibile in italiano moderno. Presenta errori e parti prive di senso.",
+        "Style": "La traduzione non ha coerenza stilistica, risulta frammentaria e non naturale. Non si avvicina a uno stile umano o moderno.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e naturalezza. Non trasmette il senso dell'originale."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.333,
+      "std": 0.745
+    },
+    "Fluency": {
+      "mean": 1.333,
+      "std": 0.745
+    },
+    "Style": {
+      "mean": 1.333,
+      "std": 0.745
+    },
+    "Overall": {
+      "mean": 1.333,
+      "std": 0.745
+    }
+  }
+}

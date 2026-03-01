@@ -1,0 +1,121 @@
+{
+  "model_name": "BASE__Mistral7BInstruct_v0_2",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "migliadura: Questa edita la frase per farla comprensare:",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non riproduce il significato dell'originale; si limita a un commento metalinguistico senza alcun contenuto semantico della frase di partenza.",
+        "Fluency": "La frase è grammaticalmente corretta, ma non è una traduzione; è solo una nota editoriale, non un testo narrativo.",
+        "Style": "Non c'è alcun tentativo di mantenere stile o tono; la frase è una semplice istruzione, non una resa stilistica dell'originale.",
+        "Overall": "La traduzione fallisce completamente: non trasmette il significato, né rispetta stile o funzione del testo originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "���vembro per imparare ad aggiunta: \"Tenda l'hoca: Tenda le rete per imparare:",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è completamente perso; la frase tradotta non riflette né il contenuto né i soggetti dell'originale. Ci sono parole aggiunte e omissioni gravi.",
+        "Fluency": "La frase è frammentaria e priva di senso compiuto. La struttura è confusa e non rispetta la grammatica dell'italiano moderno.",
+        "Style": "Lo stile è incoerente e non naturale; la frase sembra un insieme casuale di parole senza eleganza o scorrevolezza.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è illeggibile e lo stile è assente."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si sono creati nuovi nemici; contro di essi è stato combattuto con diverse sorti di fortuna: perché nella prima battaglia, avendoci console Valerio, morirono MMMD romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è preservato, ma \"si sono creati nuovi nemici\" è meno preciso di \"si fecero nuovi nemici\". \"Avendoci console Valerio\" è una resa errata di \"essendo console Valerio\". Alcune sfumature sono perse.",
+        "Fluency": "La frase è generalmente comprensibile, ma \"avendoci console Valerio\" è grammaticalmente scorretto e poco chiaro. Il resto della frase è scorrevole.",
+        "Style": "Il testo è leggibile ma presenta alcune rigidità e una resa poco naturale in alcuni punti, soprattutto nella parte centrale.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di resa e alcune scelte poco naturali che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "migliadura scollegare le espressione \"cruda per descrivere una volontà crudelissima istruada:",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è completamente perso. La traduzione non mantiene né il contenuto né la struttura della frase medievale.",
+        "Fluency": "La frase è sconnessa, priva di senso compiuto e contiene errori grammaticali che la rendono incomprensibile.",
+        "Style": "Lo stile è incoerente e non rispecchia né il tono medievale né quello moderno. Sembra una sequenza di parole prive di legame.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e coerenza stilistica. Non trasmette il significato originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "mantenuta, il volo questa frase per farla diventar più chiara e corretta:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione fornita non conserva il significato dell'originale medievale; manca quasi completamente di attinenza semantica rispetto alla frase di partenza.",
+        "Fluency": "La frase proposta non è grammaticalmente corretta e non costituisce una frase compiuta in italiano moderno.",
+        "Style": "Lo stile è incoerente e non rispetta né il tono né la struttura di un testo tradotto in italiano moderno.",
+        "Overall": "La traduzione è inutilizzabile: non trasmette il senso dell'originale né rispetta i criteri di modernizzazione, chiarezza o stile."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.4,
+      "std": 0.8
+    },
+    "Fluency": {
+      "mean": 1.6,
+      "std": 0.8
+    },
+    "Style": {
+      "mean": 1.4,
+      "std": 0.8
+    },
+    "Overall": {
+      "mean": 1.4,
+      "std": 0.8
+    }
+  }
+}

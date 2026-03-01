@@ -1,0 +1,121 @@
+{
+  "model_name": "A1__FisherAllLayers__LoRA",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "Ma se una cosa nobile e alta è abbattere il nemico, ancora di più è laudabile sapere avere pietà.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma modifica la relazione tra le due azioni: 'ancora di più' implica una gerarchia non presente nell'originale, che invece sottolinea la pari lodevolezza della misericordia dopo la vittoria.",
+        "Fluency": "Il testo è scorrevole, corretto e facilmente comprensibile in italiano moderno, senza errori grammaticali.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più interpretativo rispetto all'originale. Rimane comunque elegante e umano.",
+        "Overall": "La traduzione è fedele e ben scritta, con una piccola deviazione di senso nella relazione tra le azioni, ma nel complesso di alta qualità."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: tu non puoi già più a lungo rimanere con noi, perché io non lo sofferro e non lo lascio.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma omette \"in mezzo tra me e te\" (tra me e te) e semplifica \"non lo sofferrò e non lo lascerò\". C'è una lieve perdita di sfumature rispetto all'originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La costruzione è moderna e comprensibile.",
+        "Style": "Il testo appare naturale e moderno, anche se leggermente più sintetico rispetto all'originale. Lo stile è umano e scorrevole.",
+        "Overall": "Traduzione fedele e fluente, con lievi omissioni di sfumature. Comprensibile e naturale, ma non completamente esaustiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "E, cosa ancora più grave, cio Moderna:",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation is incomplete, omitting most of the original meaning. Key elements like 'essere preso', 'fuggire', and 'lasciare vincere il Comune' are missing.",
+        "Fluency": "The sentence is abruptly cut off and ungrammatical, making it incomprehensible as a modern Italian sentence.",
+        "Style": "The translation lacks coherence and does not resemble natural or human-like modern Italian. It is fragmentary and stylistically incoherent.",
+        "Overall": "The translation is incomplete, ungrammatical, and fails to convey the original meaning. It is unusable in its current form."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Inoltre, un amante chiamandolo piedà alla sua donna, dice parole e ragioni molte, e lei si difende nel suo dire.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il termine \"pietà\" è reso come \"piedà\", che è un errore. \"Chiamandolo\" è scorretto: l'amante chiede pietà, non chiama qualcuno. Il resto del significato è mantenuto, ma ci sono imprecisioni.",
+        "Fluency": "La frase è generalmente leggibile, ma \"chiamandolo piedà\" è grammaticalmente scorretto e poco chiaro. Il resto della frase è fluente.",
+        "Style": "Lo stile è comprensibile ma presenta rigidità e un errore che rende la frase meno naturale. Manca eleganza e scorrevolezza tipica del moderno italiano.",
+        "Overall": "La traduzione è comprensibile ma contiene errori semantici e stilistici che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando nelle matricole si scritturano giuri di rendere veri per Dio, per Cristo santo, e per lo Spirito Santo.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è stato parzialmente travisato: \"si scritturano giuri di rendere veri\" non rispecchia il senso di giurare durante l'iscrizione. Manca la chiarezza del giuramento e l'ordine delle azioni è confuso.",
+        "Fluency": "La frase è poco scorrevole e presenta costruzioni innaturali come \"si scritturano giuri di rendere veri\". La sintassi è rigida e poco chiara.",
+        "Style": "Il testo appare artificiale e poco naturale, con termini e strutture che non rispecchiano l'italiano moderno corrente. Mancano eleganza e fluidità.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e stile che ne compromettono la qualità complessiva."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3,
+      "std": 1.095
+    },
+    "Fluency": {
+      "mean": 3.4,
+      "std": 1.497
+    },
+    "Style": {
+      "mean": 2.8,
+      "std": 1.166
+    },
+    "Overall": {
+      "mean": 2.8,
+      "std": 1.166
+    }
+  }
+}

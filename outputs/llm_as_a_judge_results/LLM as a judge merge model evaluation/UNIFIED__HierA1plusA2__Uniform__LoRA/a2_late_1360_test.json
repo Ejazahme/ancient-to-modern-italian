@@ -1,0 +1,139 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__Uniform__LoRA",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "moderna la seguente frase la seguente frase italiana arcaica in italiano moderno.",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione fornita non contiene alcun tentativo di modernizzazione o trasposizione del significato della frase originale; è solo una meta-istruzione, non una traduzione.",
+        "Fluency": "La frase non è una traduzione, ma una ripetizione della richiesta; non presenta errori grammaticali, ma non è pertinente al compito.",
+        "Style": "Non c'è alcun tentativo stilistico, né naturalezza: la frase è una meta-descrizione, non un testo tradotto.",
+        "Overall": "La risposta non è una traduzione, ma una ripetizione della richiesta. Non soddisfa nessun criterio di valutazione."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi avrebbe oggi a sperare quello che ancor i non credenti in Cristo non desiderano ancora, vede già con noi e per questo non può negarli, grattuglia i denti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi di significato sono stati alterati: \"non desiderano ancora\" non corrisponde a \"non vogliono ancora credere\"; \"non può negarli\" è scorretto rispetto a \"non possono negare\". \"Grattuglia i denti\" è una resa impropria di \"stridono colli denti\".",
+        "Fluency": "La frase è poco fluida: \"vede già con noi\" è ambiguo, \"grattuglia i denti\" non è idiomatico. Alcuni passaggi risultano confusi e poco scorrevoli.",
+        "Style": "Lo stile è innaturale e poco moderno. Espressioni come \"grattuglia i denti\" e la struttura complessiva risultano poco umane e forzate.",
+        "Overall": "La traduzione presenta errori di senso, scarsa fluidità e uno stile innaturale, compromettendo la comprensione e la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "E quella cosa che è diritta, onesta e viva con la virtù, io la considero come il bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione introduce 'viva con la virtù', che non è presente nell'originale ('con virtute'). Inoltre, omette 'quella sola', che esprime esclusività. Questi cambiamenti alterano il significato originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben costruito in italiano moderno.",
+        "Style": "Il tono è naturale e moderno, ma l'aggiunta di 'viva con la virtù' suona leggermente innaturale rispetto all'originale. Tuttavia, nel complesso, il testo appare umano.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma alcune scelte lessicali compromettono la fedeltà al testo originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "moderna la seguente frase la seguente frase italiana arcaica in italiano contemporaneo.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale, ma si limita a un'istruzione metatestuale, senza alcuna resa del contenuto della frase arcaica.",
+        "Fluency": "La frase è grammaticalmente corretta, ma non è una traduzione: è solo una richiesta di modernizzazione, non un testo narrativo o descrittivo.",
+        "Style": "Non è uno stile traduttivo, ma una frase metalinguistica. Non c'è alcuna resa stilistica del testo originale.",
+        "Overall": "La risposta non è una traduzione, ma una richiesta di traduzione. Non soddisfa nessuno dei criteri richiesti."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "lui chiese da quell'obbliglio per testimoniare che l'avve:",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette parti fondamentali del significato originale: manca la liberazione dall'obbligazione, l'assenso del gentiluomo e la stesura dell'atto. Il senso è solo parzialmente mantenuto.",
+        "Fluency": "La frase è incompleta e sintatticamente poco chiara, con errori come 'per testimoniare che l'avve'. Risulta difficile da comprendere.",
+        "Style": "Lo stile è innaturale e frammentario, non rispecchia il tono né la scorrevolezza dell'italiano moderno.",
+        "Overall": "La traduzione è incompleta e poco chiara, con omissioni sostanziali e scarsa scorrevolezza. Necessita di una revisione profonda."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Chiese di essere rilasciato da quel dovere, in cui era rimasto per averlo lasciato prigioniero del suo signore.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette dettagli importanti: manca la parte relativa all'assenso, alla liberazione e alla stesura della carta. Inoltre, 'prigioniero del suo signore' non è presente nell'originale e distorce il senso.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è leggibile e comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma la mancanza di alcune parti riduce la completezza. Tuttavia, la resa è umana e non artificiale.",
+        "Overall": "La traduzione è fluente e stilisticamente valida, ma la perdita di informazioni chiave e l'aggiunta di elementi non presenti nell'originale ne compromettono la fedeltà."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.833,
+      "std": 0.687
+    },
+    "Fluency": {
+      "mean": 2.833,
+      "std": 1.572
+    },
+    "Style": {
+      "mean": 2.333,
+      "std": 1.247
+    },
+    "Overall": {
+      "mean": 2.167,
+      "std": 1.067
+    }
+  }
+}

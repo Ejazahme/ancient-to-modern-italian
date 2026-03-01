@@ -11,27 +11,4 @@ a2_middle_expert          | a2_middle_1310_test    | BLEU=32.37 | chrF=54.35 | R
 a2_middle_expert          | real_97_test           | BLEU=30.02 | chrF=53.35 | ROUGE-L=52.00 | METEOR=0.53 | BERT=83.52 | TokF1=51.25
 a2_late_expert            | a2_late_1360_test      | BLEU=57.78 | chrF=70.92 | ROUGE-L=71.49 | METEOR=0.75 | BERT=90.23 | TokF1=72.81
 a2_late_expert            | real_97_test           | BLEU=18.83 | chrF=43.83 | ROUGE-L=37.56 | METEOR=0.39 | BERT=78.90 | TokF1=37.99
-a1_merged_lora            | a1_lexical_test        | BLEU=22.31 | chrF=49.77 | ROUGE-L=42.30 | METEOR=0.45 | BERT=83.24 | TokF1=41.21
-a1_merged_lora            | a1_syntactic_test      | BLEU=17.47 | chrF=49.63 | ROUGE-L=41.64 | METEOR=0.44 | BERT=82.86 | TokF1=40.32
-a1_merged_lora            | a1_semantic_test       | BLEU=12.14 | chrF=34.72 | ROUGE-L=30.30 | METEOR=0.32 | BERT=77.33 | TokF1=31.30
-a1_merged_lora            | real_97_test           | BLEU=19.08 | chrF=47.17 | ROUGE-L=43.39 | METEOR=0.46 | BERT=81.48 | TokF1=43.53
-a1_merged_full            | a1_lexical_test        | BLEU=27.46 | chrF=55.42 | ROUGE-L=46.92 | METEOR=0.50 | BERT=85.49 | TokF1=48.63
-a1_merged_full            | a1_syntactic_test      | BLEU=19.87 | chrF=51.33 | ROUGE-L=47.06 | METEOR=0.49 | BERT=84.44 | TokF1=45.38
-a1_merged_full            | a1_semantic_test       | BLEU=9.71 | chrF=36.06 | ROUGE-L=28.41 | METEOR=0.29 | BERT=76.54 | TokF1=28.58
-a1_merged_full            | real_97_test           | BLEU=19.15 | chrF=46.68 | ROUGE-L=42.41 | METEOR=0.45 | BERT=81.17 | TokF1=42.76
-a2_merged_lora            | a2_early_1260_test     | BLEU=20.33 | chrF=49.58 | ROUGE-L=44.38 | METEOR=0.48 | BERT=83.00 | TokF1=41.70
-a2_merged_lora            | a2_middle_1310_test    | BLEU=19.51 | chrF=49.04 | ROUGE-L=42.81 | METEOR=0.45 | BERT=82.52 | TokF1=44.37
-a2_merged_lora            | a2_late_1360_test      | BLEU=16.74 | chrF=48.21 | ROUGE-L=47.80 | METEOR=0.50 | BERT=82.45 | TokF1=44.55
-a2_merged_lora            | real_97_test           | BLEU=18.79 | chrF=45.59 | ROUGE-L=41.15 | METEOR=0.44 | BERT=80.79 | TokF1=41.22
-a2_merged_full            | a2_early_1260_test     | BLEU=13.82 | chrF=43.22 | ROUGE-L=38.41 | METEOR=0.43 | BERT=79.56 | TokF1=39.28
-a2_merged_full            | a2_middle_1310_test    | BLEU=14.61 | chrF=45.41 | ROUGE-L=37.61 | METEOR=0.38 | BERT=80.60 | TokF1=37.07
-a2_merged_full            | a2_late_1360_test      | BLEU=17.20 | chrF=46.19 | ROUGE-L=41.58 | METEOR=0.44 | BERT=82.46 | TokF1=43.49
-a2_merged_full            | real_97_test           | BLEU=19.97 | chrF=46.33 | ROUGE-L=42.51 | METEOR=0.46 | BERT=80.97 | TokF1=42.97
-unified_merged_full       | a1_lexical_test        | BLEU=24.09 | chrF=49.48 | ROUGE-L=43.54 | METEOR=0.47 | BERT=81.78 | TokF1=43.03
-unified_merged_full       | a1_syntactic_test      | BLEU=12.19 | chrF=45.44 | ROUGE-L=38.10 | METEOR=0.39 | BERT=79.07 | TokF1=37.88
-unified_merged_full       | a1_semantic_test       | BLEU=9.89 | chrF=35.79 | ROUGE-L=24.19 | METEOR=0.24 | BERT=76.04 | TokF1=21.68
-unified_merged_full       | a2_early_1260_test     | BLEU=23.70 | chrF=47.26 | ROUGE-L=40.85 | METEOR=0.46 | BERT=81.72 | TokF1=39.65
-unified_merged_full       | a2_middle_1310_test    | BLEU=16.14 | chrF=48.51 | ROUGE-L=40.75 | METEOR=0.43 | BERT=81.07 | TokF1=41.32
-unified_merged_full       | a2_late_1360_test      | BLEU=20.68 | chrF=45.32 | ROUGE-L=44.17 | METEOR=0.45 | BERT=83.68 | TokF1=43.16
-unified_merged_full       | real_97_test           | BLEU=20.69 | chrF=47.21 | ROUGE-L=43.93 | METEOR=0.46 | BERT=81.18 | TokF1=43.42
 root@230b3a38dc22:/# 

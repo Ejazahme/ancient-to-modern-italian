@@ -1,0 +1,50 @@
+{
+  "model_name": "A1__Uniform__LoRA",
+  "model_type": "adapter",
+  "model_path": "models_hf/a1_merged_lora_merges/a1_uniform_lora",
+  "dataset_name": "a1_semantic_test",
+  "dataset_path": "data/processed/approach1/semantic/test.jsonl",
+  "num_samples": 5,
+  "metrics": {
+    "bleu": 13.601077960039575,
+    "chrf++": 30.467677137001083,
+    "rougeL": 28.560710321864597,
+    "meteor": 0.22782338351929404,
+    "token_f1": 0.28189542483660135,
+    "bertscore_f1": 0.7481886148452759,
+    "has_reference": true,
+    "num_predictions": 5
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "morderno: Modernizza la frase italiana arcaica in italiano contemporaneo.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia"
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: tu non puoi più durare con noi, perché io non lo farò e non lo lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga."
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "E, cosa ancora più grave, cioè essere catturati o fuggire e lasciare il proprio comune sconfitto.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta."
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Ancise anche un amante, chiama:",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole."
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando nella matricollo si giurano conterrana:",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana"
+    }
+  ]
+}

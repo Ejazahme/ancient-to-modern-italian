@@ -1,0 +1,56 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__Uniform__LoRA",
+  "model_type": "adapter",
+  "model_path": "models_hf/unified_hierarchical_lora_merges/UNIFIED_hierarchical__A1uniform_plus_A2uniform__UNIFORM__LORA",
+  "dataset_name": "a2_late_1360_test",
+  "dataset_path": "data/processed/approach2/late_1360/test.jsonl",
+  "num_samples": 6,
+  "metrics": {
+    "bleu": 5.305843196455399,
+    "chrf++": 26.06920730834064,
+    "rougeL": 23.938524280474617,
+    "meteor": 0.21745611668257248,
+    "token_f1": 0.2367755965389342,
+    "bertscore_f1": 0.7214157581329346,
+    "has_reference": true,
+    "num_predictions": 6
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "moderna la seguente frase la seguente frase italiana arcaica in italiano moderno.",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito."
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi avrebbe oggi a sperare quello che ancor i non credenti in Cristo non desiderano ancora, vede già con noi e per questo non può negarli, grattuglia i denti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti."
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "E quella cosa che è diritta, onesta e viva con la virtù, io la considero come il bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene."
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "moderna la seguente frase la seguente frase italiana arcaica in italiano contemporaneo.",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro."
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "lui chiese da quell'obbliglio per testimoniare che l'avve:",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto."
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Chiese di essere rilasciato da quel dovere, in cui era rimasto per averlo lasciato prigioniero del suo signore.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento."
+    }
+  ]
+}

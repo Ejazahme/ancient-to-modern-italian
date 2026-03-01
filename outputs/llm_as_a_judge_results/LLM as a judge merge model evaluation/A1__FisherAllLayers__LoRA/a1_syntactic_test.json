@@ -1,0 +1,139 @@
+{
+  "model_name": "A1__FisherAllLayers__LoRA",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "struzione arca:",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione \"struzione arca\" non conserva alcun significato della frase originale, né modernizza il contenuto. Il senso è completamente perso.",
+        "Fluency": "La frase non è grammaticalmente corretta né comprensibile in italiano moderno. Non costituisce una frase leggibile.",
+        "Style": "La traduzione non ha alcuna coerenza stilistica e non risulta naturale né umana.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, manca di fluidità e stile."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "Quella guerra fece una grande operazione perché ecc. Dall’altra parte c’era Aiace, il quale era un cavaliere franco e valentissimo nell",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi di significato sono stati persi: \"ben fatta l'opera\" è reso come \"fece una grande operazione\", che altera il senso originale. Manca anche la parte su Aiace che non era pieno di senno.",
+        "Fluency": "La frase è grammaticalmente corretta ma si interrompe bruscamente su \"valentissimo nell\". Alcune costruzioni sono poco naturali.",
+        "Style": "Il tono è piuttosto meccanico e manca di naturalezza. L'uso di \"fece una grande operazione\" non è idiomatico.",
+        "Overall": "La traduzione è comprensibile ma presenta omissioni e rigidità che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "struzione arca:",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione fornita ('struzione arca:') non preserva alcun significato della frase originale e non modernizza il contenuto. L'intero senso è perso.",
+        "Fluency": "La frase non è grammaticalmente corretta né comprensibile in italiano moderno. Non costituisce una frase completa.",
+        "Style": "La traduzione non ha alcuna coerenza stilistica e non risulta naturale né umana.",
+        "Overall": "La traduzione è inutilizzabile: manca completamente di fedeltà, scorrevolezza e stile."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "Io gli aprii, ma essi fuggirono terrorizzati. E che necessità c'è che il tuo cuore resti chiuso a te stesso, Cristo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La prima frase aggiunge 'terrorizzati', non presente nell'originale. La seconda parte distorce il senso: 'a te stesso, Cristo' invece di 'al tuo sposo, Cristo'. Queste modifiche alterano il significato.",
+        "Fluency": "La traduzione è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben strutturato in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma alcune scelte lessicali ('terrorizzati') risultano leggermente enfatiche rispetto all'originale. Nel complesso, il tono è umano.",
+        "Overall": "La traduzione è fluente e naturale, ma presenta errori di fedeltà che compromettono la correttezza semantica. Comprensibile, ma il senso originale è alterato."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti dei Romani si formarono nuovi nemici; contro i quali fu combattuta con esiti diversi: perché nella prima battaglia, quando era console Valerio, morirono più di migliaia di Romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma \"si formarono nuovi nemici\" è meno preciso di \"si feciero nuovi nemici\" (si fecero dei nemici). \"Più di migliaia\" è una resa imprecisa di \"MMMD\" (tremila e cinquecento).",
+        "Fluency": "Il testo è generalmente scorrevole, ma \"fu combattuta\" manca di soggetto chiaro e \"più di migliaia\" è poco naturale. Alcune frasi sono leggermente innaturali.",
+        "Style": "Lo stile è comprensibile ma un po' rigido e poco naturale in alcuni punti, soprattutto con \"più di migliaia\" e \"fu combattuta\". Manca di eleganza moderna.",
+        "Overall": "Traduzione accettabile e comprensibile, ma con alcune imprecisioni semantiche e stilistiche che ne riducono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "struzione arca:",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Il significato originale è completamente perso; la traduzione non riflette nessun elemento della frase di partenza.",
+        "Fluency": "La frase non è grammaticalmente corretta né comprensibile in italiano moderno.",
+        "Style": "La traduzione non ha alcuna coerenza stilistica e non appare come una frase italiana naturale.",
+        "Overall": "La traduzione è inutilizzabile: il significato è perso, la frase è incomprensibile e stilisticamente incoerente."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.833,
+      "std": 0.898
+    },
+    "Fluency": {
+      "mean": 2.333,
+      "std": 1.491
+    },
+    "Style": {
+      "mean": 2.167,
+      "std": 1.213
+    },
+    "Overall": {
+      "mean": 2,
+      "std": 1.0
+    }
+  }
+}

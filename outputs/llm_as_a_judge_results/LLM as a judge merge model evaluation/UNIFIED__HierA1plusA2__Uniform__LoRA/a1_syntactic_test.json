@@ -1,0 +1,139 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__Uniform__LoRA",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "Andò alle domande che gli venivano:",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette completamente il contesto del re, il giardino e l'albergo, e introduce elementi non presenti nell'originale. Il significato è gravemente distorto.",
+        "Fluency": "La frase è grammaticalmente corretta ma vaga e priva di coerenza rispetto al testo di partenza.",
+        "Style": "Lo stile è neutro e moderno, ma manca di qualsiasi eleganza o naturalezza collegata al testo originale.",
+        "Overall": "La traduzione è inutilizzabile perché non preserva il significato originale, nonostante sia grammaticalmente corretta."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "Quella guerra fu molto bene condotta perché il re di Troya ci fu. Da una parte c'era Aiace, un cavaliere francese coragg",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette parti importanti: manca la menzione dell'opera ben fatta, del valore e della mancanza di senno di Aiace. L'identificazione di Aiace come 'francese' è un errore di interpretazione.",
+        "Fluency": "La frase è grammaticalmente corretta ma si interrompe bruscamente ('coragg'), risultando incompleta e poco scorrevole.",
+        "Style": "Lo stile è semplice ma poco naturale e incompleto; manca coesione e la frase si interrompe in modo innaturale.",
+        "Overall": "La traduzione è incompleta, omissiva e presenta errori di interpretazione. La scorrevolezza e lo stile risultano compromessi dalla frase troncata."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "mordi: Modernizza la frase italiana arcaica in italiano contemporaneo.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non ha preservato il significato originale; si limita a un comando generico e non modernizza né trasmette il contenuto della frase arcaica.",
+        "Fluency": "La frase non è una traduzione, ma un'istruzione. Non presenta errori grammaticali, ma non è una frase coerente nel contesto richiesto.",
+        "Style": "Lo stile è quello di un comando rivolto a un sistema, non di una traduzione naturale o umana del testo.",
+        "Overall": "La traduzione non soddisfa i requisiti: manca di fedeltà, stile e non è una vera modernizzazione del testo arcaico."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "Io li ho aperto e sono scappati via. Ma perché dovrebbe il tuo cuore rimanere chiuso a te stesso, Cristo, tuo marito?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La prima frase è fedele ma modernizzata in modo un po' libero. La seconda distorce il senso: \"a te stesso, Cristo, tuo marito\" è un fraintendimento rispetto all'originale, che si rivolge al lettore e non a Cristo.",
+        "Fluency": "La frase \"Io li ho aperto\" è grammaticalmente scorretta; sarebbe \"Io gli ho aperto\" o \"Io ho aperto loro\". Il resto è comprensibile ma poco scorrevole.",
+        "Style": "Lo stile è poco naturale, con costruzioni forzate e una resa che non suona moderna né elegante. La seconda frase è particolarmente innaturale.",
+        "Overall": "La traduzione presenta errori di senso e di grammatica, risultando poco fedele e poco naturale. Comprensibile ma con problemi rilevanti."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si resero nuovi nemici; contro di loro fu combattuta con diverse sorti di fortuna: perché nella prima battaglia, essendo console Valerio, persero la vita MMMD romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"si resero nuovi nemici\" è ambiguo rispetto all'originale \"si feciero nuovi nemici\" (dovrebbe essere \"si fecero nuovi nemici\"). Il resto è fedele, con solo minime sfumature perse.",
+        "Fluency": "Il testo è grammaticalmente corretto e comprensibile, ma \"si resero nuovi nemici\" è poco idiomatico. Il resto della frase scorre bene.",
+        "Style": "Lo stile è moderno e leggibile, ma alcune scelte lessicali risultano leggermente innaturali per un parlante contemporaneo. Nel complesso, il tono è adeguato.",
+        "Overall": "La traduzione è fedele, fluente e stilisticamente adeguata, con solo lievi imperfezioni nella resa di alcune espressioni."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando Santo, e poi si iscrive in italiano contemporaneo:",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette gran parte del significato originale, in particolare il giuramento e le sue formule. Il riferimento alla matricola è confuso e incompleto.",
+        "Fluency": "La frase è grammaticalmente scorretta e manca di coerenza sintattica; risulta difficile da comprendere.",
+        "Style": "Il testo appare frammentario e innaturale, non rispecchia uno stile moderno né scorrevole.",
+        "Overall": "La traduzione è incompleta, poco fedele e stilisticamente debole; necessita di una revisione sostanziale."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2,
+      "std": 1.0
+    },
+    "Fluency": {
+      "mean": 2.667,
+      "std": 0.745
+    },
+    "Style": {
+      "mean": 2.167,
+      "std": 0.898
+    },
+    "Overall": {
+      "mean": 2,
+      "std": 1.0
+    }
+  }
+}

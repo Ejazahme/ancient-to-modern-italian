@@ -1,4 +1,3 @@
-
 ========== FINAL SUMMARY GPT AND GEMINI MODELS ==========
 gpt4_1                   | gpt4_1__on__a2_middle_1310_test.json     | BLEU=67.74 | chrF=83.87 | ROUGE-L=85.21 | METEOR=0.87 | BERT=95.11 | TokF1=83.16
 gpt4_1                   | gpt4_1__on__a1_semantic_test.json        | BLEU=28.51 | chrF=53.65 | ROUGE-L=56.59 | METEOR=0.55 | BERT=84.48 | TokF1=56.21

@@ -1,0 +1,121 @@
+{
+  "model_name": "A1__FisherPlusSNR50__LoRA",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "Si chiedeva inutile chi avesse scritto questi libri, poichè in realtà si poteva considerare vero che l'Autore",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la parte finale del significato originale, in particolare l'identificazione dell'autore come lo Spirito Santo. Inoltre, \"si chiedeva inutile\" è una resa imprecisa di \"in vano si domanda\".",
+        "Fluency": "La frase \"si chiedeva inutile\" è scorretta e poco comprensibile in italiano moderno. La costruzione sintattica è confusa e la frase risulta tronca.",
+        "Style": "Il testo appare innaturale e incompleto, con una struttura poco fluida e non moderna. Manca coesione e scorrevolezza.",
+        "Overall": "La traduzione è incompleta, poco fedele e stilisticamente debole. Non trasmette chiaramente il significato originale né rispetta la modernità richiesta."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "struisci: Modernizza la seguente frase italiana arcaica arcaica in italiano contemporaneo.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale: invece di modernizzare la frase, fornisce un'istruzione metatestuale. Il contenuto originale non è stato tradotto né modernizzato.",
+        "Fluency": "La frase non è una traduzione, ma un'istruzione metalinguistica. Non presenta errori grammaticali, ma non è una frase moderna italiana coerente col testo di partenza.",
+        "Style": "Non si tratta di una traduzione stilistica, ma di una richiesta d'azione. Manca qualsiasi tentativo di rendere il testo naturale o umano.",
+        "Overall": "La risposta non è una traduzione, ma un prompt. Non soddisfa nessuno dei criteri richiesti per una traduzione moderna."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai Monti Romani si fecero nuovi nemici; contro di cui fu combattuta con diverse sorti di fortuna: perché nella prima battaglia, avendolo console Valerio, più di migliaia dei Romani persero la vita.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale, ma \"più di migliaia\" è una resa imprecisa di \"MMMD\" (3500), perdendo specificità numerica. \"Avendolo console Valerio\" è ambiguo rispetto all'originale. Alcune sfumature sono leggermente alterate.",
+        "Fluency": "Il testo è generalmente scorrevole, ma \"avendolo console Valerio\" è poco chiaro e non idiomatico. \"Più di migliaia\" è una costruzione non naturale. Il resto è grammaticalmente corretto.",
+        "Style": "Lo stile è comprensibile ma risulta un po' rigido e poco naturale in alcuni punti, specialmente nella resa del numero e della carica consolare. Manca fluidità moderna.",
+        "Overall": "La traduzione è comprensibile ma presenta imprecisioni semantiche e stilistiche che ne riducono la qualità complessiva. Accettabile ma necessita revisioni."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Crude, e di tutte le colpe prende la vendetta, come dice la legge, e non perdonerà a nessun cavaliere i peccati.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"Crude\" invece di \"crudele\" è un errore. \"Non perdonerà a nessun cavaliere i peccati\" è una modernizzazione accettabile, ma leggermente più esplicita rispetto all'originale.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma l'uso di \"Crude\" invece di \"crudele\" è un errore lessicale che disturba la fluidità.",
+        "Style": "Lo stile è generalmente moderno e scorrevole, ma \"Crude\" risulta innaturale e poco umano. Il resto della frase è naturale.",
+        "Overall": "Traduzione buona, con piccoli errori lessicali che non compromettono la comprensione generale, ma abbassano la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "L'uccello, dopo aver imparato le ali, non fugge più salva:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la seconda parte della frase originale e fraintende \"impaniate\" come \"imparato\" invece di \"impigliato\". Il senso complessivo è quindi solo parzialmente mantenuto.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma termina in modo tronco e incompleto, lasciando il lettore sospeso.",
+        "Style": "Lo stile è semplice e moderno, ma la frase risulta incompleta e manca di coesione rispetto all'originale.",
+        "Overall": "La traduzione è parziale e presenta errori di interpretazione e omissioni, compromettendo la fedeltà e la completezza del testo."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.4,
+      "std": 1.02
+    },
+    "Fluency": {
+      "mean": 2.6,
+      "std": 1.02
+    },
+    "Style": {
+      "mean": 2.4,
+      "std": 1.02
+    },
+    "Overall": {
+      "mean": 2.4,
+      "std": 1.02
+    }
+  }
+}

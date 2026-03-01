@@ -1,0 +1,121 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__FisherPlusSNR50_Reapplied__LoRA",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "Vanamente si chiede chi scrivesse questo Libro, poichè moderna:",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette completamente la seconda parte della frase originale, che riguarda la fede nell'autore divino del libro. Il significato non è preservato.",
+        "Fluency": "La frase è grammaticalmente corretta ma incompleta, terminando con 'poichè moderna:' senza senso compiuto.",
+        "Style": "Lo stile è tronco e innaturale a causa dell'incompletezza della frase; manca coesione e fluidità.",
+        "Overall": "La traduzione è incompleta e omissiva, compromettendo sia il senso che la leggibilità. Non rispetta i criteri di fedeltà, scorrevolezza e stile."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "Tendi le reti agli cervi e sa bene in quale valle vivono i cinghiali infuriati, perché nel tempo dei grandi allaghi.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione aggiunge \"perché nel tempo dei grandi allaghi\", che non è presente nell'originale, e trasforma \"furioso porco cinghiare\" in \"cinghiali infuriati\" (plurale invece di singolare). Queste modifiche alterano il significato.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma \"agli cervi\" è un errore; dovrebbe essere \"ai cervi\". Il resto è scorrevole.",
+        "Style": "Il tono è generalmente moderno, ma l'aggiunta non necessaria e l'errore \"agli cervi\" rendono lo stile meno naturale.",
+        "Overall": "La traduzione è comprensibile ma contiene errori di fedeltà e alcuni problemi di forma che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai Monti Romani si resero nuovi nemici; contro di cui fu combattuta con varie fortunas: perciò nella prima battaglia, essendo console Valerio, persero la vita MMMD romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"si resero nuovi nemici\" distorce l'originale \"si feciero nuovi nemici\" (che indica che apparvero nuovi nemici, non che si arresero). \"Con varie fortunas\" è meno naturale di \"con diversa ventura\". Perdita di alcune sfumature.",
+        "Fluency": "La frase è generalmente comprensibile, ma \"si resero nuovi nemici\" non è corretto in italiano moderno. \"Con varie fortunas\" è poco idiomatico. Il resto è grammaticalmente corretto.",
+        "Style": "Lo stile è un po' rigido e poco naturale, soprattutto per l'uso di \"si resero nuovi nemici\" e \"varie fortunas\". Manca di scorrevolezza e modernità.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e alcune scelte stilistiche poco naturali. Accettabile ma necessita di revisioni."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Crude, e di tutti i crimini prende la sua vendetta crudele, poiché la legge lo prevede, e nessun cavaliere perdonerà colpe.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni errori di interpretazione: \"prende la sua vendetta crudele\" aggiunge \"sua\" e \"crudele\" non necessari. \"Perdonerà colpe\" è ambiguo rispetto a \"perdona che pecchi\". Manca precisione nel modernizzare il senso.",
+        "Fluency": "La frase è generalmente comprensibile, ma la costruzione \"prende la sua vendetta crudele\" è poco naturale. \"Perdonerà colpe\" è grammaticalmente accettabile ma poco chiaro.",
+        "Style": "Il testo appare rigido e poco naturale, con ripetizioni non necessarie e costruzioni forzate. Manca scorrevolezza e naturalezza tipica del moderno italiano.",
+        "Overall": "Traduzione comprensibile ma con errori di interpretazione e stile poco naturale. Accettabile ma non raffinata né pienamente fedele."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "L'uccello, dopo che ha compiace le ali, non fugge libera:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la seconda parte della frase (il porco/cinghiale) e fraintende 'impaniate' come 'compiace', che non è corretto. Il significato originale non è pienamente preservato.",
+        "Fluency": "La frase è grammaticalmente corretta, ma l'uso di 'compiace le ali' è innaturale e poco comprensibile in italiano moderno.",
+        "Style": "Lo stile è semplice ma risulta innaturale a causa della scelta lessicale errata ('compiace le ali'), che non si usa in italiano moderno.",
+        "Overall": "La traduzione è parziale e contiene errori di senso che compromettono la comprensione e la fedeltà al testo originale."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.4,
+      "std": 0.49
+    },
+    "Fluency": {
+      "mean": 2.8,
+      "std": 0.4
+    },
+    "Style": {
+      "mean": 2.6,
+      "std": 0.49
+    },
+    "Overall": {
+      "mean": 2.4,
+      "std": 0.49
+    }
+  }
+}

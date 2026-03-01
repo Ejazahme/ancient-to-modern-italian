@@ -1,0 +1,50 @@
+{
+  "model_name": "A1__FisherPlusSNR50__LoRA",
+  "model_type": "adapter",
+  "model_path": "models_hf/a1_merged_lora_merges/a1_fisher_snr50_lora",
+  "dataset_name": "a1_lexical_test",
+  "dataset_path": "data/processed/approach1/lexical/test.jsonl",
+  "num_samples": 5,
+  "metrics": {
+    "bleu": 26.500400821923122,
+    "chrf++": 47.59386683891382,
+    "rougeL": 42.07634032634033,
+    "meteor": 0.38671327933194044,
+    "token_f1": 0.4109141043877885,
+    "bertscore_f1": 0.790057361125946,
+    "has_reference": true,
+    "num_predictions": 5
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "Si chiedeva inutile chi avesse scritto questi libri, poichè in realtà si poteva considerare vero che l'Autore",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo."
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "struisci: Modernizza la seguente frase italiana arcaica arcaica in italiano contemporaneo.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale."
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai Monti Romani si fecero nuovi nemici; contro di cui fu combattuta con diverse sorti di fortuna: perché nella prima battaglia, avendolo console Valerio, più di migliaia dei Romani persero la vita.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;"
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Crude, e di tutte le colpe prende la vendetta, come dice la legge, e non perdonerà a nessun cavaliere i peccati.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi."
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "L'uccello, dopo aver imparato le ali, non fugge più salva:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade."
+    }
+  ]
+}

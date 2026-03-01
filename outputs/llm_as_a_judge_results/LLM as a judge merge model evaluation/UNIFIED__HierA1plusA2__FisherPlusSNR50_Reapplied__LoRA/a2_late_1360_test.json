@@ -1,0 +1,139 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__FisherPlusSNR50_Reapplied__LoRA",
+  "dataset_name": "a2_late_1360_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "l'armi et insieme con loro passaseno tra li nimici, perçò se alcuno non avesse ardire de questo et sì avevano questo animo.",
+      "prediction": "gli coraggio di portare avanti i propri armi e insieme allora, passando:",
+      "reference": "Le armi e insieme a loro passarono tra i nemici, perché se qualcuno non avesse il coraggio di farlo, loro invece avevano questo spirito.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette parti essenziali del significato originale, come il riferimento ai nemici e alla motivazione degli animi. Il senso complessivo è distorto e incompleto.",
+        "Fluency": "La frase è grammaticalmente scorretta e poco comprensibile. La struttura è spezzata e manca coerenza sintattica.",
+        "Style": "Il testo risulta innaturale e frammentario, non rispecchia uno stile moderno né umano. Sembra una sequenza di parole scollegate.",
+        "Overall": "La traduzione è incompleta, poco fluida e stilisticamente incoerente. Non trasmette il significato originale in modo adeguato."
+      }
+    },
+    {
+      "id": null,
+      "source": "Però che or chi spererebbe quello che eziandio questi che non vogliono ancora credere in Cristo, già veggiono con noi, e perché nol possono negare, stridono colli denti.",
+      "prediction": "Ma chi spererrebbe ora quello che ancora non credono i questa a Cristo, già vedono con noi, e perché non possono neghiarlo, si lamentano con denti stretti.",
+      "reference": "Ma chi ora spererebbe ciò che anche quelli che ancora non vogliono credere in Cristo già vedono insieme a noi e, poiché non possono negarlo, digrignano i denti.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi semantici sono persi o confusi: \"i questa a Cristo\" è scorretto, e manca il riferimento a \"quelli che non vogliono ancora credere\". Il senso generale è comprensibile ma distorto in alcuni punti.",
+        "Fluency": "La frase contiene errori grammaticali (\"i questa a Cristo\") e costruzioni poco scorrevoli. La comprensione è possibile, ma la sintassi è spesso innaturale.",
+        "Style": "Il testo appare rigido e poco naturale, con espressioni non idiomatiche (\"si lamentano con denti stretti\"). Manca fluidità stilistica moderna.",
+        "Overall": "La traduzione è accettabile ma presenta errori di fedeltà, grammatica e stile che ne compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "e quella cosa, la quale è diricta et onesta, e con virtute, quella sola penso essere lo bene.",
+      "prediction": "e quella cosa, che è diretta, onesta e vissuta con virtù, quella solo penso sia il bene.",
+      "reference": "E quella cosa che è retta e onesta, e con virtù, quella sola penso sia il bene.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma 'vissuta con virtù' altera leggermente il senso originale di 'con virtute', che indica più una qualità che un'azione.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti.",
+        "Style": "Il tono è naturale e moderno, anche se 'vissuta con virtù' suona leggermente meno elegante rispetto ad altre opzioni.",
+        "Overall": "Traduzione fedele e scorrevole, con una lieve imprecisione semantica su 'con virtù'."
+      }
+    },
+    {
+      "id": null,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "Gli poeti, parlando di sé stessi arca:",
+      "reference": "Perciò i poeti, parlando di loro, raccontano le loro virtù e narrano in modo favoloso i loro difetti, quando qualcuno superava l’ordine stabilito per loro.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette quasi tutto il significato originale, riportando solo una parte della frase e cambiando il soggetto. Mancano riferimenti alle virtù, difetti e al contesto.",
+        "Fluency": "La frase è incompleta e grammaticalmente scorretta; termina con 'arca' che non ha senso nel contesto.",
+        "Style": "Lo stile è incoerente e non naturale; la frase risulta frammentaria e priva di senso compiuto.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e coerenza stilistica."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Istruzione: Modernizza la seguente frase italiana arca in italiano contemporaneo.",
+      "reference": "Gli chiese di liberarlo da quell'obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece atto scritto.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "Non è presente alcuna traduzione del testo arcaico; la frase fornita è solo un'istruzione. Il significato originale non viene trasmesso.",
+        "Fluency": "Non è presente alcun testo tradotto da valutare per grammatica o sintassi.",
+        "Style": "Non c'è alcuna resa stilistica da valutare, solo una meta-istruzione.",
+        "Overall": "La risposta non contiene una traduzione, ma solo una richiesta d'istruzione. Non soddisfa nessun criterio di valutazione."
+      }
+    },
+    {
+      "id": null,
+      "source": "pregollo che lo liberasse di quella obbligazione, in che egli l' aveva lasciato ubbligato. El gentile uomo assentì, e liberollo, e fecene carta.",
+      "prediction": "Il nobile uomo glieli liberasse da quell'obbligandolo, redasse un documento.",
+      "reference": "Gli chiese di liberarlo da quell’obbligazione, nella quale lo aveva lasciato vincolato. Il gentiluomo acconsentì, lo liberò e ne fece un documento.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette parti essenziali: manca la richiesta, la sequenza delle azioni è confusa, e 'obbligandolo' è un errore. Il significato originale è in parte perso.",
+        "Fluency": "La frase è poco chiara e presenta errori grammaticali ('glieli liberasse', 'obbligandolo'). La sintassi è confusa e compromette la comprensione.",
+        "Style": "Il testo risulta innaturale e poco scorrevole, con costruzioni poco moderne e termini impropri. Non sembra scritto da un madrelingua.",
+        "Overall": "Traduzione poco fedele, poco fluida e stilisticamente debole. Errori e omissioni compromettono la comprensione e la qualità generale."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.167,
+      "std": 1.067
+    },
+    "Fluency": {
+      "mean": 2.333,
+      "std": 1.374
+    },
+    "Style": {
+      "mean": 2,
+      "std": 1.155
+    },
+    "Overall": {
+      "mean": 2.167,
+      "std": 1.067
+    }
+  }
+}

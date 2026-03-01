@@ -1,0 +1,12 @@
+========== LLM-AS-A-JUDGE SUMMARY FOR FINETUNED MODELS ==========
+a1_lexical_expert    | a1_lexical_test           | Faith=2.60 ± 0.49     | Fluency=2.80 ± 0.40     | Style=2.80 ± 0.40     | Overall=2.60 ± 0.49    
+a1_lexical_expert    | real_97_test              | Faith=2.61 ± 0.84     | Fluency=3.06 ± 0.95     | Style=2.68 ± 0.77     | Overall=2.55 ± 0.84    
+a1_semantic_expert   | real_97_test              | Faith=2.35 ± 0.75     | Fluency=3.60 ± 1.04     | Style=2.93 ± 0.80     | Overall=2.50 ± 0.73    
+a1_semantic_expert   | a1_semantic_test          | Faith=2.80 ± 0.40     | Fluency=3.40 ± 1.20     | Style=3.00 ± 0.89     | Overall=2.60 ± 0.49          a1_syntactic_expert   |a1_syntactic_test         | Faith=2.33 ± 0.47     | Fluency=2.50 ± 0.76     | Style=2.17 ± 0.37     | Overall=2.33 ± 0.47    
+a1_syntactic_expert  | real_97_test              | Faith=2.65 ± 0.76     | Fluency=3.23 ± 0.82     | Style=2.75 ± 0.70     | Overall=2.65 ± 0.76    
+a2_middle_expert     | a2_middle_1310_test       | Faith=3.08 ± 0.95     | Fluency=3.67 ± 1.31     | Style=3.17 ± 1.14     | Overall=2.83 ± 1.07    
+a2_middle_expert     | real_97_test              | Faith=3.09 ± 0.91     | Fluency=4.01 ± 1.05     | Style=3.41 ± 0.93     | Overall=3.21 ± 0.92    
+a2_late_expert       | real_97_test              | Faith=2.31 ± 0.69     | Fluency=2.91 ± 0.94     | Style=2.47 ± 0.69     | Overall=2.36 ± 0.69    
+a2_late_expert       | a2_late_1360_test         | Faith=3.67 ± 0.74     | Fluency=4.33 ± 0.74     | Style=3.50 ± 0.96     | Overall=3.67 ± 0.74        
+a2_early_expert      | a2_early_1260_test        | Faith=3.00 ± 0.89     | Fluency=4.10 ± 1.04     | Style=3.70 ± 1.10     | Overall=3.40 ± 0.92    
+a2_early_expert      | real_97_test              | Faith=2.96 ± 0.86     | Fluency=3.86 ± 0.98     | Style=3.23 ± 0.78     | Overall=3.05 ± 0.89      

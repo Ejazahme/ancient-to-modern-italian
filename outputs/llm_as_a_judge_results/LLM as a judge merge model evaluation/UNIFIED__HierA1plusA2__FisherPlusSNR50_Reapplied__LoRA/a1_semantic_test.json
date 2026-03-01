@@ -1,0 +1,121 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__FisherPlusSNR50_Reapplied__LoRA",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "Ma se un nobile e alto coraggio verso il nemico. Frase:",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation omits significant parts of the original meaning, especially the concepts of mercy and praise after defeating the enemy. Only the idea of noble courage is partially retained.",
+        "Fluency": "The sentence is incomplete and ungrammatical. The phrase 'Frase:' is out of place and disrupts the flow.",
+        "Style": "The translation lacks coherence and naturalness. It feels fragmented and unfinished, not resembling natural modern Italian.",
+        "Overall": "Major omissions and structural problems render the translation inadequate and incomplete for understanding the original."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sì, tra di noi c’è una divergenza irrisolubile: con noi non puoi più vivere insieme, perché io non ti sarò più in grado di sopportare e non ti lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"divergenza irrisolubile\" è un'aggiunta interpretativa non presente nell'originale. La frase \"non ti lascerò\" è meno chiara rispetto a \"non permetterò che tu rimanga\".",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben strutturato in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma l'uso di \"divergenza irrisolubile\" risulta leggermente forzato rispetto al tono originale. Nel complesso, comunque, suona umano.",
+        "Overall": "La traduzione è fluente e naturale, ma alcune scelte interpretative riducono la fedeltà al testo originale. Comprensibile e leggibile, ma non pienamente fedele."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "e, cosa:",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation is incomplete, omitting almost all of the original meaning. Only the introductory phrase is rendered, with no attempt to modernize or preserve the core message.",
+        "Fluency": "The output is not a complete sentence and lacks grammatical structure. It is not comprehensible as modern Italian.",
+        "Style": "The fragment does not reflect any stylistic choices or naturalness. It is incoherent and not human-like.",
+        "Overall": "The translation is unusable due to its extreme incompleteness and lack of meaning, fluency, or style."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Istruzione: Modernizza la seguente frase italiana arca in italiano contemporaneo arcnemo.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non modernizza né preserva il significato originale; si limita a fornire un'istruzione generica senza trasporre il contenuto della frase arcaica.",
+        "Fluency": "La frase è grammaticalmente corretta, ma non è una traduzione: è un'istruzione metatestuale, non un testo narrativo o discorsivo.",
+        "Style": "Lo stile è quello di una consegna, non di una traduzione letteraria o narrativa. Non rispecchia la naturalezza richiesta.",
+        "Overall": "La traduzione non adempie al compito: non modernizza né trasmette il significato originale. È solo un'istruzione."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "struisci: Modernizza la seguente frase italiana arca in italiano contemporaneo.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non ha modernizzato né preservato il significato della frase originale; si limita a dare un'istruzione invece di tradurre il contenuto.",
+        "Fluency": "La frase è una richiesta metatestuale, non una traduzione; non è grammaticalmente scorretta, ma non è una frase tradotta.",
+        "Style": "Non c'è alcuno sforzo stilistico: è una semplice istruzione, non un testo naturale o moderno.",
+        "Overall": "La traduzione non è una resa del testo originale, ma una richiesta di istruzione. Non soddisfa i criteri di traduzione."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.6,
+      "std": 0.8
+    },
+    "Fluency": {
+      "mean": 2.4,
+      "std": 1.356
+    },
+    "Style": {
+      "mean": 1.6,
+      "std": 1.2
+    },
+    "Overall": {
+      "mean": 1.6,
+      "std": 1.2
+    }
+  }
+}

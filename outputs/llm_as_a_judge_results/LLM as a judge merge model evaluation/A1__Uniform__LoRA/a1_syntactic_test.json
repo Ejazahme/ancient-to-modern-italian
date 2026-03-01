@@ -1,0 +1,139 @@
+{
+  "model_name": "A1__Uniform__LoRA",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "modernazione: Modernizza la seguente frase italiana arca in italiano moderno.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non contiene la frase originale modernizzata, ma solo un'istruzione metatestuale. Il significato non è preservato.",
+        "Fluency": "Il testo non è una frase italiana moderna, ma una richiesta di modernizzazione. Non è grammaticalmente o sintatticamente corretto come traduzione.",
+        "Style": "Non c'è alcun tentativo di rendere la frase naturale o umana; è solo una metainformazione.",
+        "Overall": "La traduzione non è una modernizzazione della frase, ma un'istruzione. Non risponde al compito richiesto."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "morderno: Modernizza la seguente frase italiana arca in italiano moderno.",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione fornita non contiene alcun elemento del testo originale; si limita a una richiesta di modernizzazione senza trasporre il significato o il contenuto.",
+        "Fluency": "La frase è grammaticalmente corretta ma non è una traduzione, bensì un'istruzione. Non c'è alcuna riformulazione del testo arcaico.",
+        "Style": "Non si tratta di una traduzione stilistica, ma di una semplice richiesta operativa. Manca qualsiasi tentativo di rendere il testo naturale o moderno.",
+        "Overall": "La risposta non è una traduzione ma un'istruzione, quindi non soddisfa i criteri di valutazione richiesti."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "mordi: Modernizza la frase italiana arcaica arca in italiano contemporaneo.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale: si limita a un'istruzione generica senza trasporre il contenuto della frase arcaica. Nessuna modernizzazione effettiva del testo è presente.",
+        "Fluency": "La frase è grammaticalmente corretta ma non è una traduzione; è solo un comando. Non c'è testo narrativo o sintattico da valutare.",
+        "Style": "Non c'è alcuna resa stilistica: la risposta è un'istruzione impersonale e non un testo narrativo moderno o naturale.",
+        "Overall": "La risposta non è una traduzione, ma un comando. Non soddisfa i criteri di fedeltà, stile o modernizzazione richiesti."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "Io li aprii e fui aperto loro, ma fuggirono. È necessario che il tuo cuore rimanga chiuso a te stesso come sposa di Cristo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni significati sono stati alterati: \"fui aperto loro\" non è presente nell'originale, e \"chiuso a te stesso come sposa di Cristo\" distorce il senso della domanda originale.",
+        "Fluency": "Il testo è grammaticalmente corretto e comprensibile, con sintassi moderna e scorrevole.",
+        "Style": "Lo stile è moderno e naturale, ma alcune scelte sembrano leggermente innaturali rispetto al contesto originale.",
+        "Overall": "La traduzione è fluente e stilisticamente buona, ma presenta gravi problemi di fedeltà semantica."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si resero nuovi nemici; contro di cui fu combattuta con diverse sorti fortuna: perché nella prima battaglia, essendo console Valerio, persero più di mille romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati persi o alterati: \"si resero nuovi nemici\" è meno preciso di \"si feciero nuovi nemici\"; la cifra \"MMMD\" (tremila) è resa come \"più di mille\", che è un errore significativo.",
+        "Fluency": "La frase è generalmente comprensibile, ma alcune strutture sono poco naturali (\"contro di cui fu combattuta\"). Alcune scelte lessicali risultano datate o poco idiomatiche.",
+        "Style": "Il testo appare piuttosto rigido e poco naturale, con alcune espressioni che non rispecchiano lo stile del moderno italiano scritto.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di fedeltà e uno stile poco naturale. La perdita della cifra corretta è un problema rilevante."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "mordi: Modernizza la frase italiana arcaica arca in italiano contemporaneo.",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non mantiene il significato originale; invece di modernizzare la frase, fornisce un'istruzione metatestuale. Il contenuto della frase arcaica non viene trasmesso.",
+        "Fluency": "La frase non è una traduzione, ma una richiesta/invito. Non presenta errori grammaticali, ma non è pertinente come traduzione.",
+        "Style": "Il tono è quello di una richiesta rivolta a un sistema, non di una frase tradotta. Non risulta naturale o umana come traduzione.",
+        "Overall": "La traduzione non adempie al compito: non trasmette il significato della frase arcaica, ma dà un'istruzione metalinguistica."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.333,
+      "std": 0.471
+    },
+    "Fluency": {
+      "mean": 2.5,
+      "std": 1.258
+    },
+    "Style": {
+      "mean": 1.833,
+      "std": 1.213
+    },
+    "Overall": {
+      "mean": 1.667,
+      "std": 0.943
+    }
+  }
+}

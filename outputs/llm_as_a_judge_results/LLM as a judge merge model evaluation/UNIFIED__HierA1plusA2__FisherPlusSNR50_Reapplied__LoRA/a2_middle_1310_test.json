@@ -1,0 +1,247 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__FisherPlusSNR50_Reapplied__LoRA",
+  "dataset_name": "a2_middle_1310_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 12,
+  "results": [
+    {
+      "id": null,
+      "source": "mostroe massimamente le forze sue, dando lui re a questa cittade ne la quale nacque servo; al quale avvenne lunghissimamente lo imperio tenere",
+      "prediction": "Mostrò molto il tuo coraggio e il tuo valore in questa città, nella quale nasi e fui schiavo; alla quale regnaste per un lungo periodo.",
+      "reference": "Dimostrò al massimo le sue forze, diventando re di questa città nella quale era nato come servo; a lui toccò di mantenere il potere per lunghissimo tempo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione distorce il significato originale: introduce 'tuo coraggio' e 'fui schiavo', che non sono presenti; omette il concetto di 'diventare re' e la durata dell'impero è resa in modo impreciso.",
+        "Fluency": "La frase è grammaticalmente corretta ma presenta incongruenze soggettive ('tuo coraggio', 'fui schiavo') che rendono il testo confuso.",
+        "Style": "Il tono è poco naturale e risulta forzato, con cambi di soggetto e registro che non riflettono uno stile moderno e scorrevole.",
+        "Overall": "La traduzione è parzialmente comprensibile ma presenta errori di fedeltà e stile che compromettono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "Tarco cretense che in aiuto era alli nimici avrebbe potuto fuggire, ma la vergogna d'abbandonare li nobilissimi cavalieri della gente achea poco avanti da lui",
+      "prediction": "Tarro cretese gentile e forte, quando i nemici potevano:",
+      "reference": "Tarco il cretese, che si era schierato in aiuto dei nemici, avrebbe potuto fuggire, ma la vergogna di abbandonare i nobilissimi cavalieri del popolo acheo poco avanti a lui glielo impedì.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette gran parte del significato originale, tra cui la vergogna, la possibilità di fuga e il riferimento ai cavalieri achei. Solo il soggetto e l'origine sono parzialmente mantenuti.",
+        "Fluency": "La frase è grammaticalmente corretta ma incompleta e sospesa, risultando poco comprensibile nel suo insieme.",
+        "Style": "Il tono è neutro e moderno, ma la frase risulta tronca e innaturale, mancando di coesione e completezza.",
+        "Overall": "La traduzione è frammentaria e omissiva, con perdita di informazioni chiave e scarsa scorrevolezza. Non rispetta il senso completo dell'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Dice il poeta: oh, che bella cosa è vedere apertamente con gli occhi quando tu glel fai diretro o in culo o in altro",
+      "prediction": "Il poeta dice: oh, quante belle cose vedere aperte con gli occhi quando le avete davanti a sé, sia dietro, sia in basso, sia in alto.",
+      "reference": "Dice il poeta: oh, che bella cosa è vedere chiaramente con gli occhi quando tu glielo fai dietro, nel sedere o altrove.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette il riferimento esplicito e volgare all'atto sessuale ('in culo') e sostituisce con termini più generici ('in basso, in alto'), alterando il senso originale. La modernizzazione è eccessivamente edulcorata.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole, con sintassi moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma la scelta di termini più generici attenua il tono diretto e colorito dell'originale.",
+        "Overall": "La traduzione è fluente e leggibile, ma perde elementi chiave di significato e tono, risultando poco fedele all'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "A Milano fue ripressa la malvagità d' una donna in simile bugìa, nel tempo medesimo di questo signore della republica, in questo modo:",
+      "prediction": "A Milano venne repressa la malvagione di quella donna fuori dalla città di Milano, nella stessa epoca di questo signore della repubblica, fu repressa la malvagità di questa donna in tale modalità:",
+      "reference": "A Milano fu scoperta la malvagità di una donna in una simile menzogna, nello stesso periodo di questo signore della repubblica, in questo modo:",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione distorce il significato: introduce elementi non presenti (\"fuori dalla città di Milano\") e ripete concetti (malvagità repressa due volte). Il senso originale viene in parte perso o confuso.",
+        "Fluency": "La frase è poco scorrevole, presenta ripetizioni e costruzioni innaturali. La sintassi è confusa e compromette la leggibilità.",
+        "Style": "Lo stile è innaturale, con ripetizioni e un tono poco moderno. Sembra poco curato e non rispetta la fluidità del moderno italiano.",
+        "Overall": "La traduzione presenta errori di senso, scarsa scorrevolezza e stile poco naturale. Risulta difficile da comprendere e poco fedele."
+      }
+    },
+    {
+      "id": null,
+      "source": "Allora che il navilio si fue impinto e messo in alto mare per andare diritto per mezo questo trapasso periglioso, l'aira divenne nuvolosa e pioveginosa",
+      "prediction": "Istruzione: Modernizza la seguente frase italiana arca in italiano contemporaneo arcnello.",
+      "reference": "Quando la nave fu spinta e portata in alto mare per attraversare direttamente questo passaggio pericoloso, l’aria divenne nuvolosa e piovosa.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non modernizza né preserva il significato della frase originale, ma fornisce invece un'istruzione metatestuale. Il contenuto semantico è completamente assente.",
+        "Fluency": "La frase non è una traduzione, ma un'istruzione. Non presenta errori grammaticali, ma non è pertinente come traduzione.",
+        "Style": "Lo stile è quello di una consegna, non di una frase narrativa. Non risulta naturale né umano come traduzione di un testo letterario.",
+        "Overall": "La risposta non è una traduzione, ma un'istruzione metatestuale. Non soddisfa nessuno dei criteri richiesti per una buona traduzione."
+      }
+    },
+    {
+      "id": null,
+      "source": "Tarco cretense che in aiuto era alli nimici avrebbe potuto fuggire, ma la vergogna d'abbandonare li nobilissimi cavalieri della gente achea poco avanti da lui",
+      "prediction": "Il tarco cretese, avendo visto i nemici dei suoi compatrioti che potevano fuggire, il timido e vergognoso Tarco",
+      "reference": "Tarco il cretese, che era accorso in aiuto dei nemici, avrebbe potuto fuggire, ma la vergogna di abbandonare i nobilissimi cavalieri degli Achei, poco davanti a lui, glielo impedì.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette elementi chiave: Tarco non è descritto come in aiuto ai nemici, manca la menzione della vergogna e dell'abbandono dei cavalieri achei. Il senso generale è distorto e incompleto.",
+        "Fluency": "La frase è poco coesa e presenta ripetizioni (“il timido e vergognoso Tarco”). La costruzione è confusa e non scorre in modo naturale.",
+        "Style": "Lo stile è innaturale e poco moderno; la ripetizione di aggettivi e la struttura spezzata rendono il testo poco elegante e poco umano.",
+        "Overall": "La traduzione presenta omissioni gravi, scarsa coesione e uno stile innaturale. Il significato originale non è trasmesso in modo fedele o fluente."
+      }
+    },
+    {
+      "id": null,
+      "source": "Tarco cretense che in aiuto era alli nimici avrebbe potuto fuggire, ma la vergogna d'abbandonare li nobilissimi cavalieri della gente achea poco avanti da lui",
+      "prediction": "Il tarco cretese, che stava aiutando i nemici, poteva fuggire il tarco cretese, ma rimase fedele alla patria e morì accanto agli straordin",
+      "reference": "Tarco il cretese, che era venuto in aiuto dei nemici, avrebbe potuto fuggire, ma la vergogna di abbandonare i nobilissimi cavalieri degli Achei poco davanti a lui glielo impedì.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette elementi chiave: la vergogna che impedisce la fuga, i nobilissimi cavalieri, e la posizione 'poco avanti da lui'. Introduce inoltre dettagli non presenti (fedeltà alla patria, morte).",
+        "Fluency": "La frase è grammaticalmente corretta ma ripetitiva ('il tarco cretese' due volte) e si interrompe bruscamente ('straordin').",
+        "Style": "Lo stile è poco naturale e ripetitivo, con una conclusione tronca che compromette la scorrevolezza e la coerenza stilistica.",
+        "Overall": "La traduzione presenta omissioni di senso, ripetizioni e una frase incompleta, risultando poco fedele e stilisticamente debole."
+      }
+    },
+    {
+      "id": null,
+      "source": "una villa chiamata Vitermina, con ciò fosse cosa che piusori principi di scherani corressero per ventura a quel tempo a vederlo, Scipione, stimando che venissero per isforzarlo, allogò ne la casa",
+      "prediction": "In una villa chiamata Vitermina, se i principi di scherni avessero potuto passare per quelle terre durante quell'epoca, Scipione decise di alloggiare lì, temendo che volessero sottoporlo a prova.",
+      "reference": "una villa chiamata Vitermina, poiché diversi capi di soldati si recarono per caso in quel periodo a vederlo, Scipione, pensando che venissero per costringerlo, si rifugiò nella casa.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione introduce elementi non presenti nell'originale (ipotetico \"se\" e \"potessero passare\") e omette il senso di costrizione. Il significato viene parzialmente alterato, perdendo la causalità e la presenza effettiva dei principi.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma la costruzione ipotetica risulta poco naturale rispetto al contesto originale.",
+        "Style": "Lo stile è moderno e scorrevole, ma la scelta di alcune espressioni (\"principi di scherni\") appare poco naturale e poco chiara.",
+        "Overall": "La traduzione è comprensibile e fluente, ma presenta errori di interpretazione che alterano il senso originale del testo."
+      }
+    },
+    {
+      "id": null,
+      "source": "una villa chiamata Vitermina, con ciò fosse cosa che piusori principi di scherani corressero per ventura a quel tempo a vederlo, Scipione, stimando che venissero per isforzarlo, allogò ne la casa",
+      "prediction": "Una villa chiamata Viternia, se i principi di scherni avessero passato per fortune a vedere quel tempo, Scipione si allogò nella casa, temendo che venissero per costringerlo.",
+      "reference": "Una villa chiamata Vitermina, poiché diversi capi di soldati si recarono per caso in quel periodo a vederla, Scipione, pensando che fossero venuti per costringerlo, si chiuse in casa.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi semantici sono stati fraintesi: \"principi di scherani\" è reso come \"principi di scherni\" (errore di senso), e \"corressero per ventura\" non è modernizzato correttamente. Il significato generale è parzialmente mantenuto, ma con distorsioni.",
+        "Fluency": "La frase è generalmente comprensibile, ma presenta costruzioni poco naturali e alcuni errori sintattici (\"passato per fortune a vedere quel tempo\"). La leggibilità ne risente.",
+        "Style": "Il testo appare innaturale e meccanico, con scelte lessicali e sintattiche poco moderne. Non risulta scorrevole come un testo scritto da un madrelingua.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di interpretazione e uno stile poco naturale. La resa moderna è solo parziale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Ma io disioso colà dove io non posso col corpo andare, con la mente vi volo",
+      "prediction": "Ma io desideroso lì dove non posso andare fisicamente, con la mente vi sto.",
+      "reference": "Ma io, desideroso di essere dove non posso andare fisicamente, ci vado con la mente.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"vi sto\" non trasmette l’idea di \"volare con la mente\". Manca la sfumatura di desiderio di essere altrove, come nell’originale.",
+        "Fluency": "La frase è grammaticalmente corretta ma \"vi sto\" risulta innaturale e poco chiaro in questo contesto.",
+        "Style": "La resa è un po’ rigida e poco naturale, soprattutto nella chiusura. Manca eleganza e scorrevolezza tipiche del moderno italiano.",
+        "Overall": "Traduzione comprensibile ma con scelte lessicali poco naturali e una perdita di sfumature importanti."
+      }
+    },
+    {
+      "id": null,
+      "source": "notabile esemplo a ciascuno che si guardasse di fare e di pensar tradigione, il servo, il quale gli avea accusati, fu francato, e fugli donata grande quantità di moneta",
+      "prediction": "Un bel esempio per chi si preoccupasse della propria salute: il servo, il quale era stato accusato, fu assolto",
+      "reference": "Un esempio notevole per tutti coloro che dovrebbero guardarsi dal commettere o anche solo pensare al tradimento: il servo che li aveva accusati fu liberato e gli fu data una grande somma di denaro.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette parti essenziali: il senso di guardarsi dal tradimento, il ruolo attivo del servo (accusatore, non accusato), la liberazione e la ricompensa in denaro. Significativa perdita di significato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il testo è comprensibile e ben strutturato in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, ma manca della solennità e specificità dell’originale. Tuttavia, il tono è umano e scorrevole.",
+        "Overall": "La traduzione è fluente e naturale, ma le omissioni sostanziali compromettono la fedeltà e la completezza del messaggio originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Non d' altra forza d' animo fue ornato Ponzio Aufidiano, romano cavaliere.",
+      "prediction": "struisci: Modernizza la seguente frase italiana arca in italiano contemporaneo arcnero.",
+      "reference": "Ponzio Aufidiano, cavaliere romano, non era dotato di altro coraggio.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non mantiene il significato originale: istruisce un'azione invece di modernizzare la frase. Il contenuto semantico è completamente perso.",
+        "Fluency": "La frase è grammaticalmente corretta, ma non è una traduzione: è un'istruzione metatestuale. Non è una frase moderna italiana coerente col testo di partenza.",
+        "Style": "Lo stile è quello di una richiesta/invocazione, non di una traduzione. Non rispetta il tono narrativo originale.",
+        "Overall": "La traduzione non è utilizzabile: non modernizza né trasmette il significato originale, ma dà un'istruzione metalinguistica."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.083,
+      "std": 0.64
+    },
+    "Fluency": {
+      "mean": 3,
+      "std": 1.08
+    },
+    "Style": {
+      "mean": 2.333,
+      "std": 0.85
+    },
+    "Overall": {
+      "mean": 2.167,
+      "std": 0.687
+    }
+  }
+}

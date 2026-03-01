@@ -1,0 +1,139 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__FisherPlusSNR50_Reapplied__LoRA",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "Il re entrò in un giardino dietro all'albergo suo, come se stesse cercando rifugio nella meditazione.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"come se stesse cercando rifugio nella meditazione\" introduce una sfumatura non presente nell'originale, che parla solo di pensare alla risposta.",
+        "Fluency": "La frase è scorrevole e grammaticalmente corretta, senza errori evidenti. Il testo è ben comprensibile.",
+        "Style": "Il tono è naturale e moderno, ma l'aggiunta di \"cercando rifugio\" rende lo stile leggermente meno fedele all'originale.",
+        "Overall": "La traduzione è fluente e naturale, ma la modifica del senso riduce la fedeltà. Nel complesso, è accettabile ma non perfettamente aderente."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "Quella guerra bene saggio perché dall'alpasse e perciò lascie gentiluomo. Da una parte, Aiace era un cavaliere:",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette e distorce gran parte del significato originale: manca la menzione della saggezza di Aiace e la descrizione delle sue qualità. Alcuni termini sono tradotti in modo errato o incompleto.",
+        "Fluency": "La frase è poco comprensibile, con costruzioni grammaticali scorrette e parti senza senso (“dall'alpasse”, “lascie gentiluomo”).",
+        "Style": "Lo stile è incoerente e innaturale, con frasi tronche e termini non moderni o privi di senso. Non sembra una traduzione umana.",
+        "Overall": "La traduzione presenta gravi omissioni e problemi di senso, risultando poco fedele, poco fluida e stilisticamente inadeguata."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "Quando i serpenti avvelenavano qualche romano, era meravigliore vedere i serpenti:",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The translation omits key elements: the Psilli, their combat against venom, and the act of sacrificing before their saliva. It also introduces an error by repeating 'i serpenti.' Major omissions and distortion of meaning.",
+        "Fluency": "The sentence is incomplete and ends abruptly with a colon. The phrase 'era meravigliore' is ungrammatical; 'meravigliore' is not a correct form.",
+        "Style": "The translation is awkward and incomplete, lacking natural flow. The abrupt ending and grammatical mistakes make it feel non-human and unfinished.",
+        "Overall": "Significant omissions, grammatical errors, and incomplete phrasing render the translation poor and difficult to understand."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "Io gli apri, e loro fuggendo. E che ne bisogno bisogna, che il tuo:",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette parti importanti del significato originale, in particolare la seconda frase è incompleta e distorta. Il senso complessivo non è mantenuto.",
+        "Fluency": "La frase è grammaticalmente scorretta e incompleta. La seconda frase si interrompe senza senso compiuto, rendendo difficile la comprensione.",
+        "Style": "Il testo risulta innaturale e poco scorrevole, con costruzioni non moderne e un tono poco umano. Manca coerenza stilistica.",
+        "Overall": "La traduzione presenta omissioni, errori grammaticali e stile poco naturale. Il significato originale non è trasmesso in modo adeguato."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai Monti Romani si resero nuovi nemici; contro di cui fu combattuta con varie fortunas: perché nella prima battaglia, essendo console Valerio, persero la vita MMMD romani.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene quasi tutto il significato originale, ma 'si resero nuovi nemici' è meno preciso di 'si feciero nuovi nemici'. 'Con varie fortunas' è un calco poco moderno. La perdita di 'morirono' a favore di 'persero la vita' è accettabile ma meno diretto.",
+        "Fluency": "Il testo è generalmente scorrevole, ma 'con varie fortunas' è un errore di concordanza e non è idiomatico. Il resto della frase è grammaticalmente corretto e comprensibile.",
+        "Style": "La traduzione è abbastanza naturale, ma alcune scelte ('si resero nuovi nemici', 'con varie fortunas') suonano leggermente innaturali o arcaiche per l'italiano moderno.",
+        "Overall": "Traduzione buona e comprensibile, con qualche imprecisione lessicale e stilistica che non compromette la comprensione generale."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando nella matricola si firmano i nomi dei padri e delle madri, e si giura su Dio, Cristo e lo Spirito Santo.",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 5,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione aggiunge dettagli non presenti nell'originale ('si firmano i nomi dei padri e delle madri') e omette il soggetto implicito. L'atto del giurare è reso correttamente, ma c'è una parziale distorsione del significato.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La struttura è moderna e comprensibile.",
+        "Style": "Il testo appare naturale e moderno, senza rigidità o artificiosità. Lo stile è adeguato a un registro contemporaneo.",
+        "Overall": "La traduzione è fluente e naturale, ma l'aggiunta di dettagli non presenti nell'originale compromette la fedeltà. Comprensibile, ma con una parziale distorsione semantica."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.667,
+      "std": 0.745
+    },
+    "Fluency": {
+      "mean": 3.333,
+      "std": 1.374
+    },
+    "Style": {
+      "mean": 3,
+      "std": 1.414
+    },
+    "Overall": {
+      "mean": 2.667,
+      "std": 1.106
+    }
+  }
+}

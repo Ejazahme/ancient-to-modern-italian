@@ -1,0 +1,121 @@
+{
+  "model_name": "A1__Uniform__LoRA",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "morderno: Modernizza la frase italiana arcaica in italiano contemporaneo.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale, limitandosi a una richiesta generica di modernizzazione senza trasporre il contenuto.",
+        "Fluency": "La frase non è una traduzione, ma un'istruzione metalinguistica. Non presenta errori grammaticali, ma non è pertinente come resa.",
+        "Style": "Non si tratta di uno stile traduttivo, ma di una richiesta esplicita. Manca qualsiasi naturalezza o eleganza.",
+        "Overall": "La risposta non è una traduzione, ma una meta-istruzione. Non soddisfa nessun criterio traduttivo."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: tu non puoi più durare con noi, perché io non lo farò e non lo lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"sia fra di noi\" è troppo sintetico rispetto a \"sia in mezzo tra me e te\" e manca la sfumatura di distanza. Alcune sfumature come la durata e la tolleranza sono rese in modo un po' vago.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma \"tu non puoi più durare con noi\" suona poco naturale in italiano moderno.",
+        "Style": "Lo stile è comprensibile ma risulta un po' rigido e poco naturale, specialmente nella scelta di \"durare con noi\" e \"io non lo farò\".",
+        "Overall": "La traduzione è comprensibile ma perde alcune sfumature e risulta poco naturale in alcuni punti. Accettabile, ma migliorabile."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "E, cosa ancora più grave, cioè essere catturati o fuggire e lasciare il proprio comune sconfitto.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma omette il riferimento esplicito al nemico e al concetto di 'permettere che la propria città venga sconfitta', semplificando leggermente il senso originale.",
+        "Fluency": "Il testo è scorrevole, grammaticalmente corretto e facilmente comprensibile in italiano moderno.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente meno espressivo rispetto all'originale medievale.",
+        "Overall": "Traduzione buona e comprensibile, con lievi omissioni di sfumature ma fedele nel complesso."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Ancise anche un amante, chiama:",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation omits most of the original meaning, introducing unrelated content ('Ancise anche un amante' means 'He also killed a lover'), which is not present in the source. Key elements about pleading and dialogue are lost.",
+        "Fluency": "The sentence is incomplete and ungrammatical. The phrase 'chiama:' is left hanging and the structure is broken, making it hard to understand.",
+        "Style": "The translation is abrupt, unnatural, and lacks coherence. It does not resemble modern Italian stylistically and feels fragmented.",
+        "Overall": "The translation fails to convey the original meaning, is ungrammatical, and lacks stylistic adequacy. It is unusable as a modern Italian rendering."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "Quando nella matricollo si giurano conterrana:",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "The translation omits key elements: the act of swearing by God, Christ, and the Holy Spirit is not preserved. The meaning is significantly distorted, and 'conterrana' is unrelated to the source.",
+        "Fluency": "Contains a grammatical error ('matricollo' instead of 'matricola') and the phrase is incomplete and unclear. The sentence is not idiomatic or fully comprehensible.",
+        "Style": "The translation is awkward and unnatural, lacking the solemn or formal tone of the original. It does not read like modern Italian.",
+        "Overall": "Major omissions and errors render the translation unclear and inaccurate. It fails to convey the original meaning and lacks fluency and style."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.2,
+      "std": 1.166
+    },
+    "Fluency": {
+      "mean": 2.6,
+      "std": 1.356
+    },
+    "Style": {
+      "mean": 2.2,
+      "std": 1.166
+    },
+    "Overall": {
+      "mean": 2.2,
+      "std": 1.166
+    }
+  }
+}

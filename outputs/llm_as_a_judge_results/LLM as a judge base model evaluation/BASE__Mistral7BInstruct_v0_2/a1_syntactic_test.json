@@ -1,0 +1,139 @@
+{
+  "model_name": "BASE__Mistral7BInstruct_v0_2",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "mantenendo la tua preghiare questo parola perché è troppo formale: \"Mantenendo a te vostra arcaica:",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non mantiene il significato originale: introduce elementi estranei e non modernizza correttamente il testo. Il senso della frase medievale è completamente perso.",
+        "Fluency": "La frase è grammaticalmente scorretta e incomprensibile in italiano moderno. La sintassi è confusa e non segue alcuna struttura logica.",
+        "Style": "Lo stile è incoerente, innaturale e non rispetta né il tono né la forma del testo originale o moderno. Sembra una sequenza casuale di parole.",
+        "Overall": "La traduzione è inutilizzabile: non trasmette il significato, manca di coerenza grammaticale e stilistica."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "mancino:",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione è completamente assente, quindi il significato originale non è stato preservato né modernizzato.",
+        "Fluency": "Non c'è alcun testo tradotto da valutare per la scorrevolezza o la correttezza grammaticale.",
+        "Style": "Manca qualsiasi tentativo di resa stilistica o naturalezza, poiché non è presente alcuna traduzione.",
+        "Overall": "La traduzione è inesistente e quindi inutilizzabile sotto ogni aspetto."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "��� Quando i serpenti avvolgionte per rendendola moderna e chiarao.",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non conserva il significato originale: manca quasi tutto il contenuto e il senso della frase medievale è completamente perso.",
+        "Fluency": "La frase è grammaticalmente scorretta e incomprensibile; presenta errori e parti senza senso.",
+        "Style": "Lo stile è incoerente e non rispetta né il tono né la chiarezza del moderno italiano.",
+        "Overall": "La traduzione è inutilizzabile: non trasmette il significato, è poco chiara e stilisticamente inadeguata."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "miei (io) mi sono stata questa espressione: \"Io gli ho aperti i miei occhi e loro fuggironoca:",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "The translation omits the second sentence entirely and distorts the meaning of the first. The phrase is not properly modernized and introduces unrelated elements.",
+        "Fluency": "The sentence is ungrammatical, with broken syntax and unclear meaning. It is difficult to understand and does not read as modern Italian.",
+        "Style": "The translation is incoherent and lacks any natural or human-like flow. It does not resemble modern Italian stylistically.",
+        "Overall": "The translation is incomplete, ungrammatical, and stylistically incoherent. It fails to convey the original meaning and is unusable as a modern Italian translation."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dalle montagne romane si sono fatte nuove enemy; contro di essi si è alleato con diverse sorti: perché nella prima battaglia, essendo console Valerio, morirono MMMD romani;",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 2,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni errori di significato: 'si sono fatte nuove enemy' è scorretto, e 'si è alleato' distorce il senso originale di 'combattuto'. MMMD non è modernizzato. Parziale perdita di significato.",
+        "Fluency": "La frase contiene errori grammaticali ('nuove enemy', 'si è alleato') e sintassi poco scorrevole. Comprensibile ma non fluente.",
+        "Style": "Il testo risulta rigido e poco naturale, con termini non modernizzati ('enemy', 'MMMD'). Non appare scritto da un umano.",
+        "Overall": "La traduzione è comprensibile ma presenta errori di significato, scarsa modernizzazione e stile innaturale. Accettabile solo con riserva."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "mancana: Ritorna questa frase in una forma corrente: \"quata\": quando nella matricola si giura giuramento:",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette completamente il riferimento a Dio, Cristo e lo Spirito Santo, e non mantiene il significato originale. L'espressione \"si giura giuramento\" è ridondante e non fedele al testo di partenza.",
+        "Fluency": "La frase è grammaticalmente corretta ma poco chiara. L'inserimento di \"quata\" e \"mancana\" la rende confusa e meno comprensibile.",
+        "Style": "Lo stile è innaturale e poco scorrevole, con termini non pertinenti come \"quata\" e \"mancana\" che non appartengono all'italiano moderno.",
+        "Overall": "La traduzione presenta omissioni gravi e uno stile poco naturale, risultando poco fedele e difficilmente comprensibile."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.5,
+      "std": 0.764
+    },
+    "Fluency": {
+      "mean": 1.5,
+      "std": 0.764
+    },
+    "Style": {
+      "mean": 1.333,
+      "std": 0.471
+    },
+    "Overall": {
+      "mean": 1.5,
+      "std": 0.764
+    }
+  }
+}

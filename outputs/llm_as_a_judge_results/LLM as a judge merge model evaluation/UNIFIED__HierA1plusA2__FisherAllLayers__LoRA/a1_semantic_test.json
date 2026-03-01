@@ -1,0 +1,121 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__FisherAllLayers__LoRA",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "Istruzione:",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione manca completamente: non è presente alcun contenuto del testo originale, né il significato è stato preservato o modernizzato.",
+        "Fluency": "Non c'è testo tradotto da valutare; la traduzione è assente.",
+        "Style": "Non c'è alcun tentativo stilistico, dato che manca la traduzione.",
+        "Overall": "La traduzione non esiste: non è stato fornito alcun testo tradotto, quindi non è valutabile."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia tra di noi: con te non puoi più tranquillamente restare, perché io non ti farò più sopportare e non ti lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono travisati: \"con noi\" diventa \"con te\" e \"non lo sofferrò\" viene reso come \"non ti farò più sopportare\", che è un errore di senso. La modernizzazione è solo parziale.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma alcune scelte sintattiche risultano poco naturali, ad esempio \"con te non puoi più tranquillamente restare\".",
+        "Style": "Lo stile è generalmente scorrevole, ma alcune espressioni suonano innaturali e poco moderne. Manca l'eleganza e la naturalezza di un testo umano.",
+        "Overall": "Traduzione comprensibile ma con errori di senso e stile poco naturale. Necessita revisione per essere fedele e moderna."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "struzione moderna:",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione \"struzione moderna\" non preserva alcun significato dell’originale e non modernizza il contenuto. L’intero senso della frase è completamente perso.",
+        "Fluency": "La frase non è grammaticalmente corretta né comprensibile in italiano moderno. Non costituisce una frase completa o coerente.",
+        "Style": "La traduzione non ha alcuno stile riconoscibile; non è naturale né umana, risultando completamente incoerente.",
+        "Overall": "La traduzione è inutilizzabile: manca totalmente di fedeltà, scorrevolezza e stile. Non trasmette alcun contenuto dell’originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "Istruzione:",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non contiene alcun contenuto della frase originale, quindi il significato non è stato preservato.",
+        "Fluency": "Non c'è testo tradotto, quindi non è possibile valutare la scorrevolezza o la grammatica.",
+        "Style": "Manca completamente di qualsiasi stile, dato che non è presente alcuna traduzione.",
+        "Overall": "La traduzione è assente, quindi non è valutabile secondo nessun criterio."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "struzione arca:",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale; il contenuto è completamente omesso e non c'è alcuna modernizzazione del testo arcaico.",
+        "Fluency": "La frase 'struzione arca:' non è grammaticalmente corretta né comprensibile in italiano moderno.",
+        "Style": "La traduzione non ha coerenza stilistica e non rispetta alcun registro naturale o umano.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e stile. Il significato originale è completamente perso."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.4,
+      "std": 0.8
+    },
+    "Fluency": {
+      "mean": 1.6,
+      "std": 1.2
+    },
+    "Style": {
+      "mean": 1.4,
+      "std": 0.8
+    },
+    "Overall": {
+      "mean": 1.4,
+      "std": 0.8
+    }
+  }
+}

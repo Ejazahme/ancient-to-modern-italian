@@ -1,20 +1,20 @@
 import os
 import json
 import time
+import random
 import statistics
 from pathlib import Path
 from tqdm import tqdm
-from openai import OpenAI
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-API_KEY = "OPEN API KEY"
+from openai import OpenAI
 
 MODEL_JUDGE = "gpt-4.1"
 TEMPERATURE = 0.3
 MAX_TOKENS = 800
 
-client = OpenAI(api_key=API_KEY)
-
-INPUT_FOLDER = Path("outputs/stratified_evaluation")
+API_KEY="OPEN AI KEY"
+INPUT_FOLDER = Path("outputs")
 OUTPUT_ROOT = Path("results/llm-as-a-judge/finetuned")
 OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
 
@@ -99,7 +99,6 @@ RUBRICS = {
 1 – Fail: Unusable translation."""
 }
 
-
 def build_prompt(item):
     return f"""
 You are a bilingual Italian linguist specialized in translating and evaluating
@@ -127,44 +126,55 @@ Provide feedback ≤50 words per criterion, strictly following the rubrics.
 4. Overall – {RUBRICS['Overall']}
 """.strip()
 
-def judge_item(item):
+def _mk_client():
+    # Create a client per worker thread (safer than sharing one instance)
+    return OpenAI(api_key=API_KEY)
+
+def judge_item(client: OpenAI, item, retries=5):
     prompt = build_prompt(item)
-    for attempt in range(3):
+
+    for attempt in range(1, retries + 1):
         try:
-            response = client.chat.completions.create(
+            resp = client.chat.completions.create(
                 model=MODEL_JUDGE,
                 temperature=TEMPERATURE,
                 max_tokens=MAX_TOKENS,
                 response_format=JUDGE_SCHEMA,
                 messages=[
                     {"role": "system", "content": "You are a neutral translation evaluator. Output must strictly follow the provided JSON schema."},
-                    {"role": "user", "content": prompt}
-                ]
+                    {"role": "user", "content": prompt},
+                ],
             )
-            return json.loads(response.choices[0].message.content)
+            return json.loads(resp.choices[0].message.content)
+
         except Exception as e:
-            
-            time.sleep(5)
+            # Exponential backoff + jitter (helps with 429 / transient errors)
+            sleep_s = min(60, (2 ** (attempt - 1)) * 2) + random.uniform(0, 1.5)
+            print(f"[judge_item] attempt={attempt}/{retries} failed: {type(e).__name__}: {e} | sleeping {sleep_s:.1f}s")
+            time.sleep(sleep_s)
+
     return None
 
-def evaluate_dataset(path, model_name):
+def evaluate_dataset(path: Path, model_name: str):
+    client = _mk_client()
+
     data = json.load(open(path, "r", encoding="utf-8"))
     preds = data.get("predictions", [])
-    dataset = data.get("dataset_name", Path(path).stem)
+    dataset = data.get("dataset_name", path.stem)
 
     results = []
-
-    for item in tqdm(preds):
-        evaluation = judge_item(item)
+    for item in tqdm(preds, desc=f"{model_name}/{dataset}", leave=False):
+        evaluation = judge_item(client, item)
         if not evaluation:
             continue
+
         results.append({
             "id": item.get("id"),
             "source": item["source"],
             "prediction": item["prediction"],
             "reference": item.get("reference"),
             "scores": {k: evaluation[k]["score"] for k in evaluation},
-            "feedback": {k: evaluation[k]["feedback"] for k in evaluation}
+            "feedback": {k: evaluation[k]["feedback"] for k in evaluation},
         })
 
     summary = {}
@@ -173,7 +183,7 @@ def evaluate_dataset(path, model_name):
         if vals:
             summary[k] = {
                 "mean": round(statistics.mean(vals), 3),
-                "std": round(statistics.pstdev(vals), 3)
+                "std": round(statistics.pstdev(vals), 3),
             }
 
     out_dir = OUTPUT_ROOT / model_name
@@ -187,24 +197,34 @@ def evaluate_dataset(path, model_name):
             "rubrics": list(RUBRICS.keys()),
             "num_samples": len(results),
             "results": results,
-            "summary": summary
+            "summary": summary,
         }, f, indent=2, ensure_ascii=False)
 
+    return str(out_file)
 
 def collect_stratified_files():
     files = []
-    for subdir in INPUT_FOLDER.iterdir():
-        if not subdir.is_dir():
-            continue
-        model_name = subdir.name
-        for f in subdir.glob("*.json"):
-            files.append((model_name, f))
+    for json_path in INPUT_FOLDER.rglob("*.json"):
+        model_name = json_path.parent.name
+        files.append((model_name, json_path))
     return files
 
-def main():
+def main(max_workers=4):
     files = collect_stratified_files()
-    for model_name, fpath in files:
-        evaluate_dataset(fpath, model_name)
+    print(f"Found {len(files)} files. Running with max_workers={max_workers}")
+
+    # Submit each file as a parallel job
+    futures = []
+    with ThreadPoolExecutor(max_workers=max_workers) as ex:
+        for model_name, fpath in files:
+            futures.append(ex.submit(evaluate_dataset, fpath, model_name))
+
+        for fut in as_completed(futures):
+            try:
+                out = fut.result()
+                print(f"[DONE] wrote: {out}")
+            except Exception as e:
+                print(f"[ERROR] file job failed: {type(e).__name__}: {e}")
 
 if __name__ == "__main__":
-    main()
+    main(max_workers=4)

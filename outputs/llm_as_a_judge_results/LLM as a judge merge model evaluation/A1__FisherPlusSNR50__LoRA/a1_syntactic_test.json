@@ -1,0 +1,139 @@
+{
+  "model_name": "A1__FisherPlusSNR50__LoRA",
+  "dataset_name": "a1_syntactic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 6,
+  "results": [
+    {
+      "id": null,
+      "source": "Il re entrò in uno giardino dietro al suo albergo, quasi come s'egli andasse pensando alla risposta.",
+      "prediction": "Il re entrò in un giardino dietro all'albergo, come se stesse prendendo tempo per riflettere sulla risposta.",
+      "reference": "Quasi come se stesse pensando alla risposta, il re entrò in un giardino dietro al suo albergo.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma \"come se stesse prendendo tempo per riflettere\" introduce una sfumatura non presente nell'originale, che si limita a suggerire il pensiero, non il prendere tempo.",
+        "Fluency": "Il testo è scorrevole e grammaticalmente corretto, senza errori evidenti. La frase è ben costruita e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente più esplicativo rispetto all'originale. Nel complesso, suona umano e fluido.",
+        "Overall": "La traduzione è buona, fedele nel complesso e molto fluida, anche se aggiunge una lieve interpretazione non presente nell'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "quella guerra ben fatta l' opera perché etc. Et dall' altra parte Aiaces era uno cavaliere franco e prode all' arme, di gran guisa, ma non era pieno di grande senno",
+      "prediction": "Quella guerra fu bene condotta perché tutti gli uomini la volevano portare avanti, ma dalla parte opposta Aiace era un cavaliere francese e coraggioso nell'uso",
+      "reference": "Quell'opera fu ben fatta in quella guerra, ecc. Dall'altra parte, Aiace era un cavaliere franco e prode nelle armi, di grande valore, ma non era dotato di grande saggezza.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni elementi chiave sono stati travisati: 'opera' è stata resa come 'guerra', 'franco' come 'francese', e manca la parte su 'non era pieno di grande senno'. Significato solo parzialmente preservato.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, ma la seconda parte ('nell'uso') è incompleta e poco chiara.",
+        "Style": "Il tono è generalmente moderno, ma alcune scelte lessicali ('francese') e la frase tronca riducono la naturalezza.",
+        "Overall": "La traduzione è comprensibile ma contiene errori di interpretazione e alcune omissioni che ne compromettono la fedeltà e la scorrevolezza."
+      }
+    },
+    {
+      "id": null,
+      "source": "Quando li serpenti invellenava di giorno alcuno Romano, allora iera la maraviglia a vedere come li Psille si combattevano al veleno, ché elli imolavano tutto inazzi della loro salive",
+      "prediction": "Quando i serpenti uscivano dal loro nido, e qualche romano veniva morso, era vero che",
+      "reference": "Quando durante il giorno i serpenti avvelenavano qualche Romano, allora era una meraviglia vedere come i Psilli si difendevano dal veleno, perché sacrificavano tutto davanti alla loro saliva.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette completamente la parte centrale e finale della frase originale, perdendo informazioni chiave sui Psilli e il loro rapporto con il veleno. Solo l'inizio è parzialmente mantenuto.",
+        "Fluency": "La frase è grammaticalmente corretta, ma è incompleta e si interrompe bruscamente, compromettendo la comprensibilità.",
+        "Style": "Lo stile è semplice ma la frase risulta tronca e innaturale a causa dell'incompletezza, non sembra una traduzione umana completa.",
+        "Overall": "La traduzione è gravemente incompleta: manca il senso centrale e si interrompe. Non è utilizzabile senza revisioni sostanziali."
+      }
+    },
+    {
+      "id": null,
+      "source": "Io gli apersi, e quelli fuggitte. E che bisogno è, che lo cuore tuo stia chiuso al tuo sposo Cristo?",
+      "prediction": "Io li aprii, ma essi fuggirono. È necessario che il tuo cuore rimani chiuso al tuo marito Cristo?",
+      "reference": "Io gli apersi, e quelli fuggirono. E che bisogno c’è che il tuo cuore resti chiuso al tuo sposo, Cristo?",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"marito\" per \"sposo\" è una modernizzazione eccessiva e meno fedele al contesto religioso. \"Rimani chiuso\" è grammaticalmente scorretto rispetto al soggetto \"cuore\".",
+        "Fluency": "La frase \"rimani chiuso\" è scorretta; dovrebbe essere \"resti chiuso\" o \"rimanga chiuso\". Il resto è grammaticalmente corretto e comprensibile.",
+        "Style": "La traduzione è comprensibile ma suona un po' meccanica e manca della naturalezza richiesta, soprattutto nella seconda frase.",
+        "Overall": "Traduzione comprensibile ma con errori di fedeltà e scelte stilistiche poco naturali, specialmente nella resa di \"marito\" e nella costruzione verbale."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai Monti Romani si fecero nuovi nemici; contro di cui fu combattuta con diverse sorti di fortuna: perché nella prima battaglia, avendo console Valerio, molti Romani persero la vita.",
+      "reference": "Nuovi nemici si fecero dai monti dei Romani, contro i quali si combatté con diversa fortuna: poiché nella prima battaglia, quando Valerio era console, morirono tremila dei Romani.",
+      "scores": {
+        "Faithfulness": 4,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il senso generale ma omette il numero specifico dei morti (MMMD = tremila). 'Molti Romani persero la vita' è meno preciso. Il resto è fedele e ben modernizzato.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole. La sintassi è moderna e comprensibile senza errori evidenti.",
+        "Style": "Lo stile è naturale e moderno, anche se leggermente neutro. Manca un tocco di eleganza, ma risulta comunque umano e leggibile.",
+        "Overall": "Traduzione fedele e fluente, con una piccola perdita di precisione numerica. Nel complesso, il testo è ben reso in italiano moderno."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "quando quando si scrive nella matricola giurare per Dio, Cristo e lo Spirito Santo.",
+      "reference": "quando essi si scrivono nella matricola, essi giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma la frase \"giurare per Dio, Cristo e lo Spirito Santo\" è resa come un'infinitiva, alterando leggermente il senso originale che era al presente indicativo. Ripetizione di 'quando'.",
+        "Fluency": "La frase presenta una ripetizione ('quando quando') e una costruzione sintattica poco scorrevole. Comprensibile, ma non del tutto fluida.",
+        "Style": "Lo stile è un po' rigido e poco naturale, soprattutto per la ripetizione e la struttura dell'infinitiva. Manca di eleganza moderna.",
+        "Overall": "Traduzione comprensibile ma con errori sintattici e stilistici che ne riducono la qualità complessiva."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 3.167,
+      "std": 0.687
+    },
+    "Fluency": {
+      "mean": 3.5,
+      "std": 1.118
+    },
+    "Style": {
+      "mean": 3.167,
+      "std": 0.687
+    },
+    "Overall": {
+      "mean": 3.167,
+      "std": 0.687
+    }
+  }
+}

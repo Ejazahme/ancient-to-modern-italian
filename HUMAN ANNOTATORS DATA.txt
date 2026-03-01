@@ -1,0 +1,190 @@
+Mistral base model 7 sentences 
+
+
+{
+      "id": 2,
+      "source": "Non d' altra forza d' animo fue ornato Ponzio Aufidiano, romano cavaliere.",
+      "prediction": "migliadissima del tuo sito web per renderla comprensibile per i giorno:",
+      "reference": "Ponzio Aufidiano, cavaliere romano, non fu dotato di minore forza d’animo."
+},
+
+{
+      "id": 12,
+      "source": "Corbio nipote d' Ortensio menò sua vita più bassa e più viziosa",
+      "prediction": "misura: Aggiorna l'espressione \"Corbo nipotechismo: Corbo nipote di Ortenzio:",
+      "reference": "Corbio, nipote di Ortensio, condusse una vita più misera e più viziosa."
+    },
+
+
+{
+      "id": 25,
+      "source": "Unde ragionevolemente Iob è interpretato dolente;",
+      "prediction": "mia carne e legata a un poesia per mantenendo intatta il senso originale:",
+      "reference": "Perciò, giustamente, Giobbe viene interpretato come \"sofferente\"."
+    },
+
+
+
+{
+      "id": 36,
+      "source": "tratta la natura delle cose incorporali le quali non conversano intra lle corpora, sì come Dio e le divine cose.",
+      "prediction": "misurazione per l'imizzare questa frase per farla più chiarissima:",
+      "reference": "tratta della natura delle cose incorporee, che non si trovano tra i corpi, come Dio e le realtà divine."
+    },
+
+
+{
+      "id": 38,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "mantenizione elementare è necessaria per rendere comprensione \"Unde si ritrovano:",
+      "reference": "Perciò i poeti, parlando di loro, descrivono le loro virtù e raccontano in modo fiabesco i loro difetti, quando qualcuno di loro superava il limite a cui era destinato."
+    },
+
+{
+      "id": 52,
+      "source": "et nonn ebbe in fastido Cristo cotali parole d'udire.",
+      "prediction": "   e parola archicismo \"nonnanna\" (et nonnella):",
+      "reference": "E Cristo non provò fastidio ad ascoltare tali parole."
+    },
+
+
+
+GEMINI few shot MODEL 
+
+
+{
+      "id": 2,
+      "source": "Non d' altra forza d' animo fue ornato Ponzio Aufidiano, romano cavaliere.",
+      "prediction": "Ponzio Aufidiano, cavaliere romano, non fu dotato di una diversa forza d'animo.",
+      "reference": "Ponzio Aufidiano, cavaliere romano, non fu dotato di minore forza d’animo."
+    },
+
+
+
+{
+      "id": 12,
+      "source": "Corbio nipote d' Ortensio menò sua vita più bassa e più viziosa",
+      "prediction": "Corbio, nipote di Ortensio, condusse una vita molto meschina e dissoluta.",
+      "reference": "Corbio, nipote di Ortensio, condusse una vita più misera e più viziosa."
+    },
+
+
+{
+      "id": 25,
+      "source": "Unde ragionevolemente Iob è interpretato dolente;",
+      "prediction": "Perciò, giustamente Giobbe viene interpretato come sofferente.",
+      "reference": "Perciò, giustamente, Giobbe viene interpretato come \"sofferente\"."
+    },
+
+
+
+{
+      "id": 36,
+      "source": "tratta la natura delle cose incorporali le quali non conversano intra lle corpora, sì come Dio e le divine cose.",
+      "prediction": "Tratta la natura delle cose incorporee, le quali non interagiscono con i corpi, come Dio e le cose divine.",
+      "reference": "tratta della natura delle cose incorporee, che non si trovano tra i corpi, come Dio e le realtà divine."
+    },
+
+
+
+{
+      "id": 38,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "Perciò i poeti, parlando di loro, ne descrivono le virtù e ne raccontano in modo favoloso i difetti, quando qualcuna di loro oltrepassava l'ordine che era stato loro assegnato.",
+      "reference": "Perciò i poeti, parlando di loro, descrivono le loro virtù e raccontano in modo fiabesco i loro difetti, quando qualcuno di loro superava il limite a cui era destinato."
+    },
+
+
+
+
+
+
+{
+      "id": 52,
+      "source": "et nonn ebbe in fastido Cristo cotali parole d'udire.",
+      "prediction": "E Cristo non si stancò di ascoltare tali parole.",
+      "reference": "E Cristo non provò fastidio ad ascoltare tali parole."
+    },
+
+
+
+
+
+
+A2 MIDDLE EXPERT
+
+
+
+
+
+
+{
+      "id": 2,
+      "source": "Non d' altra forza d' animo fue ornato Ponzio Aufidiano, romano cavaliere.",
+      "prediction": "Iscritto Ponzio Aufidiano fu l’romano cavaliere non solo di altre forze d’animo.",
+      "reference": "Ponzio Aufidiano, cavaliere romano, non fu dotato di minore forza d’animo."
+    },
+
+
+{
+      "id": 12,
+      "source": "Corbio nipote d' Ortensio menò sua vita più bassa e più viziosa",
+      "prediction": "Ipotesi: Corbio, nipote di Ortensio, condusse una vita più degradata e più viziosa.",
+      "reference": "Corbio, nipote di Ortensio, condusse una vita più misera e più viziosa."
+    },
+
+
+
+
+{
+      "id": 25,
+      "source": "Unde ragionevolemente Iob è interpretato dolente;",
+      "prediction": "Ibrida ragionevolmente Iob è stato interpretato come afflitto;",
+      "reference": "Perciò, giustamente, Giobbe viene interpretato come \"sofferente\"."
+    },
+
+{
+      "id": 36,
+      "source": "tratta la natura delle cose incorporali le quali non conversano intra lle corpora, sì come Dio e le divine cose.",
+      "prediction": "I corpi inanimati non sono affatto simili alle cose incorporate, come Dio e le cose divine.",
+      "reference": "tratta della natura delle cose incorporee, che non si trovano tra i corpi, come Dio e le realtà divine."
+    },
+
+
+
+
+{
+      "id": 38,
+      "source": "Unde gli poeti, parlando de lloro, dicono le virtute loro e dicono fabolosamente gli loro difetti, quando alcuna passava l'ordine a lloro deputato",
+      "prediction": "I poeti, parlando di lui, dicono le sue virtù e dicono i suoi difetti in maniera fantastica, quando qualche altra lo superava nel compito affidatogli.",
+      "reference": "Perciò i poeti, parlando di loro, descrivono le loro virtù e raccontano in modo fiabesco i loro difetti, quando qualcuno di loro superava il limite a cui era destinato."
+    },
+
+
+
+
+{
+      "id": 52,
+      "source": "et nonn ebbe in fastido Cristo cotali parole d'udire.",
+      "prediction": "I non riuscirono a sopportare di udire tali parole da Cristo.",
+      "reference": "E Cristo non provò fastidio ad ascoltare tali parole."
+    },
+
+
+{
+      "id": 89,
+      "source": "Ulecois, ebe un uomo rico e nobile: Orgentore fue chiamato per nome.",
+      "prediction": "I cittadini di Ulecois avevano un uomo ricco e nobile: si chiamava Orgentore.",
+      "reference": "A Ulecois c'era un uomo ricco e nobile: si chiamava Orgentore."
+    },
+    {
+      "id": 90,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "implicitamente, se una cosa nobile e alta è sconfiggere il nemico, non è meno lodevole sapere mostrare misericordia.",
+      "reference": "Poiché, se è nobile e grande cosa sconfiggere il nemico, non è meno degno di lode saper mostrare misericordia dopo."
+    },
+
+
+
+
+

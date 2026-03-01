@@ -1,0 +1,50 @@
+{
+  "model_name": "A1__Uniform__LoRA",
+  "model_type": "adapter",
+  "model_path": "models_hf/a1_merged_lora_merges/a1_uniform_lora",
+  "dataset_name": "a1_lexical_test",
+  "dataset_path": "data/processed/approach1/lexical/test.jsonl",
+  "num_samples": 5,
+  "metrics": {
+    "bleu": 16.03502269460669,
+    "chrf++": 44.8598429272327,
+    "rougeL": 37.00495366351911,
+    "meteor": 0.3326105035692152,
+    "token_f1": 0.3537452039777621,
+    "bertscore_f1": 0.7858951687812805,
+    "has_reference": true,
+    "num_predictions": 5
+  },
+  "predictions": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "Inutile si chiede invano chi abbia scritto questo Libro, perché non dobbiamo credere fedelemente che lo Spirito Santo sia l'",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo."
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "Tende le reti in alto, perché tu sai dove nascondano i cinghiali infuriosi nella valle.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale."
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti romani si resero nuovi nemici; contro di cui fu combattuta con diverse sorti di fortuna: perché nella prima battaglia, essendo console Valerio, morirono più di mille romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;"
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Crude e severo in giudizio, secondo quanto dice la legge, non perdonerà a nessun cavaliere i peccati.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi."
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "Un uccello non fugge se non viene catturato:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade."
+    }
+  ]
+}

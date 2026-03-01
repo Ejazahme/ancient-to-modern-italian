@@ -1,0 +1,121 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__FisherAllLayers__LoRA",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "È inutile chiedersi chi fosse l’autore di questo libro, poiché bisogna tenere per sicuro che colui che sc",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 3,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione mantiene il significato generale, ma è incompleta: la frase termina bruscamente e manca la parte finale sull'autore come Spirito Santo. Modernizzazione adeguata nella parte resa.",
+        "Fluency": "Il testo è grammaticalmente corretto e scorrevole fino all'interruzione, ma la frase è tronca e manca di conclusione, compromettendo la comprensibilità.",
+        "Style": "Lo stile è naturale e moderno nella parte tradotta, ma l'incompletezza rende il testo innaturale e poco curato.",
+        "Overall": "La traduzione è accettabile nella parte resa, ma l'incompletezza compromette fedeltà, scorrevolezza e stile. Necessita revisione."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "Mette:",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione è completamente assente: manca tutto il contenuto originale, quindi il significato non è preservato.",
+        "Fluency": "La traduzione consiste solo in una parola isolata e non costituisce una frase comprensibile in italiano moderno.",
+        "Style": "Non c'è stile da valutare, poiché la traduzione è solo una parola priva di contesto.",
+        "Overall": "La traduzione è inutilizzabile: manca quasi tutto il testo originale e non comunica alcun significato."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti romani si resero nuovi nemici; contro di cui fu combattuto con diverse sorti di fortuna: perché nella prima battaglia, quando era console Valerio, più di migliaia dei Romani persero la vita.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: \"si resero nuovi nemici\" non corrisponde a \"si feciero nuovi nemici\" (che indica il sorgere di nuovi nemici), e \"più di migliaia\" è vago rispetto a \"MMMD\" (3.000).",
+        "Fluency": "La frase è generalmente fluida e comprensibile, ma \"più di migliaia\" è poco naturale e crea ambiguità. Il resto è grammaticalmente corretto.",
+        "Style": "Lo stile è moderno e leggibile, ma alcune scelte lessicali (\"si resero nuovi nemici\") risultano poco naturali. Nel complesso, scorre ma manca di eleganza.",
+        "Overall": "Traduzione accettabile ma con imprecisioni semantiche e stilistiche che ne riducono la qualità complessiva."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Essere, e sarebbe crude:",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette quasi tutto il significato originale, mantenendo solo un frammento senza senso compiuto. Il contenuto e il messaggio sono completamente persi.",
+        "Fluency": "La frase risultante non è grammaticalmente corretta né comprensibile in italiano moderno. Manca coerenza sintattica e lessicale.",
+        "Style": "Lo stile è incoerente e non rispecchia né il tono né la naturalezza dell'italiano moderno. Sembra una sequenza di parole senza senso.",
+        "Overall": "La traduzione è inutilizzabile: manca di fedeltà, scorrevolezza e stile. Il significato originale non è trasmesso."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "struzione moderna:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione fornita ('struzione moderna:') non preserva alcun significato della frase originale né modernizza il contenuto. Nessun elemento semantico è stato trasmesso.",
+        "Fluency": "Il testo non è una frase completa e non contiene alcuna struttura grammaticale. Non è leggibile né comprensibile come italiano moderno.",
+        "Style": "Non esiste alcun tentativo di stile o naturalezza. Il testo non appare come una traduzione umana o moderna.",
+        "Overall": "La traduzione è completamente assente e inutilizzabile. Non trasmette alcuna informazione dell'originale."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.8,
+      "std": 0.98
+    },
+    "Fluency": {
+      "mean": 2,
+      "std": 1.265
+    },
+    "Style": {
+      "mean": 1.8,
+      "std": 0.98
+    },
+    "Overall": {
+      "mean": 1.8,
+      "std": 0.98
+    }
+  }
+}

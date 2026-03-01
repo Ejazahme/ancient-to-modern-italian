@@ -1,0 +1,121 @@
+{
+  "model_name": "UNIFIED__HierA1plusA2__Uniform__LoRA",
+  "dataset_name": "a1_semantic_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "però che, sse nobile cosa e alta è abatte il nimico, ampoi nonn è meno laudabile sapere avere misiricordia",
+      "prediction": "misura: Modernizza la frase italiana arcaica in italiano contemporaneo.",
+      "reference": "poiché, se nobile cosa e alta è abbattere il nemico, dopo non è meno lodabile saper avere misericordia",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non modernizza né preserva il significato della frase originale; si limita a dare una semplice istruzione senza trasporre il contenuto.",
+        "Fluency": "La frase è grammaticalmente corretta ma non è una traduzione: è solo una direttiva.",
+        "Style": "Non c'è stile traduttivo; la frase è un comando impersonale e non rende il tono o la struttura del testo originale.",
+        "Overall": "La risposta non è una traduzione ma una meta-istruzione, quindi non adempie al compito richiesto."
+      }
+    },
+    {
+      "id": null,
+      "source": "sia in mezzo tra me e te: con noi non puo' tu già più lungamente dimorare, ch'io non lo sofferrò e non lo lascerò.",
+      "prediction": "Sia fra di noi: tu non puoi più tranquillamente vivere con noi, perché io non ti farò rimanere e non ti lascerò.",
+      "reference": "Deve esserci una distanza chiara tra me e te: tu non puoi più restare con noi per molto tempo, perché io non tollererò più la tua presenza e non permetterò che tu rimanga.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette il concetto di \"mezzo\" come distanza e sostituisce \"dimorare\" con \"vivere tranquillamente\", che è una modernizzazione ma altera il senso. \"Non lo sofferrò\" è reso come \"non ti farò rimanere\", perdendo parte della forza dell'originale.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. La sintassi è moderna e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma la scelta di \"tranquillamente vivere\" suona leggermente meno incisiva rispetto all'originale.",
+        "Overall": "La traduzione è fluente e naturale, ma perde alcune sfumature di significato importanti dell'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "e, cosa che anche è più grave, cioè essere preso, o vero fuggire, e suo Comune lasciare vincere.",
+      "prediction": "moderna la frase italiana arca seguente frase italiana arcaica in italiano moderno.",
+      "reference": "E, cosa ancora più grave, cioè essere catturato dal nemico, oppure fuggire e permettere che la propria città venga sconfitta.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale. Non viene trasmesso alcun contenuto della frase arcaica; sembra una meta-descrizione dell'attività di traduzione, non una resa del testo.",
+        "Fluency": "La frase non è una traduzione, ma una descrizione dell'azione richiesta. Non presenta errori grammaticali, ma non è pertinente come traduzione.",
+        "Style": "Lo stile è meta-linguistico e non naturale per una traduzione. Non rispecchia il tono o la struttura del testo originale.",
+        "Overall": "La traduzione non è utilizzabile: non rende il significato né lo stile del testo arcaico. Si limita a descrivere l'azione di tradurre."
+      }
+    },
+    {
+      "id": null,
+      "source": "Altressì uno amante chiamando merzé alla sua donna dice parole e ragioni molte, et ella si difende in suo dire.",
+      "prediction": "modernazione: Modernizza la frase italiana arcaica in italiano consueto in italiano moderno.",
+      "reference": "Inoltre un amante chiedendo pietà alla sua donna dice molte parole e ragioni, e lei si difende nelle sue parole.",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 1,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale: non modernizza la frase, ma dà un'istruzione metatestuale. Il contenuto semantico della frase arcaica non è stato trasferito.",
+        "Fluency": "La frase non è una traduzione, ma una richiesta di modernizzazione. Non è una frase idiomatica o grammaticalmente corretta come traduzione.",
+        "Style": "Il testo non ha stile traduttivo; è una meta-istruzione. Non risulta naturale né umano come traduzione.",
+        "Overall": "La traduzione non è utilizzabile: manca il trasferimento del significato e non risponde alla richiesta di modernizzazione."
+      }
+    },
+    {
+      "id": null,
+      "source": "quando nella matricola si scrivono giurano per Dio, e per Cristo, e per lo Spirito Santo",
+      "prediction": "moderna la seguente frase la seguente frase italiana arcaica in italiano moderno.",
+      "reference": "quando si iscrivono nella matricola giurano solennemente sulla loro fede cristiana",
+      "scores": {
+        "Faithfulness": 1,
+        "Fluency": 2,
+        "Style": 1,
+        "Overall": 1
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione non preserva il significato originale: si limita a dare un'istruzione di modernizzazione, senza trasporre il contenuto della frase arcaica. Mancano completamente i riferimenti al giuramento e agli elementi religiosi.",
+        "Fluency": "La frase è grammaticalmente corretta, ma non è una traduzione: è un'istruzione ripetitiva e non una frase compiuta in italiano moderno.",
+        "Style": "Lo stile è quello di una richiesta o comando, non di una traduzione. Non rispecchia né l'eleganza né la naturalezza di una frase moderna.",
+        "Overall": "La traduzione non rende il significato originale e non adempie allo scopo di modernizzare il testo. È inutilizzabile come traduzione."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 1.4,
+      "std": 0.8
+    },
+    "Fluency": {
+      "mean": 2.4,
+      "std": 1.356
+    },
+    "Style": {
+      "mean": 1.6,
+      "std": 1.2
+    },
+    "Overall": {
+      "mean": 1.6,
+      "std": 1.2
+    }
+  }
+}

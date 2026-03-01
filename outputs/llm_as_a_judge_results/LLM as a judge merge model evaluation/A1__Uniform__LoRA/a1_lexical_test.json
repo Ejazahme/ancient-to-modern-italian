@@ -1,0 +1,121 @@
+{
+  "model_name": "A1__Uniform__LoRA",
+  "dataset_name": "a1_lexical_test",
+  "rubrics": [
+    "Faithfulness",
+    "Fluency",
+    "Style",
+    "Overall"
+  ],
+  "num_samples": 5,
+  "results": [
+    {
+      "id": null,
+      "source": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Auttore di quello fusse lo Spirito santo.",
+      "prediction": "Inutile si chiede invano chi abbia scritto questo Libro, perché non dobbiamo credere fedelemente che lo Spirito Santo sia l'",
+      "reference": "in vano si domanda chi questo Libro scrivesse, con ciò sia cosa che fedelmente si debba credere che l'Autore di quello fosse lo Spirito santo.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 2,
+        "Style": 2,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la parte finale della frase e distorce il significato: suggerisce che non dobbiamo credere fedelmente, mentre l'originale afferma il contrario. Mancano elementi chiave.",
+        "Fluency": "Il testo è grammaticalmente scorretto e la frase è incompleta, terminando bruscamente con 'l''. La costruzione è confusa.",
+        "Style": "Lo stile è innaturale e poco scorrevole, con una struttura poco chiara e una conclusione tronca che compromette la leggibilità.",
+        "Overall": "La traduzione è incompleta, imprecisa e poco fluida, con errori che compromettono sia il significato sia la leggibilità."
+      }
+    },
+    {
+      "id": null,
+      "source": "tenda le reti a li cerbi e sa bene in quali valle dimori il furioso porco cinghiare.",
+      "prediction": "Tende le reti in alto, perché tu sai dove nascondano i cinghiali infuriosi nella valle.",
+      "reference": "Tende le reti ai cervi e sa bene in quali valli dimora il furioso cinghiale.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette i cervi e cambia il senso della frase, attribuendo la conoscenza delle valli al lettore invece che al soggetto originale. Inoltre, 'tende le reti in alto' non riflette il testo di partenza.",
+        "Fluency": "La frase è grammaticalmente corretta e comprensibile, anche se la costruzione 'perché tu sai' risulta leggermente forzata rispetto al contesto.",
+        "Style": "Lo stile è moderno e scorrevole, ma la scelta di rivolgersi direttamente ('tu sai') è meno naturale rispetto al testo originale.",
+        "Overall": "La traduzione è fluente ma poco fedele, con cambiamenti sostanziali nel significato e nello stile rispetto all'originale."
+      }
+    },
+    {
+      "id": null,
+      "source": "da' monti de' Romani si feciero nuovi nemici; contra i quali è conbactuto cum diversa ventura: perké nela primaia battaglia, essendo consolo Valerio, MMMD ne moriro de' Romani;",
+      "prediction": "Dai monti romani si resero nuovi nemici; contro di cui fu combattuta con diverse sorti di fortuna: perché nella prima battaglia, essendo console Valerio, morirono più di mille romani.",
+      "reference": "dai monti dei Romani si fecero nuovi nemici; contro i quali è stato combattuto con diversa ventura: perché nella prima battaglia, essendo console Valerio, MMMD ne morirono dei Romani;",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 4,
+        "Style": 4,
+        "Overall": 3
+      },
+      "feedback": {
+        "Faithfulness": "Alcuni dettagli sono stati alterati: \"si resero\" non corrisponde a \"si feciero\" (si fecero), e \"più di mille romani\" è un errore grave rispetto a \"MMMD\" (3500). Alcune sfumature sono perse.",
+        "Fluency": "La frase è generalmente scorrevole e grammaticalmente corretta, anche se \"contro di cui\" è poco naturale. Nel complesso, leggibile.",
+        "Style": "Il tono è moderno e naturale, ma alcune scelte (\"contro di cui\") suonano leggermente innaturali. Nel complesso, abbastanza umano.",
+        "Overall": "La traduzione è fluente e moderna, ma presenta errori di fedeltà che compromettono la precisione storica e numerica."
+      }
+    },
+    {
+      "id": null,
+      "source": "crudele, e di tutte le colpe pigli vendetta, come dice la legge, ed a neuno cavaliere perdoni che pecchi.",
+      "prediction": "Crude e severo in giudizio, secondo quanto dice la legge, non perdonerà a nessun cavaliere i peccati.",
+      "reference": "crudele, e di tutte le colpe prende vendetta, come dice la legge, e a nessun cavaliere perdona che pecchi.",
+      "scores": {
+        "Faithfulness": 3,
+        "Fluency": 5,
+        "Style": 4,
+        "Overall": 4
+      },
+      "feedback": {
+        "Faithfulness": "Il significato generale è mantenuto, ma \"prenderà vendetta di tutte le colpe\" è reso come \"non perdonerà i peccati\", perdendo la sfumatura attiva della vendetta. \"Crude e severo in giudizio\" aggiunge un elemento non presente.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, senza errori evidenti. Il lessico è moderno e comprensibile.",
+        "Style": "Lo stile è naturale e moderno, ma leggermente più formale rispetto all’originale. Manca un po’ della forza espressiva dell’originale.",
+        "Overall": "Traduzione leggibile e moderna, ma con una perdita di sfumature di significato e qualche aggiunta non necessaria."
+      }
+    },
+    {
+      "id": null,
+      "source": "L'ucello, poi che hae impaniate le ali, non fugge salvamente, né llo porco salvatico esce bene delle reti ove cade.",
+      "prediction": "Un uccello non fugge se non viene catturato:",
+      "reference": "L'uccello, dopo che ha impigliato le ali, non fugge facilmente, né il cinghiale esce bene dalle reti in cui cade.",
+      "scores": {
+        "Faithfulness": 2,
+        "Fluency": 4,
+        "Style": 3,
+        "Overall": 2
+      },
+      "feedback": {
+        "Faithfulness": "La traduzione omette la seconda parte della frase (il porco selvatico e le reti) e semplifica eccessivamente il significato originale. La modernizzazione è troppo libera e non preserva il senso completo.",
+        "Fluency": "La frase è grammaticalmente corretta e scorrevole, ma risulta troppo concisa rispetto all'originale.",
+        "Style": "Lo stile è naturale e moderno, ma la brevità eccessiva fa perdere la ricchezza del testo originale.",
+        "Overall": "La traduzione è fluente ma manca di fedeltà e completezza, omettendo metà del contenuto originale e semplificando troppo il senso."
+      }
+    }
+  ],
+  "summary": {
+    "Faithfulness": {
+      "mean": 2.2,
+      "std": 0.4
+    },
+    "Fluency": {
+      "mean": 3.8,
+      "std": 0.98
+    },
+    "Style": {
+      "mean": 3.2,
+      "std": 0.748
+    },
+    "Overall": {
+      "mean": 2.6,
+      "std": 0.8
+    }
+  }
+}
